@@ -1,0 +1,1260 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body > main > #services {
+  /* filter: brightness(30%); */
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  top: 120px;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+body > main > #services > img {
+  height: 300px;
+  width: 100%;
+  filter: brightness(30%);
+}
+body > main > #services > #services-content {
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+body > main > #services > #services-content > p {
+  font-size: 35px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+body > main > #our-services {
+  position: relative;
+  top: 120px;
+  height: 1100px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 241, 255);
+}
+body > main > #our-services > #our-services-title {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+body > main > #our-services > #our-services-title > p {
+  font-size: 32px;
+  color: #034a6e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+body > main > #our-services > #our-services-cards {
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+body > main > #our-services > #our-services-cards > #our-services-cards-box1 {
+  height: 460px;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box1
+  > #cards {
+  height: 430px;
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 10px;
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box1
+  > #cards
+  > #image {
+  height: 170px;
+  width: 170px;
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box1
+  > #cards
+  > #title {
+  font-size: 25px;
+  color: #034a6e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box1
+  > #cards
+  > #description {
+  font-size: 17px;
+  color: rgb(116, 116, 116);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box1
+  > #cards
+  > #know-more {
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: #eb7416;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 25px 10px 25px;
+  cursor: pointer;
+}
+body > main > #our-services > #our-services-cards > #our-services-cards-box2 {
+  height: 500px;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box2
+  > #cards {
+  height: 490px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 10px;
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box2
+  > #cards
+  > #image {
+  height: 170px;
+  width: 170px;
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box2
+  > #cards
+  > #title {
+  font-size: 25px;
+  color: #034a6e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box2
+  > #cards
+  > #description {
+  font-size: 17px;
+  color: rgb(116, 116, 116);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box2
+  > #cards
+  > #know-more {
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: #eb7416;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 25px 10px 25px;
+  cursor: pointer;
+}
+body > main > #our-development {
+  position: relative;
+  top: 120px;
+  height: 600px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body > main > #our-development > #our-development-title {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+body > main > #our-development > #our-development-title > p {
+  font-size: 32px;
+  color: #034a6e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+body > main > #our-development > #our-development-cards {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+body
+  > main
+  > #our-development
+  > #our-development-cards
+  > #our-development-cards-box {
+  height: 480px;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+body
+  > main
+  > #our-development
+  > #our-development-cards
+  > #our-development-cards-box
+  > #cards {
+  height: 450px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 10px;
+}
+body
+  > main
+  > #our-development
+  > #our-development-cards
+  > #our-development-cards-box
+  > #cards
+  > #image {
+  height: 170px;
+  width: 170px;
+}
+body
+  > main
+  > #our-development
+  > #our-development-cards
+  > #our-development-cards-box
+  > #cards
+  > #title {
+  font-size: 25px;
+  color: #034a6e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+body
+  > main
+  > #our-development
+  > #our-development-cards
+  > #our-development-cards-box
+  > #cards
+  > #description {
+  font-size: 17px;
+  color: rgb(116, 116, 116);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+body
+  > main
+  > #our-development
+  > #our-development-cards
+  > #our-development-cards-box
+  > #cards
+  > #know-more {
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: #eb7416;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 25px 10px 25px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1235px) {
+  body > main > #services > #services-content > p {
+    font-size: 34px;
+  }
+  body > main > #our-services > #our-services-title > p {
+    font-size: 31px;
+  }
+  body > main > #our-services > #our-services-cards > #our-services-cards-box1 {
+    width: 1050px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards {
+    height: 435px;
+    width: 500px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards
+    > #image {
+    height: 155px;
+    width: 155px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards
+    > #title {
+    font-size: 24px;
+  }
+  body > main > #our-services > #our-services-cards > #our-services-cards-box2 {
+    width: 1050px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards {
+    height: 485px;
+    width: 330px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards
+    > #image {
+    height: 155px;
+    width: 155px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards
+    > #title {
+    font-size: 24px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box {
+    width: 1050px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards {
+    height: 445px;
+    width: 330px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards
+    > #image {
+    height: 165px;
+    width: 165px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards
+    > #title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  body > main > #our-services {
+    height: 980px;
+  }
+  body > main > #our-services > #our-services-cards {
+    height: 880px;
+  }
+  body > main > #our-services > #our-services-cards > #our-services-cards-box1 {
+    height: 400px;
+    width: 880px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards {
+    height: 385px;
+    width: 420px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards
+    > #image {
+    height: 135px;
+    width: 135px;
+  }
+  body > main > #our-services > #our-services-cards > #our-services-cards-box2 {
+    height: 470px;
+    width: 880px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards {
+    height: 455px;
+    width: 280px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards
+    > #image {
+    height: 135px;
+    width: 135px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box {
+    width: 880px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards {
+    height: 445px;
+    width: 280px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards
+    > #image {
+    height: 135px;
+    width: 135px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  body > main > #our-services {
+    height: 1010px;
+  }
+  body > main > #our-services > #our-services-cards {
+    height: 910px;
+  }
+  body > main > #our-services > #our-services-cards > #our-services-cards-box1 {
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards {
+    height: 385px;
+    width: 360px;
+    margin: 0px 10px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards
+    > #image {
+    height: 125px;
+    width: 125px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards
+    > #title {
+    font-size: 21px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards
+    > #description {
+    font-size: 16px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards
+    > #know-more {
+    font-size: 15px;
+    padding: 6px 22px 8px 22px;
+  }
+  body > main > #our-services > #our-services-cards > #our-services-cards-box2 {
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards {
+    height: 485px;
+    width: 240px;
+    margin: 0px 10px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards
+    > #image {
+    height: 125px;
+    width: 125px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards
+    > #title {
+    font-size: 21px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards
+    > #description {
+    font-size: 16px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards
+    > #know-more {
+    font-size: 15px;
+    padding: 6px 22px 8px 22px;
+  }
+  body > main > #our-development {
+    height: 640px;
+  }
+  body > main > #our-development > #our-development-title > p {
+    font-size: 28px;
+  }
+  body > main > #our-development > #our-development-cards {
+    height: 540px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box {
+    height: 540px;
+    width: 100%;
+    justify-content: center;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards {
+    height: 485px;
+    width: 240px;
+    margin: 0px 10px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards
+    > #image {
+    height: 125px;
+    width: 125px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards
+    > #title {
+    font-size: 21px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards
+    > #description {
+    font-size: 16px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards
+    > #know-more {
+    font-size: 15px;
+    padding: 6px 22px 8px 22px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  body > main > #services {
+    position: relative;
+    top: 215px;
+  }
+  body > main > #our-services {
+    position: relative;
+    top: 215px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards {
+    height: 390px;
+    width: 310px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards {
+    height: 485px;
+    width: 200px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards
+    > #image {
+    height: 115px;
+    width: 115px;
+  }
+  body > main > #our-development {
+    position: relative;
+    top: 215px;
+  }
+  body > main > #our-development {
+    height: 620px;
+  }
+  body > main > #our-development > #our-development-cards {
+    height: 520px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box {
+    height: 520px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards {
+    width: 200px;
+    text-align: center;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards
+    > #image {
+    height: 115px;
+    width: 115px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body > main > #services {
+    height: 230px;
+    width: 100%;
+  }
+  body > main > #services > img {
+    height: 230px;
+  }
+  body > main > #services > #services-content > p {
+    font-size: 28px;
+  }
+  body > main > #our-services {
+    height: 1450px;
+  }
+  body > main > #our-services > #our-services-title > p {
+    font-size: 26px;
+  }
+  body > main > #our-services > #our-services-cards {
+    height: 1350px;
+  }
+  body > main > #our-services > #our-services-cards > #our-services-cards-box1 {
+    height: 450px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards {
+    height: 420px;
+    width: 240px;
+  }
+  body > main > #our-services > #our-services-cards > #our-services-cards-box2 {
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards {
+    height: 420px;
+    width: 240px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards
+    > #image {
+    height: 115px;
+    width: 115px;
+  }
+  body > main > #our-development {
+    height: 1020px;
+  }
+  body > main > #our-development > #our-development-title > p {
+    font-size: 26px;
+  }
+  body > main > #our-development > #our-development-cards {
+    height: 920px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box {
+    height: 920px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards {
+    height: 420px;
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  body > main > #our-services {
+    height: 1650px;
+  }
+  body > main > #our-services > #our-services-title > p {
+    font-size: 24px;
+  }
+  body > main > #our-services > #our-services-cards {
+    height: 1550px;
+  }
+  body > main > #our-services > #our-services-cards > #our-services-cards-box1 {
+    height: 500px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards {
+    height: 480px;
+    width: 190px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards
+    > #image {
+    height: 95px;
+    width: 95px;
+  }
+  body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box1
+  > #cards
+  > #title {
+  font-size: 19px;
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box1
+  > #cards
+  > #description {
+  font-size: 15px;
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box1
+  > #cards
+  > #know-more {
+  font-size: 15px;
+  padding: 6px 23px 8px 23px;
+}
+  body > main > #our-services > #our-services-cards > #our-services-cards-box2 {
+    height: 1050px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards {
+    height: 480px;
+    width: 190px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards
+    > #image {
+    height: 95px;
+    width: 95px;
+  }
+  body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box2
+  > #cards
+  > #title {
+  font-size: 19px;
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box2
+  > #cards
+  > #description {
+  font-size: 15px;
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box2
+  > #cards
+  > #know-more {
+  font-size: 15px;
+  padding: 6px 23px 8px 23px;
+}
+  body > main > #our-development {
+    height: 1120px;
+  }
+  body > main > #our-development > #our-development-title > p {
+    font-size: 24px;
+  }
+  body > main > #our-development > #our-development-cards {
+    height: 1020px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box {
+    height: 1020px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards {
+    height: 480px;
+    width: 190px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards 
+    > #image {
+    height: 95px;
+    width: 95px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards 
+    > #title {
+    font-size: 19px;
+    }
+    body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards 
+    > #description {
+    font-size: 15px;
+    }
+    body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards 
+    > #know-more {
+    font-size: 15px;
+    padding: 6px 23px 8px 23px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+  body > main > #services{
+    position: relative;
+    top: 185px;
+    height: 180px;
+    width: 100%;
+  }
+  body > main > #services > img {
+    height: 180px;
+  }
+   body > main > #services > #services-content > p {
+    font-size: 25px;
+  }
+  body > main > #our-services {
+    position: relative;
+    top: 185px;
+    height: 1800px;
+  }
+  body > main > #our-services > #our-services-title > p {
+    font-size: 24px;
+  }
+  body > main > #our-services > #our-services-cards {
+    height: 1700px;
+  }
+  body > main > #our-services > #our-services-cards > #our-services-cards-box1 {
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards {
+    height: 310px;
+    width: 300px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards
+    > #image {
+    height: 95px;
+    width: 95px;
+  }
+  body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box1
+  > #cards
+  > #title {
+  font-size: 18px;
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box1
+  > #cards
+  > #description {
+  font-size: 14px;
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box1
+  > #cards
+  > #know-more {
+  font-size: 14px;
+  padding: 5px 21px 7px 21px;
+}
+  body > main > #our-services > #our-services-cards > #our-services-cards-box2 {
+    height: 1050px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards {
+    height: 310px;
+    width: 300px;
+  }
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards
+    > #image {
+    height: 95px;
+    width: 95px;
+  }
+  body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box2
+  > #cards
+  > #title {
+  font-size: 18px;
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box2
+  > #cards
+  > #description {
+  font-size: 14px;
+}
+body
+  > main
+  > #our-services
+  > #our-services-cards
+  > #our-services-cards-box2
+  > #cards
+  > #know-more {
+  font-size: 14px;
+  padding: 5px 21px 7px 21px;
+}
+  body > main > #our-development {
+    height: 1120px;
+  }
+  body > main > #our-development > #our-development-title > p {
+    font-size: 24px;
+  }
+  body > main > #our-development > #our-development-cards {
+    height: 1020px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box {
+    height: 1020px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards {
+   height: 310px;
+    width: 300px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards 
+    > #image {
+    height: 95px;
+    width: 95px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards 
+    > #title {
+    font-size: 18px;
+    }
+    body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards 
+    > #description {
+    font-size: 14px;
+    }
+    body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards 
+    > #know-more {
+    font-size: 14px;
+    padding: 5px 21px 7px 21px;
+    }
+  body > main > #our-development {
+    position: relative;
+    top: 185px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box1
+    > #cards {
+    height: 310px;
+    width: 260px;
+  }
+   body
+    > main
+    > #our-services
+    > #our-services-cards
+    > #our-services-cards-box2
+    > #cards {
+    height: 310px;
+    width: 260px;
+  }
+  body
+    > main
+    > #our-development
+    > #our-development-cards
+    > #our-development-cards-box
+    > #cards {
+   height: 310px;
+    width: 260px;
+  }
+}

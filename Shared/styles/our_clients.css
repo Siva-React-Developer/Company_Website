@@ -1,0 +1,222 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#our-clients > #clients {
+  position: relative;
+  top: 120px;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#our-clients > #clients > #clients-heading-and-info {
+  height: 130px;
+  width: 100%;
+  display: block;
+  padding: 60px 0px 0px 0px;
+}
+#our-clients
+  > #clients
+  > #clients-heading-and-info
+  > #clients-heading-and-info-heading {
+  font-size: 30px;
+  text-align: center;
+  color: #034a6e;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#our-clients
+  > #clients
+  > #clients-heading-and-info
+  > #clients-heading-and-info-description {
+  font-size: 18px;
+  text-align: center;
+  color: rgb(38, 38, 38);
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#our-clients > #clients > #clients-comapany-clients {
+  height: 120px;
+  width: 1150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+#our-clients > #clients > #clients-comapany-clients > button {
+  height: 30px;
+  width: 25px;
+  margin: 0px 5px;
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+#our-clients > #clients > #clients-comapany-clients > #clients-comapany-images {
+  height: 100px;
+  width: 1090px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+#our-clients
+  > #clients
+  > #clients-comapany-clients
+  > #clients-comapany-images
+  > #clients-images {
+  height: 70px;
+  width: 180px;
+  margin: 0px 45px 0px 0px;
+}
+
+@media screen and (max-width: 1380px) {
+}
+
+@media screen and (max-width: 1235px) {
+  #our-clients
+    > #clients
+    > #clients-heading-and-info
+    > #clients-heading-and-info-heading {
+    font-size: 29px;
+  }
+  #our-clients
+    > #clients
+    > #clients-heading-and-info
+    > #clients-heading-and-info-description {
+    font-size: 17px;
+  }
+  #our-clients > #clients > #clients-comapany-clients {
+    height: 115px;
+    width: 1000px;
+  }
+  #our-clients
+    > #clients
+    > #clients-comapany-clients
+    > #clients-comapany-images
+    > #clients-images {
+    height: 65px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  #our-clients > #clients > #clients-comapany-clients {
+    height: 115px;
+    width: 890px;
+  }
+  #our-clients
+    > #clients
+    > #clients-comapany-clients
+    > #clients-comapany-images
+    > #clients-images {
+    height: 63px;
+    width: 180px;
+    margin: 0px 16px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #our-clients > #clients > #clients-comapany-clients {
+    height: 115px;
+    width: 740px;
+  }
+  #our-clients
+    > #clients
+    > #clients-comapany-clients
+    > #clients-comapany-images
+    > #clients-images {
+    height: 62px;
+    width: 175px;
+    margin: 0px 28px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  #our-clients > #clients {
+  position: relative;
+  top: 215px;
+  }
+  #our-clients > #clients > #clients-comapany-clients {
+    height: 115px;
+    width: 500px;
+  }
+  #our-clients
+    > #clients
+    > #clients-comapany-clients
+    > #clients-comapany-images
+    > #clients-images {
+    height: 67px;
+    width: 185px;
+    margin: 0px 21px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  #our-clients
+  > #clients
+  > #clients-heading-and-info
+  > #clients-heading-and-info-heading {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  #our-clients > #clients > #clients-comapany-clients {
+    height: 115px;
+    width: 430px;
+  }
+  #our-clients
+    > #clients
+    > #clients-comapany-clients
+    > #clients-comapany-images
+    > #clients-images {
+    height: 67px;
+    width: 180px;
+    margin: 0px 18px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #our-clients > #clients {
+  position: relative;
+  top: 185px;
+  }
+  #our-clients > #clients > #clients-comapany-clients {
+    height: 115px;
+    width: 300px;
+  }
+   #our-clients
+    > #clients
+    > #clients-comapany-clients
+    > #clients-comapany-images
+    > #clients-images {
+    height: 70px;
+    width: 180px;
+    margin: 0px 24px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #our-clients > #clients > #clients-comapany-clients {
+    height: 115px;
+    width: 260px;
+  }
+   #our-clients
+    > #clients
+    > #clients-comapany-clients
+    > #clients-comapany-images
+    > #clients-images {
+    height: 70px;
+    width: 180px;
+    margin: 0px 22.2px;
+  }
+}

@@ -1,0 +1,1059 @@
+{
+  "All_Data": {
+    "scrolling_images": [
+      {
+        "heading": "Join India's Premier Software Company and Transform the Future of Technology",
+        "info": "At Renuza Technologies Pvt Ltd, we're pioneering innovation and shaping the digital landscape. Join us in revolutionizing industries, creating cutting-edge solutions, and unlocking your full potential. Discover unparalleled opportunities for growth, collaboration, and impact as part of our dynamic team.",
+        "image": "./Images/Renuza_scrolling_image1.jpg"
+      },
+      {
+        "heading": "Unleash Your Potential with America's Premier Software Company",
+        "info": "At Renuza Technologies Pvt Ltd, we are at the forefront of technological advancements,driving innovation and shaping the future. Join our team visionaries,where your talents are valuated,nutured and empowered to make a meaningful impact.Explore limitless possibilities for growth,collaboration and success as part of our dynamic community.",
+        "image": "./Images/Renuza_scrolling_image2.jpg"
+      }
+    ],
+    "cards_data": [
+      {
+        "id": "1",
+        "title": "India Hiring",
+        "description": "Elevate your workforce with our comprehensive India hiring solutions. From sourcing to onboarding, we streamline the process for top-quality talent acquisition and retention.",
+        "image": "./Images/india_hiring.webp",
+        "full_description": [
+          {
+            "key_point": " Legal and Compliance Essentials",
+            "sub_key_points": [
+              "Job title and description",
+              "Compensation details",
+              "Working hours and location",
+              "Leave entitlements",
+              "Termination conditions",
+              "Confidentiality and non-compete clauses"
+            ]
+          },
+          {
+            "key_point": "Technical Hiring Process",
+            "sub_key_points": [
+              "Resume Screening: Evaluating educational background and work experience.",
+              "Online Assessments: Testing coding skills, algorithms, and problem-solving abilities.",
+              "Technical Interviews: Conducting 2 to 3 rounds of coding interviews, each lasting 45 to 60 minutes, focusing on data structures, algorithms, and system design. ",
+              "HR Interview: Assessing cultural fit, communication skills, and discussing compensation."
+            ]
+          },
+          {
+            "key_point": "Compensation and Benefits",
+            "sub_key_points": [
+              "Provident Fund (PF): A retirement benefit scheme where both employer and employee contribute a percentage of the employee’s salary.",
+              "Employee State Insurance (ESI): A social security and health insurance scheme for workers earning below a certain threshold.",
+              "Gratuity: A lump sum retirement payment to employees who have completed at least five years of continuous service."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "USA Hiring",
+        "description": "Discover top talent with our tailored US hiring services. From recruitment to integration, we ensure seamless processes for acquiring and retaining exceptional professionals to drive your company’s success.",
+        "image": "./Images/usa_hiring.webp",
+        "full_description": [
+          {
+            "key_point": "Current Market Dynamics",
+            "sub_key_points": [
+              "Reduced Job Openings: Software developer positions have decreased by approximately 35% compared to five years ago, reaching a five-year low. This decline is attributed to the integration of AI tools that enhance productivity, reducing the need for large engineering teams.",
+              "Hiring Freezes and Layoffs: Major tech companies, including Microsoft, have implemented layoffs, citing strategic realignments and efficiency improvements. For instance, Microsoft recently laid off about 3% of its workforce, impacting software engineering and product management roles.",
+              "Economic Uncertainty: Factors such as tariffs and fluctuating interest rates have led to a cautious approach in hiring, with overall job openings in the U.S. experiencing a decline."
+            ]
+          },
+          {
+            "key_point": "Typical Hiring Process for Software Engineers",
+            "sub_key_points": [
+              "Initial Screening: A phone call or online assessment to evaluate basic qualifications and fit.",
+              "Technical Interviews: These may include coding challenges, algorithm questions, and system design problems to assess technical skills.",
+              "Behavioral Interviews: Assessing soft skills, teamwork, and cultural fit within the company.",
+              "Onsite Interviews: For senior roles, this may involve multiple rounds with various team members, including live coding sessions and problem-solving exercises.",
+              "Final Evaluation: A comprehensive review of all interview stages to make a hiring decision."
+            ]
+          },
+          {
+            "key_point": "Growth Areas",
+            "sub_key_points": [
+              "AI and Machine Learning: Despite overall reductions, demand remains strong for engineers with expertise in AI, machine learning, and automation, as companies invest in these areas to drive innovation.",
+              "Cybersecurity and Cloud Computing: Roles focusing on cybersecurity and cloud infrastructure continue to be in high demand, reflecting the ongoing digital transformation across industries.",
+              "Projected Growth: The Bureau of Labor Statistics projects a 17% growth in employment for software developers, quality assurance analysts, and testers from 2023 to 2033, indicating long-term opportunities in the field. "
+            ]
+          },
+          {
+            "key_point": "Legal and Compliance Considerations",
+            "sub_key_points": [
+              "Visa and Immigration Policies: There has been increased scrutiny on employment visa petitions, particularly H-1B and O-1 categories, leading to more requests for evidence and potential delays. This heightened vetting process can impact the hiring of foreign-born tech workers.",
+              "Remote Work Regulations: With the rise of remote work, companies must navigate varying state laws and tax implications, ensuring compliance across different jurisdictions."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Custom Development",
+        "description": "Elevate your business with our bespoke custom development solutions. From concept to deployment, we craft tailored software to meet your unique needs and drive your digital transformation forward.",
+        "image": "./Images/custom_development.webp",
+        "full_description": [
+          {
+            "key_point": "Key Benefits",
+            "sub_key_points": [
+              "Tailored Solutions: Addresses specific business challenges and workflows.",
+              "Scalability: Designed to accommodate growth and evolving requirements.",
+              "Integration: Seamlessly integrates with existing systems and processes.",
+              "Competitive Advantage: Offers unique functionalities that can differentiate a business in the market."
+            ]
+          },
+          {
+            "key_point": "Custom Software Development Lifecycle",
+            "sub_key_points": [
+              "Requirement Analysis: Gathering detailed information about the business needs and defining the software requirements.",
+              "Design: Creating architectural designs and user interfaces that align with the requirements.",
+              "Development: Writing code and building the software components.",
+              "Testing: Conducting various tests to ensure functionality, performance, and security.",
+              "Deployment: Releasing the software into the production environment.",
+              "Maintenance and Support: Ongoing updates and support to address issues and incorporate enhancements."
+            ]
+          },
+          {
+            "key_point": "Industry Trends and Considerations",
+            "sub_key_points": [
+              "Market Growth: The custom software development market is projected to reach $146.18 billion by 2030, growing at a rate of 22.5% from 2024 to 2030",
+              "Technological Advancements: Emerging technologies like AI and machine learning are increasingly integrated into custom solutions, requiring developers to continuously update their skills.",
+              "Remote Work: The rise of remote work has expanded the talent pool, allowing companies to hire developers from diverse geographical locations."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "App Development",
+        "description": "Transform your ideas into reality with our expert app development services. From design to deployment, we create innovative and user-friendly mobile applications tailored to your specific requirements and objectives.",
+        "image": "./Images/app_development.webp",
+        "full_description": [
+          {
+            "key_point": "Application Development Lifecycle (SDLC)",
+            "sub_key_points": [
+              "Planning: Defining objectives, scope, and resources.",
+              "Requirements Analysis: Gathering and documenting user needs..",
+              "Design: Architecting the system and user interfaces",
+              "Development: Writing and compiling code.",
+              "Testing: Identifying and fixing defects.",
+              "Deployment: Releasing the application to users.",
+              "Maintenance: Ongoing support and updates."
+            ]
+          },
+          {
+            "key_point": "Roles in App Development for Software Engineers",
+            "sub_key_points": [
+              "Frontend Developers: Focus on user interface and user experience.",
+              "Backend Developers: Manage server-side logic and databases.",
+              "Full-Stack Developers: Handle both frontend and backend tasks.",
+              "Mobile Developers: Develop applications for mobile platforms like iOS and Android.",
+              "DevOps Engineers: Oversee deployment, integration, and infrastructure.",
+              "QA/Test Engineers: Ensure software quality through testing."
+            ]
+          },
+          {
+            "key_point": "Industry Trends in App Development",
+            "sub_key_points": [
+              "Low-Code/No-Code Platforms: Accelerate development by allowing users to build applications with minimal coding.",
+              "Cloud-Native Applications: Designing applications specifically for cloud environments to enhance scalability and resilience.",
+              "AI and Machine Learning Integration: Incorporating intelligent features to improve user experience and functionality.",
+              "Cross-Platform Development: Using frameworks that enable applications to run on multiple platforms with a single codebase."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Microsoft Dynamics",
+        "description": "Elevate your business processes with our comprehensive Microsoft Dynamics services. From implementation to customization, we provide tailored solutions to optimize your operations and drive growth in the digital era.",
+        "image": "./Images/microsoft_dynamic.webp",
+        "full_description": [
+          {
+            "key_point": "Core Components of Microsoft Dynamics 365",
+            "sub_key_points": [
+              "Sales: Manage customer relationships, track sales performance, and automate sales processes.",
+              "Customer Service: Provide omnichannel support and enhance customer satisfaction.",
+              "Field Service: Optimize field operations with scheduling, resource management, and mobile capabilities.",
+              "Finance: Automate financial operations, monitor performance, and ensure compliance.",
+              "Supply Chain Management: Enhance visibility and control over supply chain activities.",
+              "Human Resources: Manage HR tasks, from recruitment to employee development.",
+              "Marketing: Deliver personalized marketing campaigns and track their effectiveness.",
+              "Project Operations: Manage projects, from planning to execution, ensuring timely delivery."
+            ]
+          },
+          {
+            "key_point": "Roles for Software Professionals in Dynamics 365",
+            "sub_key_points": [
+              "Dynamics 365 Developer: Customize and extend Dynamics 365 applications using tools like C#, .NET, and JavaScript.",
+              "Solution Architect: Design end-to-end solutions that leverage Dynamics 365 and other Microsoft technologies.",
+              "Functional Consultant: Bridge the gap between business needs and technical solutions, configuring applications to meet specific requirements.",
+              "Technical Consultant: Focus on the technical aspects of implementation, including integrations and custom developments.",
+              "System Administrator: Manage and maintain Dynamics 365 environments, ensuring optimal performance and security."
+            ]
+          },
+          {
+            "key_point": "Career Opportunities and Salary Insights",
+            "sub_key_points": [
+              "Software Engineer II - Dynamics 365: Responsibilities include developing and customizing Dynamics 365 applications to meet business needs.",
+              "Dynamics 365 CRM Developer: Focuses on designing, developing, and implementing custom solutions within the Dynamics 365 platform."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "title": "Digital Marketing",
+        "description": "Boost your online presence and reach your target audience with our dynamic digital marketing services. From SEO to social media management, we craft strategies to enhance your brand’s visibility and engagement.",
+        "image": "./Images/digital_marketing.webp",
+        "full_description": [
+          {
+            "key_point": "Key Channels of Digital Marketing",
+            "sub_key_points": [
+              "Search Engine Optimization (SEO)",
+              "Search Engine Marketing (SEM) / Pay-Per-Click (PPC)",
+              "Social Media Marketing (SMM)",
+              "Content Marketing",
+              "Email Marketing",
+              "Affiliate and Influencer Marketing",
+              "Conversion Rate Optimization (CRO)"
+            ]
+          },
+          {
+            "key_point": "Why Digital Marketing Matters in the Software Domain?",
+            "sub_key_points": [
+              "Highly competitive: The tech space is crowded; digital marketing helps differentiate brands.",
+              "Educated buyers: Customers do a lot of research before buying; content and SEO help position products as the best choice.",
+              "Subscription models: Software companies need ongoing customer engagement, which digital marketing supports through retargeting and email flows.",
+              "Global audience: Digital tools help software companies reach users worldwide."
+            ]
+          },
+          {
+            "key_point": "Career Opportunities",
+            "sub_key_points": [
+              "SaaS companies",
+              "App development firms",
+              "IT services providers",
+              "E-commerce platforms"
+            ]
+          },
+          {
+            "key_point": "Trends in Digital Marketing",
+            "sub_key_points": [
+              "AI-powered personalization: Tools like ChatGPT, Jasper, and Adobe Sensei",
+              "Voice search optimization",
+              "Video marketing on platforms like YouTube and TikTok",
+              "Interactive content (quizzes, calculators, demos)",
+              "B2B content and account-based marketing (ABM)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "title": "Web Development",
+        "description": "Elevate your online presence with our professional web development services. From custom design to seamless functionality, we create stunning websites that captivate audiences and drive your business forward.",
+        "image": "./Images/web_development.webp",
+        "full_description": [
+          {
+            "key_point": "In the software domain, web development is core to delivering:",
+            "sub_key_points": [
+              "Web applications (e.g., Gmail, Trello)",
+              "Customer portals",
+              "SaaS platforms",
+              "Company websites and landing pages"
+            ]
+          },
+          {
+            "key_point": "Types of Web Development",
+            "sub_key_points": [
+              "Frontend Development",
+              "Backend Development",
+              "Full-Stack Development",
+              "DevOps in Web Development"
+            ]
+          },
+          {
+            "key_point": "Career Scope for Web Developers in the Software Field",
+            "sub_key_points": [
+              "Global Demand",
+              "Web development is essential for SaaS, e-commerce, fintech, edtech, and healthcare platforms.",
+              "Companies seek developers who can build scalable, secure, and user-friendly web apps."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "title": "Graphic Designing",
+        "description": "Elevate your brand’s visual identity with our creative graphic design services. From logos to marketing materials, we craft compelling visuals that resonate with your audience and leave a lasting impression.",
+        "image": "./Images/graphic_designing.webp",
+        "full_description": [
+          {
+            "key_point": "Role of Graphic Design in the Software Industry",
+            "sub_key_points": [
+              "UI Design (User Interface Design)",
+              "UX Design Support",
+              "Brand Identity Design",
+              "Marketing Collateral",
+              "Product Design Assets"
+            ]
+          },
+          {
+            "key_point": "Key Elements of Graphic Design",
+            "sub_key_points": [
+              "Typography – Choice of fonts and spacing",
+              "Color Theory – Understanding color harmony and usage",
+              "Layout & Composition – Arranging elements visually",
+              "Branding – Consistency in logo, colors, voice",
+              "Visual Hierarchy – Directing user attention effectively",
+              "User-Centered Design – Prioritizing the user's needs"
+            ]
+          },
+          {
+            "key_point": "Skills Required for Graphic Design in Software",
+            "sub_key_points": [
+              "Mastery of design tools (Photoshop, Figma, Illustrator)",
+              "Understanding of web and mobile design principles",
+              "Knowledge of responsive and adaptive design",
+              "Basic HTML/CSS knowledge is a plus",
+              "Creative problem-solving",
+              "Time and project management"
+            ]
+          }
+        ]
+      }
+    ],
+    "our_clients": [
+      {
+        "client_name": "Client 1",
+        "client_image": "./Images/Clients/act_now.webp"
+      },
+      {
+        "client_name": "Client 2",
+        "client_image": "./Images/Clients/ascendian.webp"
+      },
+      {
+        "client_name": "Client 3",
+        "client_image": "./Images/Clients/atmecs_global.webp"
+      },
+      {
+        "client_name": "Client 4",
+        "client_image": "./Images/Clients/axiad.webp"
+      },
+      {
+        "client_name": "Client 5",
+        "client_image": "./Images/Clients/brillio.webp"
+      },
+      {
+        "client_name": "Client 6",
+        "client_image": "./Images/Clients/infosys.webp"
+      },
+      {
+        "client_name": "Client 7",
+        "client_image": "./Images/Clients/jobvite.webp"
+      },
+      {
+        "client_name": "Client 8",
+        "client_image": "./Images/Clients/Quest.webp"
+      },
+      {
+        "client_name": "Client 9",
+        "client_image": "./Images/Clients/safran.webp"
+      },
+      {
+        "client_name": "Client 10",
+        "client_image": "./Images/Clients/secure_machines.webp"
+      },
+      {
+        "client_name": "Client 11",
+        "client_image": "./Images/Clients/simplify_ex.webp"
+      },
+      {
+        "client_name": "Client 12",
+        "client_image": "./Images/Clients/story _mirror.webp"
+      },
+      {
+        "client_name": "Client 13",
+        "client_image": "./Images/Clients/svatech.webp"
+      },
+      {
+        "client_name": "Client 14",
+        "client_image": "./Images/Clients/tagit.webp"
+      },
+      {
+        "client_name": "Client 15",
+        "client_image": "./Images/Clients/vst_tillers.webp"
+      },
+      {
+        "client_name": "Client 16",
+        "client_image": "./Images/Clients/william_penn.webp"
+      },
+      {
+        "client_name": "Client 17",
+        "client_image": "./Images/Clients/xseed.webp"
+      }
+    ],
+    "interview_process_images": [
+      {
+        "image": "./Images/interview_process_images/job_posting.png",
+        "heading": "Job posting",
+        "info": "Renuza advertises job openings through various channels like online job boards, social media, and its website.",
+        "step_no": "Step-1"
+      },
+      {
+        "image": "./Images/interview_process_images/application_review.png",
+        "heading": "Application riview",
+        "info": "HR team reviews received applications, ensuring they meet basic qualifications.",
+        "step_no": "Step-2"
+      },
+      {
+        "image": "./Images/interview_process_images/screenig_test.png",
+        "heading": "Intial screening",
+        "info": "Qualified candidates undergo an initial screening, which may involve a phone call or brief interview to assess their interest and basic fit for the position.",
+        "step_no": "Step-3"
+      },
+      {
+        "image": "./Images/interview_process_images/interview.png",
+        "heading": "Interviews",
+        "info": "Shortlisted candidates are invited for in-person or virtual interviews with HR and relevant department heads. These interviews assess skills, experience, and cultural fit.",
+        "step_no": "Step-4"
+      },
+      {
+        "image": "./Images/interview_process_images/onboarding.png",
+        "heading": "On boarding",
+        "info": "Once the offer is accepted, the on boarding process begins, including paperwork, orientation, and training.",
+        "step_no": "Step-5"
+      },
+      {
+        "image": "./Images/interview_process_images/reference_check.png",
+        "heading": "Reference check",
+        "info": "HR conducts reference checks to verify candidate qualifications and previous work experiences.",
+        "step_no": "Step-6"
+      },
+      {
+        "image": "./Images/interview_process_images/assessment.png",
+        "heading": "Assessment",
+        "info": "Depending on the role, candidates may undergo skills assessments or tests to evaluate their capabilities.",
+        "step_no": "Step-7"
+      },
+      {
+        "image": "./Images/interview_process_images/choose_a _service.png",
+        "heading": "Choose a service",
+        "info": "Great service providers listen first, listen and well",
+        "step_no": "Step-8"
+      },
+      {
+        "image": "./Images/interview_process_images/prohibation_period.png",
+        "heading": "Prohibation Period",
+        "info": "Some employees may undergo a probation period to evaluate their performance before becoming permanent staff.",
+        "step_no": "Step-9"
+      },
+      {
+        "image": "./Images/interview_process_images/integration.png",
+        "heading": "Integration",
+        "info": "HR ensures new hires are integrated into their roles and the company culture smoothly, providing necessary support and resources.",
+        "step_no": "Step-10"
+      }
+    ],
+    "job_recruitments": [
+      {
+        "id": "1",
+        "designation": " Lead Salesforce Developer - Nonprofit Cloud",
+        "location": "chennai",
+        "work_type": "Hybrid",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "7+ years experience",
+        "key_responsibilities": [
+          "Lead Fundraising Solutions Design & Implementation",
+          "Data Model Management",
+          "Automated Workflows",
+          "Third-Party Integrations",
+          "Cross-Team Collaboration",
+          "Data Migration & Deduplication",
+          "Fundraising Analytics & Reporting"
+        ],
+        "primary_skills": [
+          "Salesforce Nonprofit Cloud (including NPSP and/or Modular NPC)",
+          "Apex, SOQL, Lightning Web Components (LWC), and Flows",
+          "Data Migration: Expertise in tools like Apsona, Data Loader, Jitterbit, and Excel/CSV mapping",
+          "Integration: REST/SOAP APIs, MuleSoft, Workato, and Zapier"
+        ],
+        "secondary_skills": [
+          "Analytics: Report creation, dashboard building, and campaign ROI tracking",
+          "Donor Portals: Experience with Salesforce Experience Cloud (Donor Portals)",
+          "I/CD Tools: Familiarity with Copado, Gearset, Salesforce CLI (SFDX), and Git"
+        ],
+        "jd": "We are seeking an experienced Lead Salesforce Developer to join our team and take ownership of architecting, developing, and scaling fundraising-focused solutions on Salesforce Nonprofit Cloud. This role will involve leading end-to-end implementations, mentoring developers, and collaborating with stakeholders to deliver high-impact solutions that drive mission-based outcomes for nonprofit clients."
+      },
+      {
+        "id": "2",
+        "designation": "Senior Salesforce Developer – Health Cloud",
+        "location": "bangalore",
+        "work_type": "Remote",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "5+ years experience",
+        "key_responsibilities": [
+          "Design, develop, and deploy scalable Health Cloud solutions using Salesforce best practices.",
+          "Collaborate with functional teams, architects, and stakeholders to translate business requirements into technical designs.",
+          "Develop custom solutions using Apex, Flow, Lightning Web Components (LWC), and OmniStudio",
+          "Build and manage integrations with external systems."
+        ],
+        "primary_skills": [
+          "Strong experience with Salesforce Health Cloud",
+          "Proficiency in OmniStudio, Flow, Apex, and Lightning Web Components(LWC)",
+          "Solid understanding of Salesforce integration patterns and tools"
+        ],
+        "secondary_skills": [
+          "Experience with Experience Cloud and Mobile Publisher for Experience Cloud",
+          "Familiarity with Discovery Framework",
+          "Knowledge of Intelligent Document Automation",
+          "Experience in OmniStudio Document Generation",
+          "Exposure to Agentforce"
+        ],
+        "jd": "We are looking for Senior Salesforce Developers with strong hands-on experience in Salesforce Health Cloud to join our HealthCloud Implementation Project. The idealcandidates will possess deep technical expertise in Salesforce core technologies and astrong background in delivering enterprise-grade Salesforce solutions."
+      },
+      {
+        "id": "3",
+        "designation": "Senior Salesforce Developer – Health Cloud",
+        "location": "bangalore",
+        "work_type": "Remote",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "5+ years experience",
+        "key_responsibilities": [
+          "Design, develop, and deploy scalable Health Cloud solutions using Salesforce best practices.",
+          "Collaborate with functional teams, architects, and stakeholders to translate business requirements into technical designs.",
+          "Develop custom solutions using Apex, Flow, Lightning Web Components (LWC), and OmniStudio",
+          "Build and manage integrations with external systems."
+        ],
+        "primary_skills": [
+          "Strong experience with Salesforce Health Cloud",
+          "Proficiency in OmniStudio, Flow, Apex, and Lightning Web Components(LWC)",
+          "Solid understanding of Salesforce integration patterns and tools"
+        ],
+        "secondary_skills": [
+          "Experience with Experience Cloud and Mobile Publisher for Experience Cloud",
+          "Familiarity with Discovery Framework",
+          "Knowledge of Intelligent Document Automation",
+          "Experience in OmniStudio Document Generation",
+          "Exposure to Agentforce"
+        ],
+        "jd": "We are looking for Senior Salesforce Developers with strong hands-on experience in Salesforce Health Cloud to join our HealthCloud Implementation Project. The idealcandidates will possess deep technical expertise in Salesforce core technologies and astrong background in delivering enterprise-grade Salesforce solutions."
+      },
+      {
+        "id": "4",
+        "designation": "Senior Salesforce Developer – Health Cloud",
+        "location": "bangalore",
+        "work_type": "Remote",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "5+ years experience",
+        "key_responsibilities": [
+          "Design, develop, and deploy scalable Health Cloud solutions using Salesforce best practices.",
+          "Collaborate with functional teams, architects, and stakeholders to translate business requirements into technical designs.",
+          "Develop custom solutions using Apex, Flow, Lightning Web Components (LWC), and OmniStudio",
+          "Build and manage integrations with external systems."
+        ],
+        "primary_skills": [
+          "Strong experience with Salesforce Health Cloud",
+          "Proficiency in OmniStudio, Flow, Apex, and Lightning Web Components(LWC)",
+          "Solid understanding of Salesforce integration patterns and tools"
+        ],
+        "secondary_skills": [
+          "Experience with Experience Cloud and Mobile Publisher for Experience Cloud",
+          "Familiarity with Discovery Framework",
+          "Knowledge of Intelligent Document Automation",
+          "Experience in OmniStudio Document Generation",
+          "Exposure to Agentforce"
+        ],
+        "jd": "We are looking for Senior Salesforce Developers with strong hands-on experience in Salesforce Health Cloud to join our HealthCloud Implementation Project. The idealcandidates will possess deep technical expertise in Salesforce core technologies and astrong background in delivering enterprise-grade Salesforce solutions."
+      },
+      {
+        "id": "5",
+        "designation": "Senior Salesforce Developer – Health Cloud",
+        "location": "bangalore",
+        "work_type": "Remote",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "5+ years experience",
+        "key_responsibilities": [
+          "Design, develop, and deploy scalable Health Cloud solutions using Salesforce best practices.",
+          "Collaborate with functional teams, architects, and stakeholders to translate business requirements into technical designs.",
+          "Develop custom solutions using Apex, Flow, Lightning Web Components (LWC), and OmniStudio",
+          "Build and manage integrations with external systems."
+        ],
+        "primary_skills": [
+          "Strong experience with Salesforce Health Cloud",
+          "Proficiency in OmniStudio, Flow, Apex, and Lightning Web Components(LWC)",
+          "Solid understanding of Salesforce integration patterns and tools"
+        ],
+        "secondary_skills": [
+          "Experience with Experience Cloud and Mobile Publisher for Experience Cloud",
+          "Familiarity with Discovery Framework",
+          "Knowledge of Intelligent Document Automation",
+          "Experience in OmniStudio Document Generation",
+          "Exposure to Agentforce"
+        ],
+        "jd": "We are looking for Senior Salesforce Developers with strong hands-on experience in Salesforce Health Cloud to join our HealthCloud Implementation Project. The idealcandidates will possess deep technical expertise in Salesforce core technologies and astrong background in delivering enterprise-grade Salesforce solutions."
+      },
+      {
+        "id": "6",
+        "designation": "Senior Salesforce Developer – Health Cloud",
+        "location": "bangalore",
+        "work_type": "Remote",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "5+ years experience",
+        "key_responsibilities": [
+          "Design, develop, and deploy scalable Health Cloud solutions using Salesforce best practices.",
+          "Collaborate with functional teams, architects, and stakeholders to translate business requirements into technical designs.",
+          "Develop custom solutions using Apex, Flow, Lightning Web Components (LWC), and OmniStudio",
+          "Build and manage integrations with external systems."
+        ],
+        "primary_skills": [
+          "Strong experience with Salesforce Health Cloud",
+          "Proficiency in OmniStudio, Flow, Apex, and Lightning Web Components(LWC)",
+          "Solid understanding of Salesforce integration patterns and tools"
+        ],
+        "secondary_skills": [
+          "Experience with Experience Cloud and Mobile Publisher for Experience Cloud",
+          "Familiarity with Discovery Framework",
+          "Knowledge of Intelligent Document Automation",
+          "Experience in OmniStudio Document Generation",
+          "Exposure to Agentforce"
+        ],
+        "jd": "We are looking for Senior Salesforce Developers with strong hands-on experience in Salesforce Health Cloud to join our HealthCloud Implementation Project. The idealcandidates will possess deep technical expertise in Salesforce core technologies and astrong background in delivering enterprise-grade Salesforce solutions."
+      },
+      {
+        "id": "7",
+        "designation": "Senior Salesforce Developer – Health Cloud",
+        "location": "bangalore",
+        "work_type": "Remote",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "5+ years experience",
+        "key_responsibilities": [
+          "Design, develop, and deploy scalable Health Cloud solutions using Salesforce best practices.",
+          "Collaborate with functional teams, architects, and stakeholders to translate business requirements into technical designs.",
+          "Develop custom solutions using Apex, Flow, Lightning Web Components (LWC), and OmniStudio",
+          "Build and manage integrations with external systems."
+        ],
+        "primary_skills": [
+          "Strong experience with Salesforce Health Cloud",
+          "Proficiency in OmniStudio, Flow, Apex, and Lightning Web Components(LWC)",
+          "Solid understanding of Salesforce integration patterns and tools"
+        ],
+        "secondary_skills": [
+          "Experience with Experience Cloud and Mobile Publisher for Experience Cloud",
+          "Familiarity with Discovery Framework",
+          "Knowledge of Intelligent Document Automation",
+          "Experience in OmniStudio Document Generation",
+          "Exposure to Agentforce"
+        ],
+        "jd": "We are looking for Senior Salesforce Developers with strong hands-on experience in Salesforce Health Cloud to join our HealthCloud Implementation Project. The idealcandidates will possess deep technical expertise in Salesforce core technologies and astrong background in delivering enterprise-grade Salesforce solutions."
+      },
+      {
+        "id": "8",
+        "designation": "Senior Salesforce Developer – Health Cloud",
+        "location": "bangalore",
+        "work_type": "Remote",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "5+ years experience",
+        "key_responsibilities": [
+          "Design, develop, and deploy scalable Health Cloud solutions using Salesforce best practices.",
+          "Collaborate with functional teams, architects, and stakeholders to translate business requirements into technical designs.",
+          "Develop custom solutions using Apex, Flow, Lightning Web Components (LWC), and OmniStudio",
+          "Build and manage integrations with external systems."
+        ],
+        "primary_skills": [
+          "Strong experience with Salesforce Health Cloud",
+          "Proficiency in OmniStudio, Flow, Apex, and Lightning Web Components(LWC)",
+          "Solid understanding of Salesforce integration patterns and tools"
+        ],
+        "secondary_skills": [
+          "Experience with Experience Cloud and Mobile Publisher for Experience Cloud",
+          "Familiarity with Discovery Framework",
+          "Knowledge of Intelligent Document Automation",
+          "Experience in OmniStudio Document Generation",
+          "Exposure to Agentforce"
+        ],
+        "jd": "We are looking for Senior Salesforce Developers with strong hands-on experience in Salesforce Health Cloud to join our HealthCloud Implementation Project. The idealcandidates will possess deep technical expertise in Salesforce core technologies and astrong background in delivering enterprise-grade Salesforce solutions."
+      },
+      {
+        "id": "9",
+        "designation": "Senior Salesforce Developer – Health Cloud",
+        "location": "bangalore",
+        "work_type": "Remote",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "5+ years experience",
+        "key_responsibilities": [
+          "Design, develop, and deploy scalable Health Cloud solutions using Salesforce best practices.",
+          "Collaborate with functional teams, architects, and stakeholders to translate business requirements into technical designs.",
+          "Develop custom solutions using Apex, Flow, Lightning Web Components (LWC), and OmniStudio",
+          "Build and manage integrations with external systems."
+        ],
+        "primary_skills": [
+          "Strong experience with Salesforce Health Cloud",
+          "Proficiency in OmniStudio, Flow, Apex, and Lightning Web Components(LWC)",
+          "Solid understanding of Salesforce integration patterns and tools"
+        ],
+        "secondary_skills": [
+          "Experience with Experience Cloud and Mobile Publisher for Experience Cloud",
+          "Familiarity with Discovery Framework",
+          "Knowledge of Intelligent Document Automation",
+          "Experience in OmniStudio Document Generation",
+          "Exposure to Agentforce"
+        ],
+        "jd": "We are looking for Senior Salesforce Developers with strong hands-on experience in Salesforce Health Cloud to join our HealthCloud Implementation Project. The idealcandidates will possess deep technical expertise in Salesforce core technologies and astrong background in delivering enterprise-grade Salesforce solutions."
+      },
+      {
+        "id": "10",
+        "designation": "Senior Salesforce Developer – Health Cloud",
+        "location": "bangalore",
+        "work_type": "Remote",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "5+ years experience",
+        "key_responsibilities": [
+          "Design, develop, and deploy scalable Health Cloud solutions using Salesforce best practices.",
+          "Collaborate with functional teams, architects, and stakeholders to translate business requirements into technical designs.",
+          "Develop custom solutions using Apex, Flow, Lightning Web Components (LWC), and OmniStudio",
+          "Build and manage integrations with external systems."
+        ],
+        "primary_skills": [
+          "Strong experience with Salesforce Health Cloud",
+          "Proficiency in OmniStudio, Flow, Apex, and Lightning Web Components(LWC)",
+          "Solid understanding of Salesforce integration patterns and tools"
+        ],
+        "secondary_skills": [
+          "Experience with Experience Cloud and Mobile Publisher for Experience Cloud",
+          "Familiarity with Discovery Framework",
+          "Knowledge of Intelligent Document Automation",
+          "Experience in OmniStudio Document Generation",
+          "Exposure to Agentforce"
+        ],
+        "jd": "We are looking for Senior Salesforce Developers with strong hands-on experience in Salesforce Health Cloud to join our HealthCloud Implementation Project. The idealcandidates will possess deep technical expertise in Salesforce core technologies and astrong background in delivering enterprise-grade Salesforce solutions."
+      },
+      {
+        "id": "11",
+        "designation": "Senior Salesforce Developer – Health Cloud",
+        "location": "bangalore",
+        "work_type": "Remote",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "5+ years experience",
+        "key_responsibilities": [
+          "Design, develop, and deploy scalable Health Cloud solutions using Salesforce best practices.",
+          "Collaborate with functional teams, architects, and stakeholders to translate business requirements into technical designs.",
+          "Develop custom solutions using Apex, Flow, Lightning Web Components (LWC), and OmniStudio",
+          "Build and manage integrations with external systems."
+        ],
+        "primary_skills": [
+          "Strong experience with Salesforce Health Cloud",
+          "Proficiency in OmniStudio, Flow, Apex, and Lightning Web Components(LWC)",
+          "Solid understanding of Salesforce integration patterns and tools"
+        ],
+        "secondary_skills": [
+          "Experience with Experience Cloud and Mobile Publisher for Experience Cloud",
+          "Familiarity with Discovery Framework",
+          "Knowledge of Intelligent Document Automation",
+          "Experience in OmniStudio Document Generation",
+          "Exposure to Agentforce"
+        ],
+        "jd": "We are looking for Senior Salesforce Developers with strong hands-on experience in Salesforce Health Cloud to join our HealthCloud Implementation Project. The idealcandidates will possess deep technical expertise in Salesforce core technologies and astrong background in delivering enterprise-grade Salesforce solutions."
+      },
+      {
+        "id": "12",
+        "designation": "Senior Salesforce Developer – Health Cloud",
+        "location": "bangalore",
+        "work_type": "Remote",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "5+ years experience",
+        "key_responsibilities": [
+          "Design, develop, and deploy scalable Health Cloud solutions using Salesforce best practices.",
+          "Collaborate with functional teams, architects, and stakeholders to translate business requirements into technical designs.",
+          "Develop custom solutions using Apex, Flow, Lightning Web Components (LWC), and OmniStudio",
+          "Build and manage integrations with external systems."
+        ],
+        "primary_skills": [
+          "Strong experience with Salesforce Health Cloud",
+          "Proficiency in OmniStudio, Flow, Apex, and Lightning Web Components(LWC)",
+          "Solid understanding of Salesforce integration patterns and tools"
+        ],
+        "secondary_skills": [
+          "Experience with Experience Cloud and Mobile Publisher for Experience Cloud",
+          "Familiarity with Discovery Framework",
+          "Knowledge of Intelligent Document Automation",
+          "Experience in OmniStudio Document Generation",
+          "Exposure to Agentforce"
+        ],
+        "jd": "We are looking for Senior Salesforce Developers with strong hands-on experience in Salesforce Health Cloud to join our HealthCloud Implementation Project. The idealcandidates will possess deep technical expertise in Salesforce core technologies and astrong background in delivering enterprise-grade Salesforce solutions."
+      },
+      {
+        "id": "13",
+        "designation": "Senior Salesforce Developer – Health Cloud",
+        "location": "bangalore",
+        "work_type": "Remote",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "5+ years experience",
+        "key_responsibilities": [
+          "Design, develop, and deploy scalable Health Cloud solutions using Salesforce best practices.",
+          "Collaborate with functional teams, architects, and stakeholders to translate business requirements into technical designs.",
+          "Develop custom solutions using Apex, Flow, Lightning Web Components (LWC), and OmniStudio",
+          "Build and manage integrations with external systems."
+        ],
+        "primary_skills": [
+          "Strong experience with Salesforce Health Cloud",
+          "Proficiency in OmniStudio, Flow, Apex, and Lightning Web Components(LWC)",
+          "Solid understanding of Salesforce integration patterns and tools"
+        ],
+        "secondary_skills": [
+          "Experience with Experience Cloud and Mobile Publisher for Experience Cloud",
+          "Familiarity with Discovery Framework",
+          "Knowledge of Intelligent Document Automation",
+          "Experience in OmniStudio Document Generation",
+          "Exposure to Agentforce"
+        ],
+        "jd": "We are looking for Senior Salesforce Developers with strong hands-on experience in Salesforce Health Cloud to join our HealthCloud Implementation Project. The idealcandidates will possess deep technical expertise in Salesforce core technologies and astrong background in delivering enterprise-grade Salesforce solutions."
+      },
+      {
+        "id": "14",
+        "designation": "Senior Salesforce Developer – Health Cloud",
+        "location": "bangalore",
+        "work_type": "Remote",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "5+ years experience",
+        "key_responsibilities": [
+          "Design, develop, and deploy scalable Health Cloud solutions using Salesforce best practices.",
+          "Collaborate with functional teams, architects, and stakeholders to translate business requirements into technical designs.",
+          "Develop custom solutions using Apex, Flow, Lightning Web Components (LWC), and OmniStudio",
+          "Build and manage integrations with external systems."
+        ],
+        "primary_skills": [
+          "Strong experience with Salesforce Health Cloud",
+          "Proficiency in OmniStudio, Flow, Apex, and Lightning Web Components(LWC)",
+          "Solid understanding of Salesforce integration patterns and tools"
+        ],
+        "secondary_skills": [
+          "Experience with Experience Cloud and Mobile Publisher for Experience Cloud",
+          "Familiarity with Discovery Framework",
+          "Knowledge of Intelligent Document Automation",
+          "Experience in OmniStudio Document Generation",
+          "Exposure to Agentforce"
+        ],
+        "jd": "We are looking for Senior Salesforce Developers with strong hands-on experience in Salesforce Health Cloud to join our HealthCloud Implementation Project. The idealcandidates will possess deep technical expertise in Salesforce core technologies and astrong background in delivering enterprise-grade Salesforce solutions."
+      },
+      {
+        "id": "15",
+        "designation": "Senior Salesforce Developer – Health Cloud",
+        "location": "bangalore",
+        "work_type": "Remote",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "5+ years experience",
+        "key_responsibilities": [
+          "Design, develop, and deploy scalable Health Cloud solutions using Salesforce best practices.",
+          "Collaborate with functional teams, architects, and stakeholders to translate business requirements into technical designs.",
+          "Develop custom solutions using Apex, Flow, Lightning Web Components (LWC), and OmniStudio",
+          "Build and manage integrations with external systems."
+        ],
+        "primary_skills": [
+          "Strong experience with Salesforce Health Cloud",
+          "Proficiency in OmniStudio, Flow, Apex, and Lightning Web Components(LWC)",
+          "Solid understanding of Salesforce integration patterns and tools"
+        ],
+        "secondary_skills": [
+          "Experience with Experience Cloud and Mobile Publisher for Experience Cloud",
+          "Familiarity with Discovery Framework",
+          "Knowledge of Intelligent Document Automation",
+          "Experience in OmniStudio Document Generation",
+          "Exposure to Agentforce"
+        ],
+        "jd": "We are looking for Senior Salesforce Developers with strong hands-on experience in Salesforce Health Cloud to join our HealthCloud Implementation Project. The idealcandidates will possess deep technical expertise in Salesforce core technologies and astrong background in delivering enterprise-grade Salesforce solutions."
+      },
+      {
+        "id": "16",
+        "designation": "Senior Salesforce Developer – Health Cloud",
+        "location": "bangalore",
+        "work_type": "Remote",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "5+ years experience",
+        "key_responsibilities": [
+          "Design, develop, and deploy scalable Health Cloud solutions using Salesforce best practices.",
+          "Collaborate with functional teams, architects, and stakeholders to translate business requirements into technical designs.",
+          "Develop custom solutions using Apex, Flow, Lightning Web Components (LWC), and OmniStudio",
+          "Build and manage integrations with external systems."
+        ],
+        "primary_skills": [
+          "Strong experience with Salesforce Health Cloud",
+          "Proficiency in OmniStudio, Flow, Apex, and Lightning Web Components(LWC)",
+          "Solid understanding of Salesforce integration patterns and tools"
+        ],
+        "secondary_skills": [
+          "Experience with Experience Cloud and Mobile Publisher for Experience Cloud",
+          "Familiarity with Discovery Framework",
+          "Knowledge of Intelligent Document Automation",
+          "Experience in OmniStudio Document Generation",
+          "Exposure to Agentforce"
+        ],
+        "jd": "We are looking for Senior Salesforce Developers with strong hands-on experience in Salesforce Health Cloud to join our HealthCloud Implementation Project. The idealcandidates will possess deep technical expertise in Salesforce core technologies and astrong background in delivering enterprise-grade Salesforce solutions."
+      },
+      {
+        "id": "17",
+        "designation": "Senior Salesforce Developer – Health Cloud",
+        "location": "bangalore",
+        "work_type": "Remote",
+        "level_of_post": "Entry level",
+        "work_time": "Full time",
+        "experience": "5+ years experience",
+        "key_responsibilities": [
+          "Design, develop, and deploy scalable Health Cloud solutions using Salesforce best practices.",
+          "Collaborate with functional teams, architects, and stakeholders to translate business requirements into technical designs.",
+          "Develop custom solutions using Apex, Flow, Lightning Web Components (LWC), and OmniStudio",
+          "Build and manage integrations with external systems."
+        ],
+        "primary_skills": [
+          "Strong experience with Salesforce Health Cloud",
+          "Proficiency in OmniStudio, Flow, Apex, and Lightning Web Components(LWC)",
+          "Solid understanding of Salesforce integration patterns and tools"
+        ],
+        "secondary_skills": [
+          "Experience with Experience Cloud and Mobile Publisher for Experience Cloud",
+          "Familiarity with Discovery Framework",
+          "Knowledge of Intelligent Document Automation",
+          "Experience in OmniStudio Document Generation",
+          "Exposure to Agentforce"
+        ],
+        "jd": "We are looking for Senior Salesforce Developers with strong hands-on experience in Salesforce Health Cloud to join our HealthCloud Implementation Project. The idealcandidates will possess deep technical expertise in Salesforce core technologies and astrong background in delivering enterprise-grade Salesforce solutions."
+      }
+    ],
+    "terms_and_conditions":[
+      {
+        "title":"Acceptance of Terms",
+        "info":"By accessing or using our software, you agree to be bound by these Terms and Conditions and our Privacy Policy.",
+        "key_points":[]
+      },
+      {
+        "title":"Use of Service",
+        "info":"You agree to use the software only for lawful purposes and in accordance with these Terms. You may not use the service:",
+        "key_points":["In any way that violates applicable laws.","To harm or exploit others.","To interfere with or disrupt the software or servers."]
+      },
+      {
+        "title":"User Accounts",
+        "info":"You may need to create an account to use certain features. You are responsible for maintaining the confidentiality of your login information.",
+        "key_points":[]
+      },
+      {
+        "title":"Intellectual Property",
+        "info":"All content, trademarks, logos, and software are the property of [Your Company Name] and protected by intellectual property laws. You may not copy, modify, or distribute without permission.",
+        "key_points":[]
+      },
+      {
+        "title":"Limitation of Liability",
+        "info":"Our software is provided 'as is.' We are not liable for any damages arising from your use of the software.",
+        "key_points":[]
+      },
+      {
+        "title":"Termination",
+        "info":"We may suspend or terminate your access at any time for violation of these terms.",
+        "key_points":[]
+      },
+      {
+        "title":"Changes to Terms",
+        "info":"We reserve the right to update these Terms at any time. Continued use after changes constitutes acceptance.",
+        "key_points":[]
+      },
+      {
+        "title":"Contact",
+        "info":"If you have questions about these Terms, contact us at: Email: hr@renuzatech.com",
+        "key_points":[]
+      }
+    ],
+    "privacy_policy":[
+      {
+        "title":"Information We Collect",
+        "info":"",
+        "key_points":["Personal Info: Name, email, contact details.","Usage Data: IP address, browser type, access times, pages viewed.","Cookies: We may use cookies to improve user experience."]
+      },
+      {
+        "title":"How We Use Your Information",
+        "info":"You agree to use the software only for lawful purposes and in accordance with these Terms. You may not use the service:",
+        "key_points":["To provide and maintain our service.","To personalize your experience.","To communicate with you (e.g., updates, offers).","To improve our software and services."]
+      },
+      {
+        "title":"Sharing Your Information",
+        "info":"We do not sell your data. We may share it with:",
+        "key_points":["Service providers (e.g., hosting, analytics).","Legal authorities if required."]
+      },
+      {
+        "title":"Data Security",
+        "info":"We implement industry-standard security measures to protect your data.",
+        "key_points":[]
+      },
+      {
+        "title":"Your Rights",
+        "info":"You may:",
+        "key_points":["Access, update, or delete your personal information.","Opt out of marketing communications."]
+      },
+      {
+        "title":"Third-Party Links",
+        "info":"Our service may contain links to third-party websites. We are not responsible for their content or privacy practices.",
+        "key_points":[]
+      },
+      {
+        "title":"Children’s Privacy",
+        "info":"Our software is not intended for users under 13. We do not knowingly collect data from children.",
+        "key_points":[]
+      },
+      {
+        "title":"Changes to This Policy",
+        "info":"We may update this policy. Changes will be posted here with a new effective date.",
+        "key_points":[]
+      },
+      {
+        "title":"Contact",
+        "info":"For questions about this Privacy Policy, contact us at: hr@renuzatech.com",
+        "key_points":[]
+      }
+    ],
+    "legal_disclaimer":[
+      {
+        "title":"No Warranties",
+        "info":"Our software is provided 'as is.' We make no warranties, expressed or implied, including but not limited to merchantability or fitness for a particular purpose.",
+        "key_points":[]
+      },
+      {
+        "title":"Limitation of Liability",
+        "info":"We are not responsible for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use our services.",
+        "key_points":[]
+      },
+      {
+        "title":"External Links",
+        "info":"Our software or site may contain links to external websites. We are not responsible for the content or reliability of those sites.",
+        "key_points":[]
+      },
+      {
+        "title":"No Legal Advice",
+        "info":"Nothing in our services should be construed as legal advice. Always consult with a professional for specific legal concerns.",
+        "key_points":[]
+      },
+      {
+        "title":"Compliance and Jurisdiction",
+        "info":"Users are responsible for complying with local laws. Any disputes will be handled in accordance with the laws of [India/Karnataka].",
+        "key_points":[]
+      }
+    ]
+  }
+}

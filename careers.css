@@ -1,0 +1,532 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body > main > #searching-job-field {
+  z-index: 2;
+  position: sticky;
+  top: 120px;
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+body > main > #searching-job-field > #searching-job-field-input {
+  height: 100px;
+  width: 800px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body > main > #searching-job-field > #searching-job-field-input > span {
+  position: relative;
+  left: 550px;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+body
+  > main
+  > #searching-job-field
+  > #searching-job-field-input
+  > #job-search-input-field {
+  height: 60px;
+  width: 600px;
+  color: rgb(101, 101, 101);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 19px;
+  padding: 0px 100px 0px 50px;
+  border: none;
+  border-bottom: 2px solid rgb(101, 101, 101);
+  outline: none;
+}
+body > main > #searching-job-field > #searching-job-field-locations {
+  z-index: 1;
+  position: relative;
+  top: 116px;
+  height: 250px;
+  width: 230px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+body
+  > main
+  > #searching-job-field
+  > #searching-job-field-locations
+  > #all-locations-link {
+  height: 40px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+body
+  > main
+  > #searching-job-field
+  > #searching-job-field-locations
+  > #all-locations-link
+  > a {
+    cursor: pointer;
+  }
+body
+  > main
+  > #searching-job-field
+  > #searching-job-field-locations
+  > #all-locations-link:hover {
+  a {
+    text-decoration: underline;
+    text-decoration-color: #034a6e;
+  }
+  #drop-down-all-locations-links {
+    display: flex;
+  }
+}
+body
+  > main
+  > #searching-job-field
+  > #searching-job-field-locations
+  > #all-locations-link:hover {
+  #all-locations {
+    text-decoration: underline;
+    text-decoration-color: #034a6e;
+  }
+}
+body
+  > main
+  > #searching-job-field
+  > #searching-job-field-locations
+  > #all-locations-link
+  > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #034a6e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+body
+  > main
+  > #searching-job-field
+  > #searching-job-field-locations
+  > #drop-down-all-locations-links {
+  height: 210px;
+  width: 100%;
+  background-color: white;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px black;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+body
+  > main
+  > #searching-job-field
+  > #searching-job-field-locations
+  > #drop-down-all-locations-links
+  > a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+body
+  > main
+  > #searching-job-field
+  > #searching-job-field-locations
+  > #drop-down-all-locations-links
+  > a:hover {
+  color: #eb7416;
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+}
+body > main > #jobs-list {
+  z-index: 1;
+  background-color: white;
+  position: relative;
+  top: 120px;
+  height: 660px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body > main > #jobs-list > #jobs-list-box {
+  height: 650px;
+  width: 1170px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+  gap: 0;
+}
+body > main > #jobs-list > #jobs-list-box > #error-message{
+  font-size: 3rem;
+  color: rgb(105, 105, 105);
+  margin-top: 30px;
+}
+body > main > #jobs-list > #jobs-list-box > .card {
+  height: 100px;
+  width: 340px;
+  padding: 0px 15px;
+  background-color: rgb(255, 239, 208);
+  box-shadow: 0px 0px 5px black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  cursor: pointer;
+  margin: 7px 7px;
+  flex: 1 1 340px;
+  min-width: 240px;
+  max-width: 380px;
+}
+body > main > #jobs-list > #jobs-list-box > .card:hover {
+  transform: scale(1.01);
+  transition: all 0.2s ease-in-out;
+  #designation {
+    color: #eb7416;
+  }
+}
+body > main > #jobs-list > #jobs-list-box > .card > #designation {
+  text-decoration: underline;
+  font-size: 17px;
+  color: blue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+body > main > #jobs-list > #jobs-list-box > .card > #experience {
+  font-size: 15px;
+  color: #eb7416;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+body > main > #jobs-list > #jobs-list-box > .card > #location {
+  font-size: 15px;
+  color: rgb(98, 98, 98);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1235px) {
+  body > main > #searching-job-field > #searching-job-field-input > span {
+    left: 545px;
+  }
+  body
+    > main
+    > #searching-job-field
+    > #searching-job-field-input
+    > #job-search-input-field {
+    height: 57px;
+    width: 595px;
+    font-size: 18px;
+  }
+  body
+    > main
+    > #searching-job-field
+    > #searching-job-field-locations
+    > #all-locations-link
+    > a {
+    font-size: 19px;
+  }
+  body
+    > main
+    > #searching-job-field
+    > #searching-job-field-locations
+    > #drop-down-all-locations-links
+    > a {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 1090px) {
+  body > main > #jobs-list > #jobs-list-box {
+    width: 880px;
+  }
+  body > main > #jobs-list > #jobs-list-box > #error-message{
+  font-size: 2.5rem;
+}
+}
+
+@media screen and (max-width: 950px) {
+  body > main > #searching-job-field > #searching-job-field-input {
+    height: 80px;
+    width: 500px;
+  }
+  body > main > #searching-job-field > #searching-job-field-input > span {
+    left: 385px;
+  }
+  body
+    > main
+    > #searching-job-field
+    > #searching-job-field-input
+    > #job-search-input-field {
+    height: 45px;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  body > main > #searching-job-field {
+    position: sticky;
+    top: 215px;
+    height: 80px;
+  }
+  body > main > #searching-job-field > #searching-job-field-input {
+    height: 80px;
+    width: 450px;
+  }
+  body > main > #searching-job-field > #searching-job-field-input > span {
+    left: 345px;
+  }
+  body > main > #searching-job-field > #searching-job-field-input > span > img {
+    width: 22px;
+    height: 25px;
+  }
+  body
+    > main
+    > #searching-job-field
+    > #searching-job-field-input
+    > #job-search-input-field {
+    height: 45px;
+    width: 400px;
+  }
+  body > main > #searching-job-field > #searching-job-field-locations {
+    width: 210px;
+  }
+  body
+    > main
+    > #searching-job-field
+    > #searching-job-field-locations
+    > #all-locations-link
+    > a {
+    font-size: 17.5px;
+  }
+  body
+    > main
+    > #searching-job-field
+    > #searching-job-field-locations
+    > #drop-down-all-locations-links
+    > a {
+    font-size: 16px;
+  }
+  body > main > #jobs-list {
+    position: relative;
+    top: 215px;
+  }
+  body > main > #jobs-list > #jobs-list-box > .card {
+    width: 329px;
+    flex: 1 1 329px;
+    min-width: 240px;
+    max-width: 380px;
+  }
+  body > main > #jobs-list > #jobs-list-box > #error-message{
+  font-size: 2rem;
+}
+}
+
+@media screen and (max-width: 700px) {
+  body > main > #searching-job-field > #searching-job-field-input {
+    width: 400px;
+  }
+  body > main > #searching-job-field > #searching-job-field-input > span {
+    left: 285px;
+  }
+  body
+    > main
+    > #searching-job-field
+    > #searching-job-field-input
+    > #job-search-input-field {
+    font-size: 17px;
+    height: 42px;
+    width: 320px;
+  }
+  body > main > #jobs-list > #jobs-list-box > .card {
+    height: 110px;
+    width: 290px;
+    flex: 1 1 290px;
+    min-width: 220px;
+    max-width: 310px;
+  }
+  body > main > #jobs-list > #jobs-list-box > .card > #designation {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 623px) {
+  body > main > #jobs-list > #jobs-list-box > .card {
+    height: 110px;
+    width: 430px;
+    flex: 1 1 430px;
+    min-width: 220px;
+    max-width: 430px;
+  }
+}
+@media screen and (max-width: 580px) {
+  body > main > #searching-job-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body > main > #searching-job-field > #searching-job-field-input {
+    width: 270px;
+  }
+  body > main > #searching-job-field > #searching-job-field-input > span {
+    left: 225px;
+  }
+  body > main > #searching-job-field > #searching-job-field-input > span > img {
+    width: 20px;
+    height: 23px;
+  }
+  body
+    > main
+    > #searching-job-field
+    > #searching-job-field-input
+    > #job-search-input-field {
+    font-size: 16px;
+    height: 41px;
+    width: 230px;
+    padding: 0px 40px 0px 10px;
+  }
+  body > main > #searching-job-field > #searching-job-field-locations {
+    position: relative;
+    top: 95px;
+    width: 180px;
+    height: 210px;
+  }
+  body
+    > main
+    > #searching-job-field
+    > #searching-job-field-locations
+    > #all-locations-link
+    > a {
+    font-size: 17px;
+  }
+  body
+    > main
+    > #searching-job-field
+    > #searching-job-field-locations
+    > #drop-down-all-locations-links
+    > a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  body > main > #searching-job-field {
+    position: sticky;
+    top: 185px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  body > main > #searching-job-field > #searching-job-field-input {
+    height: 70px;
+    width: 260px;
+  }
+  body > main > #searching-job-field > #searching-job-field-input > span {
+    left: 210px;
+  }
+  body > main > #searching-job-field > #searching-job-field-input > span > img {
+    width: 18px;
+    height: 21px;
+  }
+  body
+    > main
+    > #searching-job-field
+    > #searching-job-field-input
+    > #job-search-input-field {
+    font-size: 15px;
+    height: 40px;
+    width: 230px;
+    padding: 0px 50px 0px 10px;
+  }
+  body > main > #searching-job-field > #searching-job-field-locations {
+    position: relative;
+    top: 94px;
+    width: 160px;
+    height: 210px;
+  }
+  body
+    > main
+    > #searching-job-field
+    > #searching-job-field-locations
+    > #all-locations-link
+    > a {
+    font-size: 16px;
+  }
+  body
+    > main
+    > #searching-job-field
+    > #searching-job-field-locations
+    > #drop-down-all-locations-links
+    > a {
+    font-size: 14px;
+  }
+  body > main > #jobs-list {
+    position: relative;
+    top: 185px;
+  }
+  body > main > #jobs-list > #jobs-list-box > .card {
+    height: 100px;
+    width: 400px;
+    flex: 1 1 400px;
+    min-width: 220px;
+    max-width: 400px;
+  }
+  body > main > #jobs-list > #jobs-list-box > #error-message{
+  font-size: 1.7rem;
+}
+}
+
+@media screen and (max-width: 360px) {
+  body > main > #searching-job-field > #searching-job-field-input {
+    height: 70px;
+    width: 200px;
+  }
+  body > main > #searching-job-field > #searching-job-field-input > span {
+    left: 150px;
+  }
+  body > main > #searching-job-field > #searching-job-field-input > span > img {
+    width: 16px;
+    height: 18px;
+  }
+  body
+    > main
+    > #searching-job-field
+    > #searching-job-field-input
+    > #job-search-input-field {
+    font-size: 15px;
+    height: 40px;
+    width: 160px;
+    padding: 0px 35px 0px 10px;
+  }
+  body > main > #jobs-list > #jobs-list-box > .card {
+    height: 100px;
+    width: 300px;
+    flex: 1 1 300px;
+    min-width: 220px;
+    max-width: 300px;
+  }
+  body > main > #jobs-list > #jobs-list-box > #error-message{
+  font-size: 1.5rem;
+}
+}

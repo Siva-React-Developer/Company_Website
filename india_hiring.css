@@ -1,0 +1,1666 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body > main > #india-hiring {
+  /* filter: brightness(30%); */
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  top: 120px;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+body > main > #india-hiring > img {
+  height: 300px;
+  width: 100%;
+  filter: brightness(30%);
+}
+body > main > #india-hiring > #india-hiring-content {
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+body > main > #india-hiring > #india-hiring-content > p {
+  font-size: 35px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+body > main > #domestic-requirement {
+  position: relative;
+  top: 120px;
+  height: 600px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body > main > #domestic-requirement > #domestic-requirement-box {
+  height: 580px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body
+  > main
+  > #domestic-requirement
+  > #domestic-requirement-box
+  > #domestic-requirement-image {
+  height: 580px;
+  width: 550px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body
+  > main
+  > #domestic-requirement
+  > #domestic-requirement-box
+  > #domestic-requirement-content {
+  height: 580px;
+  width: 550px;
+  /* border: 1px solid black; */
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+body
+  > main
+  > #domestic-requirement
+  > #domestic-requirement-box
+  > #domestic-requirement-content
+  > #domestic-requirement-content-heading {
+  font-size: 31px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: black;
+  margin-top: 40px;
+}
+body
+  > main
+  > #domestic-requirement
+  > #domestic-requirement-box
+  > #domestic-requirement-content
+  > #domestic-requirement-content-info {
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(96, 96, 96);
+  text-align: justify;
+  text-align-last: left;
+  margin-top: 15px;
+}
+body > main > #recruitment-process {
+  position: relative;
+  top: 120px;
+  height: 1100px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+    align-items: center; */
+}
+body > main > #recruitment-process > #recruitment-process-heading {
+  height: 80px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body > main > #recruitment-process > #recruitment-process-heading > p {
+  font-size: 33px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: black;
+}
+body > main > #recruitment-process > #recruitment-process-steps {
+  height: 1020px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body
+  > main
+  > #recruitment-process
+  > #recruitment-process-steps
+  > #recruitment-process-steps-box3
+  > img {
+  height: 100px;
+  width: 540px;
+  /* border: 1px solid black; */
+}
+body
+  > main
+  > #recruitment-process
+  > #recruitment-process-steps
+  > #recruitment-process-steps-box3
+  > #recruitment-process-steps-box3-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body
+  > main
+  > #recruitment-process
+  > #recruitment-process-steps
+  > #recruitment-process-steps-box3
+  > #recruitment-process-steps-box3-content
+  > #card {
+  margin: 0px 7px;
+}
+body
+  > main
+  > #recruitment-process
+  > #recruitment-process-steps
+  > .process-boxes {
+  height: 340px;
+  width: 1110px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body
+  > main
+  > #recruitment-process
+  > #recruitment-process-steps
+  > .process-boxes
+  > img {
+  height: 100px;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+body
+  > main
+  > #recruitment-process
+  > #recruitment-process-steps
+  > .process-boxes
+  > .content-box {
+  height: 240px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body
+  > main
+  > #recruitment-process
+  > #recruitment-process-steps
+  > .process-boxes
+  > .content-box
+  > #card {
+  height: 240px;
+  width: 270px;
+  /* border: 1px solid black; */
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+body
+  > main
+  > #recruitment-process
+  > #recruitment-process-steps
+  > .process-boxes
+  > .content-box
+  > #card
+  > #image {
+  height: 70px;
+  width: 70px;
+  /* border: 1px solid black; */
+}
+body
+  > main
+  > #recruitment-process
+  > #recruitment-process-steps
+  > .process-boxes
+  > .content-box
+  > #card
+  > #title {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: black;
+  /* margin-top: 10px; */
+}
+body
+  > main
+  > #recruitment-process
+  > #recruitment-process-steps
+  > .process-boxes
+  > .content-box
+  > #card
+  > #description {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(96, 96, 96);
+  text-align: center;
+  /* margin-top: 10px; */
+}
+body
+  > main
+  > #recruitment-process
+  > #recruitment-process-steps
+  > .process-boxes
+  > .content-box
+  > #card
+  > #step-no {
+  display: none;
+  font-size: 21px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+body > main > #expert-content {
+  position: relative;
+  top: 120px;
+  height: 750px;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+body > main > #expert-content > #expert-content-title {
+  height: 90px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body > main > #expert-content > #expert-content-title > p {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(61, 61, 61);
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body > main > #expert-content > #expert-content-cards {
+  height: 660px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+}
+body
+  > main
+  > #expert-content
+  > #expert-content-cards
+  > #expert-content-cards-box {
+  height: 660px;
+  width: 1150px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body
+  > main
+  > #expert-content
+  > #expert-content-cards
+  > #expert-content-cards-box
+  > .class-cards {
+  height: 590px;
+  width: 365px;
+  /* border: 1px solid black; */
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+body
+  > main
+  > #expert-content
+  > #expert-content-cards
+  > #expert-content-cards-box
+  > .class-cards
+  > .expert-content-cards-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(61, 61, 61);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+  > main
+  > #expert-content
+  > #expert-content-cards
+  > #expert-content-cards-box
+  > .class-cards
+  > img {
+  height: 230px;
+  width: 362px;
+}
+body
+  > main
+  > #expert-content
+  > #expert-content-cards
+  > #expert-content-cards-box
+  > .class-cards
+  > .expert-content-cards-info {
+  font-size: 17px;
+  color: rgb(61, 61, 61);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  text-align-last: left;
+}
+body
+  > main
+  > #expert-content
+  > #expert-content-cards
+  > #expert-content-cards-box
+  > .class-cards
+  > .expert-content-cards-hiring-buttons {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+body
+  > main
+  > #expert-content
+  > #expert-content-cards
+  > #expert-content-cards-box
+  > .class-cards
+  > .expert-content-cards-hiring-buttons
+  > .left-india-hiring {
+  background-color: #eb7416;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  border-radius: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+  > main
+  > #expert-content
+  > #expert-content-cards
+  > #expert-content-cards-box
+  > .class-cards
+  > .expert-content-cards-hiring-buttons
+  > .or-in {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 5px solid #eb7416;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body
+  > main
+  > #expert-content
+  > #expert-content-cards
+  > #expert-content-cards-box
+  > .class-cards
+  > .expert-content-cards-hiring-buttons
+  > .right-usa-hiring {
+  background-color: #eb7416;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body > main > #footer-navbar {
+  position: relative;
+  top: 120px;
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+body > main > #footer-navbar > img {
+  height: 55px;
+  width: 55px;
+  /* margin: 0px 10px; */
+}
+body > main > #footer-navbar > p {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px 10px;
+}
+body > main > #footer-navbar > a {
+  text-decoration: none;
+  color: white;
+  background-color: #eb7416;
+  font-size: 18px;
+  border-radius: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 8px 25px 10px 25px;
+}
+
+@media screen and (max-width: 1235px) {
+  body > main > #india-hiring > #india-hiring-content > p {
+    font-size: 34px;
+  }
+  body > main > #domestic-requirement > #domestic-requirement-box {
+    height: 540px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-image {
+    height: 540px;
+    width: 510px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-image
+    > img {
+    height: 450px;
+    width: 450px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content {
+    height: 540px;
+    width: 510px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content
+    > #domestic-requirement-content-heading {
+    font-size: 30px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content
+    > #domestic-requirement-content-info {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  body > main > #recruitment-process > #recruitment-process-heading > p {
+    font-size: 32px;
+  }
+  body > main > #recruitment-process > #recruitment-process-steps {
+    height: 1020px;
+    width: 100%;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > #recruitment-process-steps-box3
+    > img {
+    height: 100px;
+    width: 540px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes {
+    height: 340px;
+    width: 1000px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card
+    > #image {
+    height: 65px;
+    width: 65px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card
+    > #title {
+    font-size: 19px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card
+    > #description {
+    font-size: 14px;
+  }
+  body > main > #expert-content {
+    height: 700px;
+  }
+  body > main > #expert-content > #expert-content-cards {
+    height: 630px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box {
+    height: 630px;
+    width: 1060px;
+    display: flex;
+    align-items: flex-start;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards {
+    height: 570px !important;
+    width: 310px !important;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > img {
+    height: 180px !important;
+    width: 307px !important;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > .expert-content-cards-heading {
+    font-size: 19px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > img {
+    height: 220px;
+    width: 352px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > .expert-content-cards-info {
+    font-size: 16px;
+  }
+  body > main > #footer-navbar > img {
+    height: 52px;
+    width: 52px;
+  }
+  body > main > #footer-navbar > p {
+    font-size: 24px;
+  }
+  body > main > #footer-navbar > a {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  body > main > #india-hiring > #india-hiring-content > p {
+    font-size: 33px;
+  }
+  body > main > #domestic-requirement > #domestic-requirement-box {
+    height: 510px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-image {
+    height: 510px;
+    width: 470px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-image
+    > img {
+    height: 420px;
+    width: 420px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content {
+    height: 510px;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content
+    > #domestic-requirement-content-heading {
+    margin-top: 0;
+    font-size: 28px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content
+    > #domestic-requirement-content-info {
+    font-size: 16px;
+  }
+  body > main > #recruitment-process > #recruitment-process-heading > p {
+    font-size: 30px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes {
+    height: 340px;
+    width: 900px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card {
+    width: 230px;
+  }
+  body > main > #expert-content {
+    height: 760px;
+  }
+  body > main > #expert-content > #expert-content-cards {
+    height: 670px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box {
+    height: 670px;
+    width: 890px;
+    display: flex;
+    align-items: flex-start;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards {
+    height: 600px !important;
+    width: 270px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > img {
+    height: 160px !important;
+    width: 268px !important;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > .expert-content-cards-hiring-buttons
+    > .left-india-hiring {
+    padding: 8px 17px;
+    font-size: 16px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > .expert-content-cards-hiring-buttons
+    > .right-usa-hiring {
+    padding: 8px 17px;
+    font-size: 16px;
+  }
+  body > main > #footer-navbar > img {
+    height: 52px;
+    width: 52px;
+  }
+  body > main > #footer-navbar > p {
+    font-size: 24px;
+  }
+  body > main > #footer-navbar > a {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  body > main > #india-hiring > #india-hiring-content > p {
+    font-size: 32px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-image {
+    width: 390px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-image
+    > img {
+    height: 370px;
+    width: 370px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content {
+    width: 390px;
+    padding: 0px 10px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content
+    > #domestic-requirement-content-heading {
+    font-size: 26px;
+  }
+  body > main > #recruitment-process > #recruitment-process-heading > p {
+    font-size: 30px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes {
+    height: 340px;
+    width: 100%;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > img {
+    display: none;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    height: 290px;
+    width: 230px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card
+    > #step-no {
+    display: block;
+  }
+  body > main > #expert-content {
+    height: 1162px;
+  }
+  body > main > #expert-content > #expert-content-cards {
+    height: 1070px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box {
+    height: 1070px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards {
+    height: 500px !important;
+    width: 350px !important;
+    margin: 0px 15px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > img {
+    height: 210px !important;
+    width: 346px !important;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > .expert-content-cards-hiring-buttons
+    > .left-india-hiring {
+    padding: 8px 25px;
+    font-size: 16px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > .expert-content-cards-hiring-buttons
+    > .right-usa-hiring {
+    padding: 8px 25px;
+    font-size: 16px;
+  }
+  body > main > #footer-navbar > img {
+    height: 52px;
+    width: 52px;
+  }
+  body > main > #footer-navbar > p {
+    font-size: 24px;
+  }
+  body > main > #footer-navbar > a {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  body > main > #india-hiring {
+    position: relative;
+    top: 215px;
+  }
+  body > main > #domestic-requirement {
+    position: relative;
+    top: 215px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-image {
+    width: 330px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-image
+    > img {
+    height: 310px;
+    width: 310px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content {
+    width: 330px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content
+    > #domestic-requirement-content-heading {
+    font-size: 24px;
+  }
+  body > main > #recruitment-process {
+    position: relative;
+    top: 215px;
+  }
+  body > main > #recruitment-process > #recruitment-process-heading > p {
+    font-size: 25px;
+  }
+
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card {
+    height: 290px;
+    width: 230px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card
+    > #step-no {
+    display: block;
+  }
+  body > main > #expert-content {
+    position: relative;
+    top: 215px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards {
+    height: 500px !important;
+    width: 300px !important;
+    margin: 0px 15px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > img {
+    height: 210px !important;
+    width: 297px !important;
+  }
+  body > main > #footer-navbar {
+    position: relative;
+    top: 215px;
+  }
+  body > main > #footer-navbar > img {
+    height: 47px;
+    width: 47px;
+  }
+  body > main > #footer-navbar > p {
+    font-size: 21px;
+  }
+  body > main > #footer-navbar > a {
+    font-size: 17px;
+    padding: 5px 22px 8px 22px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body > main > #india-hiring {
+    height: 230px;
+    width: 100%;
+  }
+  body > main > #india-hiring > img {
+    height: 230px;
+  }
+  body > main > #india-hiring > #india-hiring-content > p {
+    font-size: 28px;
+  }
+  body > main > #domestic-requirement {
+    height: 700px;
+  }
+  body > main > #domestic-requirement > #domestic-requirement-box {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-image {
+    height: 310px;
+    width: 310px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-image
+    > img {
+    height: 280px;
+    width: 280px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content {
+    height: 330px;
+    width: 510px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content
+    > #domestic-requirement-content-heading {
+    font-size: 24px;
+  }
+  body > main > #recruitment-process {
+    height: 1700px;
+  }
+  body > main > #recruitment-process > #recruitment-process-heading > p {
+    font-size: 25px;
+  }
+  body > main > #recruitment-process > #recruitment-process-steps {
+    height: 1720px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes {
+    height: 640px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box {
+    height: 620px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card {
+    height: 290px;
+    width: 230px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > #recruitment-process-steps-box3 {
+    height: 350px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > #recruitment-process-steps-box3
+    > #recruitment-process-steps-box3-content {
+    height: 350px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > #recruitment-process-steps-box3
+    > #recruitment-process-steps-box3-content
+    > #card {
+    margin: 0px 0px;
+  }
+  body > main > #expert-content > #expert-content-title > p {
+    font-size: 25px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards {
+    height: 500px !important;
+    width: 218px !important;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > .expert-content-cards-heading {
+    font-size: 17px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > img {
+    height: 140px !important;
+    width: 214px !important;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > .expert-content-cards-hiring-buttons
+    > .left-india-hiring {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > .expert-content-cards-hiring-buttons
+    > .right-usa-hiring {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+  body > main > #footer-navbar > img {
+    height: 40px;
+    width: 40px;
+  }
+  body > main > #footer-navbar > p {
+    font-size: 18px;
+  }
+  body > main > #footer-navbar > a {
+    font-size: 16px;
+    padding: 5px 20px 8px 20px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  body > main > #domestic-requirement {
+    height: 700px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-image {
+    height: 270px;
+    width: 270px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-image
+    > img {
+    height: 240px;
+    width: 240px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content {
+    height: 380px;
+    width: 420px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content
+    > #domestic-requirement-content-heading {
+    font-size: 21px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card {
+    height: 290px;
+    width: 200px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card
+    > #image {
+    height: 50px;
+    width: 50px;
+  }
+  body > main > #expert-content {
+    height: 1692px;
+  }
+  body > main > #expert-content > #expert-content-cards {
+    height: 1600px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box {
+    height: 1600px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards {
+    height: 500px !important;
+    width: 350px !important;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > img {
+    height: 210px !important;
+    width: 346px !important;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > .expert-content-cards-info {
+    font-size: 15px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > .expert-content-cards-hiring-buttons
+    > .left-india-hiring {
+    padding: 10px 30px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > .expert-content-cards-hiring-buttons
+    > .right-usa-hiring {
+    padding: 10px 30px;
+  }
+  body > main > #footer-navbar {
+    height: 130px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body > main > #footer-navbar > img {
+    display: none;
+  }
+  body > main > #footer-navbar > p {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  body > main > #india-hiring {
+    position: relative;
+    top: 185px;
+    height: 180px;
+    width: 100%;
+  }
+  body > main > #india-hiring > img {
+    height: 180px;
+  }
+  body > main > #india-hiring > #india-hiring > p {
+    font-size: 25px;
+  }
+  body > main > #domestic-requirement {
+    position: relative;
+    top: 185px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-image {
+    height: 240px;
+    width: 240px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-image
+    > img {
+    height: 210px;
+    width: 210px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content {
+    height: 380px;
+    width: 310px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content
+    > #domestic-requirement-content-heading {
+    font-size: 18px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content
+    > #domestic-requirement-content-info {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  body > main > #recruitment-process {
+    position: relative;
+    top: 185px;
+  }
+  body > main > #recruitment-process > #recruitment-process-heading > p {
+    font-size: 20px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card {
+    height: 290px;
+    width: 170px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card
+    > #image {
+    height: 30px;
+    width: 30px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card
+    > #title {
+    font-size: 18px;
+    text-align: center;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card
+    > #description {
+    font-size: 14px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card
+    > #step-no {
+    font-size: 18px;
+  }
+  body > main > #expert-content {
+    position: relative;
+    top: 185px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards {
+    height: 500px !important;
+    width: 320px !important;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > img {
+    height: 190px !important;
+    width: 316px !important;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > .expert-content-cards-hiring-buttons
+    > .left-india-hiring {
+    padding: 7px 25px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > .expert-content-cards-hiring-buttons
+    > .right-usa-hiring {
+    padding: 7px 25px;
+  }
+  body > main > #footer-navbar {
+    position: relative;
+    top: 185px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-image {
+    height: 220px;
+    width: 220px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-image
+    > img {
+    height: 190px;
+    width: 190px;
+  }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box
+    > #domestic-requirement-content {
+    height: 420px;
+    width: 260px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards {
+    height: 500px !important;
+    width: 260px !important;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > img {
+    height: 160px !important;
+    width: 256px !important;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > .expert-content-cards-hiring-buttons
+    > .left-india-hiring {
+    padding: 8px 18px;
+  }
+  body
+    > main
+    > #expert-content
+    > #expert-content-cards
+    > #expert-content-cards-box
+    > .class-cards
+    > .expert-content-cards-hiring-buttons
+    > .right-usa-hiring {
+    padding: 8px 18px;
+  }
+  body > main > #recruitment-process {
+    height: 2720px;
+  }
+  body > main > #recruitment-process > #recruitment-process-heading > p {
+    font-size: 20px;
+  }
+  body > main > #recruitment-process > #recruitment-process-steps {
+    height: 2620px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes {
+    height: 1040px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box {
+    height: 1040px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > #recruitment-process-steps-box3{
+      height: 500px;
+    }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > #recruitment-process-steps-box3
+    > #recruitment-process-steps-box3-content {
+    height: 500px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card {
+    height: 240px;
+    width: 230px;
+  }
+}

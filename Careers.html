@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="careers.css" />
+    <title>Careers - Renuza Tech</title>
+  </head>
+  <body>
+    <nav id="navbar"></nav>
+    <main>
+      <div id="scroll-to-top">
+      </div>
+      <div id="searching-job-field">
+        <div id="searching-job-field-input">
+          <span class="search-icon" onclick="search_designation()"
+            ><img src="Images/search_image.png" alt=""
+          /></span>
+          <input
+            type="text"
+            id="job-search-input-field"
+            placeholder="Search for job"
+          />
+        </div>
+        <div id="searching-job-field-locations">
+          <div id="all-locations-link">
+            <a role="button" tabindex="0" onclick="" id="all-locations">All Locations</a>
+          </div>
+          <div id="drop-down-all-locations-links">
+            <a role="button" tabindex="0" onclick="get_location_Data('Bangalore')">Bangalore</a>
+            <a role="button" tabindex="0" onclick="get_location_Data('Hyderabad')">Hyderabad</a>
+            <a role="button" tabindex="0" onclick="get_location_Data('Chennai')">Chennai</a>
+            <a role="button" tabindex="0" onclick="get_location_Data('Vizag')">Vizag</a>
+          </div>
+        </div>
+      </div>
+      <div id="jobs-list">
+        <div id="jobs-list-box"></div>
+      </div>
+    </main>
+    <footer id="footer"></footer>
+    <script src="careers.js"></script>
+  </body>
+</html>

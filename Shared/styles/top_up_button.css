@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  #scroll-to-top>#top-up-button {
+    z-index: 2;
+    position: fixed;
+    top: 480px;
+    left: 95%;
+    height: 40px;
+    width: 40px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    /* border: 1px solid black; */
+  }
+  #scroll-to-top>#top-up-button:hover {
+    /* box-shadow: 0px 0px 50px white; */
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+  #scroll-to-top>#top-up-button>img{
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+  }
+  @media screen and (max-width: 1235px){ 
+    #scroll-to-top>#top-up-button {
+      top: 460px;
+      left: 95%;
+      height: 37px;
+      width: 37px;
+    }
+    #scroll-to-top>#top-up-button>img{
+      height: 38px;
+      width: 38px;
+      border-radius: 50%;
+    }
+  }
+  @media screen and (max-width: 950px){
+    #scroll-to-top>#top-up-button {
+      top: 460px;
+      left: 93%;
+      height: 35px;
+      width: 35px;
+    }
+    #scroll-to-top>#top-up-button>img{
+      height: 36px;
+      width: 36px;
+      border-radius: 50%;
+    }
+  }
+
+  @media screen and (max-width: 830px){
+    #scroll-to-top>#top-up-button {
+      top: 460px;
+      left: 92%;
+      height: 34px;
+      width: 34px;
+    }
+    #scroll-to-top>#top-up-button>img{
+      height: 35px;
+      width: 35px;
+    }
+  }
+  
+  @media screen and (max-width: 580px){
+    #scroll-to-top>#top-up-button {
+      top: 450px;
+      left: 91%;
+      height: 32px;
+      width: 32px;
+    }
+    #scroll-to-top>#top-up-button>img{
+      height: 33px;
+      width: 33px;
+    }
+  }
+
+  @media screen and (max-width: 470px){
+    #scroll-to-top>#top-up-button {
+      top: 450px;
+      left: 90%;
+      height: 30px;
+      width: 30px;
+    }
+    #scroll-to-top>#top-up-button>img{
+      height: 31px;
+      width: 31px;
+    }
+  }
+
+  @media screen and (max-width: 360px){
+    #scroll-to-top>#top-up-button {
+      top: 450px;
+      left: 88%;
+      height: 28px;
+      width: 28px;
+    }
+    #scroll-to-top>#top-up-button>img{
+      height: 29px;
+      width: 29px;
+    }
+  }

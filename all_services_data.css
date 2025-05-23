@@ -1,0 +1,364 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body > main{
+  position: relative;
+  top: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(250, 241, 255);
+}
+body > main > #full-service-info {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 30px;
+  /* border: 1px solid black; */
+}
+body > main > #full-service-info > #service-image {
+  height: 200px;
+  width: 200px;
+}
+body > main > #full-service-info > #full-service-info-desscription-section {
+  height: auto;
+  width: 100%;
+  /* border: 1px solid black; */
+  text-align: justify;
+  text-align-last: left;
+  padding: 20px 30px;
+}
+body
+  > main
+  > #full-service-info
+  > #full-service-info-desscription-section
+  > #full-service-info-heading
+  > #service-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #034a6e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+  > main
+  > #full-service-info
+  > #full-service-info-desscription-section
+  > #service-decription {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(79, 79, 79);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 15px;
+}
+body
+  > main
+  > #full-service-info
+  > #full-service-info-desscription-section
+  > #key-points {
+  color: rgb(88, 88, 88);
+  margin-top: 20px;
+}
+body
+  > main
+  > #full-service-info
+  > #full-service-info-desscription-section
+  > #key-points
+  > #key_point {
+  padding-left: 20px;
+  /* margin-bottom: 50px; */
+}
+body
+  > main
+  > #full-service-info
+  > #full-service-info-desscription-section
+  > #key-points
+  > #key_point
+  > #key_point_text {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+body
+  > main
+  > #full-service-info
+  > #full-service-info-desscription-section
+  > #key-points
+  > #key_point
+  > #key_point_text
+  > #sub_key_point_text {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1235px) {
+  body > main > #full-service-info > #service-image {
+    height: 180px;
+    width: 180px;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #full-service-info-heading
+    > #service-title {
+    font-size: 2rem;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #service-decription {
+    font-size: 17.5px;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #key-points
+    > #key_point
+    > #key_point_text {
+    font-size: 17.5px;
+    margin-bottom: 20px;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #key-points
+    > #key_point
+    > #key_point_text
+    > #sub_key_point_text {
+    font-size: 16.5px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #full-service-info-heading
+    > #service-title {
+    font-size: 1.8rem;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #service-decription {
+    font-size: 17px;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #key-points
+    > #key_point
+    > #key_point_text {
+    font-size: 17px;
+    margin-bottom: 17px;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #key-points
+    > #key_point
+    > #key_point_text
+    > #sub_key_point_text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  body > main {
+    position: relative;
+    top: 215px;
+  }
+  body > main > #full-service-info > #service-image {
+    height: 160px;
+    width: 160px;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #full-service-info-heading
+    > #service-title {
+    font-size: 1.6rem;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #service-decription {
+    font-size: 16.5px;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #key-points
+    > #key_point
+    > #key_point_text {
+    font-size: 16.5px;
+    margin-bottom: 17px;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #key-points
+    > #key_point
+    > #key_point_text
+    > #sub_key_point_text {
+    font-size: 16px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #full-service-info-heading
+    > #service-title {
+    font-size: 1.4rem;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #service-decription {
+    font-size: 16px;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #key-points
+    > #key_point
+    > #key_point_text {
+    font-size: 16px;
+    margin-bottom: 17px;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #key-points
+    > #key_point
+    > #key_point_text
+    > #sub_key_point_text {
+    font-size: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  body > main > #full-service-info > #service-image {
+    height: 150px;
+    width: 160px;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #full-service-info-heading
+    > #service-title {
+    font-size: 1.3rem;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #service-decription {
+    font-size: 15px;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #key-points
+    > #key_point
+    > #key_point_text {
+    font-size: 15px;
+    margin-bottom: 17px;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #key-points
+    > #key_point
+    > #key_point_text
+    > #sub_key_point_text {
+    font-size: 14px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  body > main {
+    position: relative;
+    top: 185px;
+  }
+  body > main > #full-service-info {
+    margin: 30px 15px;
+  }
+  body > main > #full-service-info > #full-service-info-desscription-section {
+    padding: 20px 10px;
+  }
+  body > main > #full-service-info > #service-image {
+    height: 140px;
+    width: 150px;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #full-service-info-heading
+    > #service-title {
+    font-size: 1.2rem;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #service-decription {
+    font-size: 14.5px;
+    margin-top: 5px;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #key-points
+    > #key_point
+    > #key_point_text {
+    font-size: 14.5px;
+    margin-bottom: 12px;
+  }
+  body
+    > main
+    > #full-service-info
+    > #full-service-info-desscription-section
+    > #key-points
+    > #key_point
+    > #key_point_text
+    > #sub_key_point_text {
+    font-size: 14px;
+    padding-left: 8px;
+    margin-top: 3px;
+  }
+}

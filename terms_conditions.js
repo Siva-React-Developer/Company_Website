@@ -29,7 +29,7 @@ const type=params.get("type")
 // console.log(key_name);
 
 async function loadData(card_id) {
-  const response = await fetch("./Database.json");
+  const response = await fetch("./DataBase.json");
   data = await response.json(); // Assign it here
   //   console.log(data);
   terms_conditions(data.All_Data[card_id]);

@@ -25,7 +25,7 @@ loadComponent("our-clients", "Shared/Our_Clients.html");
 let data; // Declare outside
 
 async function loadData() {
-  const response = await fetch("./Database.json");
+  const response = await fetch("./DataBase.json");
   data = await response.json(); // Assign it here
   // console.log(data);
   our_interview_process(data.All_Data.interview_process_images);

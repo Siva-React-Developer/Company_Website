@@ -330,130 +330,130 @@
     "our_clients": [
       {
         "client_name": "Client 1",
-        "client_image": "./Images/Clients/act_now.webp"
+        "client_image": "Images/Clients/act_now.webp"
       },
       {
         "client_name": "Client 2",
-        "client_image": "./Images/Clients/ascendian.webp"
+        "client_image": "Images/Clients/ascendian.webp"
       },
       {
         "client_name": "Client 3",
-        "client_image": "./Images/Clients/atmecs_global.webp"
+        "client_image": "Images/Clients/atmecs_global.webp"
       },
       {
         "client_name": "Client 4",
-        "client_image": "./Images/Clients/axiad.webp"
+        "client_image": "Images/Clients/axiad.webp"
       },
       {
         "client_name": "Client 5",
-        "client_image": "./Images/Clients/brillio.webp"
+        "client_image": "Images/Clients/brillio.webp"
       },
       {
         "client_name": "Client 6",
-        "client_image": "./Images/Clients/infosys.webp"
+        "client_image": "Images/Clients/infosys.webp"
       },
       {
         "client_name": "Client 7",
-        "client_image": "./Images/Clients/jobvite.webp"
+        "client_image": "Images/Clients/jobvite.webp"
       },
       {
         "client_name": "Client 8",
-        "client_image": "./Images/Clients/Quest.webp"
+        "client_image": "Images/Clients/Quest.webp"
       },
       {
         "client_name": "Client 9",
-        "client_image": "./Images/Clients/safran.webp"
+        "client_image": "Images/Clients/safran.webp"
       },
       {
         "client_name": "Client 10",
-        "client_image": "./Images/Clients/secure_machines.webp"
+        "client_image": "Images/Clients/secure_machines.webp"
       },
       {
         "client_name": "Client 11",
-        "client_image": "./Images/Clients/simplify_ex.webp"
+        "client_image": "Images/Clients/simplify_ex.webp"
       },
       {
         "client_name": "Client 12",
-        "client_image": "./Images/Clients/story _mirror.webp"
+        "client_image": "Images/Clients/story _mirror.webp"
       },
       {
         "client_name": "Client 13",
-        "client_image": "./Images/Clients/svatech.webp"
+        "client_image": "Images/Clients/svatech.webp"
       },
       {
         "client_name": "Client 14",
-        "client_image": "./Images/Clients/tagit.webp"
+        "client_image": "Images/Clients/tagit.webp"
       },
       {
         "client_name": "Client 15",
-        "client_image": "./Images/Clients/vst_tillers.webp"
+        "client_image": "Images/Clients/vst_tillers.webp"
       },
       {
         "client_name": "Client 16",
-        "client_image": "./Images/Clients/william_penn.webp"
+        "client_image": "Images/Clients/william_penn.webp"
       },
       {
         "client_name": "Client 17",
-        "client_image": "./Images/Clients/xseed.webp"
+        "client_image": "Images/Clients/xseed.webp"
       }
     ],
     "interview_process_images": [
       {
-        "image": "./Images/interview_process_images/job_posting.png",
+        "image": "Images/interview_process_images/job_posting.png",
         "heading": "Job posting",
         "info": "Renuza advertises job openings through various channels like online job boards, social media, and its website.",
         "step_no": "Step-1"
       },
       {
-        "image": "./Images/interview_process_images/application_review.png",
+        "image": "Images/interview_process_images/application_review.png",
         "heading": "Application riview",
         "info": "HR team reviews received applications, ensuring they meet basic qualifications.",
         "step_no": "Step-2"
       },
       {
-        "image": "./Images/interview_process_images/screenig_test.png",
+        "image": "Images/interview_process_images/initial_screening.png",
         "heading": "Intial screening",
         "info": "Qualified candidates undergo an initial screening, which may involve a phone call or brief interview to assess their interest and basic fit for the position.",
         "step_no": "Step-3"
       },
       {
-        "image": "./Images/interview_process_images/interview.png",
+        "image": "Images/interview_process_images/interviews.png",
         "heading": "Interviews",
         "info": "Shortlisted candidates are invited for in-person or virtual interviews with HR and relevant department heads. These interviews assess skills, experience, and cultural fit.",
         "step_no": "Step-4"
       },
       {
-        "image": "./Images/interview_process_images/onboarding.png",
+        "image": "Images/interview_process_images/on_boarding.png",
         "heading": "On boarding",
         "info": "Once the offer is accepted, the on boarding process begins, including paperwork, orientation, and training.",
         "step_no": "Step-5"
       },
       {
-        "image": "./Images/interview_process_images/reference_check.png",
+        "image": "Images/interview_process_images/reference_check.png",
         "heading": "Reference check",
         "info": "HR conducts reference checks to verify candidate qualifications and previous work experiences.",
         "step_no": "Step-6"
       },
       {
-        "image": "./Images/interview_process_images/assessment.png",
+        "image": "Images/interview_process_images/assessment.png",
         "heading": "Assessment",
         "info": "Depending on the role, candidates may undergo skills assessments or tests to evaluate their capabilities.",
         "step_no": "Step-7"
       },
       {
-        "image": "./Images/interview_process_images/choose_a _service.png",
+        "image": "Images/interview_process_images/choose_a_service.png",
         "heading": "Choose a service",
         "info": "Great service providers listen first, listen and well",
         "step_no": "Step-8"
       },
       {
-        "image": "./Images/interview_process_images/prohibation_period.png",
+        "image": "Images/interview_process_images/prohibation_period.png",
         "heading": "Prohibation Period",
         "info": "Some employees may undergo a probation period to evaluate their performance before becoming permanent staff.",
         "step_no": "Step-9"
       },
       {
-        "image": "./Images/interview_process_images/integration.png",
+        "image": "Images/interview_process_images/integration.png",
         "heading": "Integration",
         "info": "HR ensures new hires are integrated into their roles and the company culture smoothly, providing necessary support and resources.",
         "step_no": "Step-10"

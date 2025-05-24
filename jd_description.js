@@ -39,7 +39,7 @@ async function fetchJobDetails(id) {
   // console.log(id);
   
   try {
-    const response = await fetch('DataBase.json'); // Adjust the path to your JSON file
+    const response = await fetch('./DataBase.json'); // Adjust the path to your JSON file
     const jobs = await response.json();
     const selectedJob =jobs.All_Data.job_recruitments.filter(job => job.id == id);
     // console.log(jobs);

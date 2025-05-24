@@ -24,7 +24,7 @@ loadComponent("scroll-to-top", "Shared/Top_Up_Button.html");
 let data; // Declare outside
 
 async function loadData() {
-  const response = await fetch("Database.json");
+  const response = await fetch("./Database.json");
   data = await response.json(); // Assign it here
   // console.log(data);
   setUpCards(data.All_Data.cards_data,"our-services-cards-box1",0, 1);

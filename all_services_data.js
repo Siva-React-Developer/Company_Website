@@ -32,7 +32,7 @@ if (page_title) {
     }
 
 async function loadData(card_id) {
-  const response = await fetch("Database.json");
+  const response = await fetch("./Database.json");
   data = await response.json(); // Assign it here
   // console.log(data);
   All_Services_Info(data.All_Data.cards_data[card_id]);

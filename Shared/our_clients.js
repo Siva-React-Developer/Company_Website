@@ -1,7 +1,7 @@
  // Declare outside
 
 async function loadData() {
-  const response = await fetch("DataBase.json");
+  const response = await fetch("./DataBase.json");
   data = await response.json(); // Assign it here
 //   console.log(data.All_Data.our_clients);
   our_clients(data.All_Data.our_clients);

@@ -95,7 +95,7 @@ document.addEventListener("click", (event) => {
 });
 
 async function loadData() {
-  const response = await fetch("Database.json");
+  const response = await fetch("./Database.json");
   data = await response.json(); // Assign it here
   // console.log(data);
   our_job_posts(data.All_Data.job_recruitments, "");
@@ -134,7 +134,7 @@ function our_job_posts(jobs, updated_info) {
   }
 }
 async function updated_loadData() {
-  const response = await fetch("Database.json");
+  const response = await fetch("./Database.json");
   data = await response.json(); // Assign it here
   // console.log(data.All_Data.job_recruitments);
   return Promise.resolve(data.All_Data.job_recruitments);

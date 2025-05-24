@@ -27,7 +27,7 @@ loadComponent("our-clients", "Shared/Our_Clients.html");
 let data; // Declare outside
 
 async function loadData() {
-  const response = await fetch("Database.json");
+  const response = await fetch("./Database.json");
   data = await response.json(); // Assign it here
   // console.log(data);
   setUpScrollingImages(data.All_Data.scrolling_images);

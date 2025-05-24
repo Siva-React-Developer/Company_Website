@@ -3,6 +3,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body{
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 #our-clients > #clients {
   position: relative;
   top: 120px;

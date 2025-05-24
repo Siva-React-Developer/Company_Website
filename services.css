@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 body > main > #services {
   /* filter: brightness(30%); */
   object-fit: cover;

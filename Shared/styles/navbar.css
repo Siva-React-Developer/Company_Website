@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 #navbar > nav {
   z-index: 4;
@@ -83,7 +83,7 @@ body{
   text-decoration: none;
   color: white;
   font-size: 19px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,7 +104,7 @@ body{
   text-decoration: none;
   color: white;
   font-size: 19px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,7 +158,7 @@ body{
   text-decoration: none;
   color: black;
   font-size: 17px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
 #navbar > #navbar-2 > #empty-part-navbar > #drop-down-services-links > a:hover {
@@ -178,7 +178,7 @@ body{
   text-decoration: none;
   color: black;
   font-size: 17px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 #navbar > #navbar-2 > #middle-part-navbar > #hamburger{
@@ -189,11 +189,11 @@ body{
 #navbar > #navbar-2 > #middle-part-navbar > .nav-link.active {
   color: #eb7416;
 }
-/* #navbar > #navbar-2 > #middle-part-navbar > a:hover {
-  transform: scale(1.05);
+#navbar > #navbar-2 > #middle-part-navbar > a:hover {
+  transform: scale(1.02);
   transition: all 0.2s ease;
   color: #eb7416;
-} */
+}
 #navbar > #navbar-2 > #middle-part-navbar > #services-link {
   padding: 17px 5px;
 }
@@ -212,7 +212,7 @@ body{
   padding: 5px 30px 8px 30px;
   border-radius: 8px;
   font-size: 17px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 #navbar > #navbar-2 > #right-part-navbar > a > img {
   height: 25px;
@@ -235,7 +235,7 @@ body{
   text-decoration: none;
   color: black;
   font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   width: 100%;
   padding: 12px 0px 12px 15px;

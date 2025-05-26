@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body > main > #heading-image-for-renuza {
   position: relative;
@@ -70,7 +70,7 @@ body
   font-size: 30px;
   color: white;
   font-weight: bold;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body
   > main
@@ -83,7 +83,8 @@ body
   font-size: 18px;
   color: white;
   margin: 20px 0px 0px 0px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight:lighter;
 }
 body
   > main
@@ -106,7 +107,7 @@ body
   > #heading-image-for-renuza-content-text-buttons
   > a {
   text-decoration: none;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0px 10px;
   font-size: 15px;
   border-radius: 8px;
@@ -122,7 +123,7 @@ body
   background-color: white;
   color: #034a6e;
   border: none;
-  padding: 8px 25px 10px 25px;
+  padding: 10px 25px;
 }
 body
   > main
@@ -145,7 +146,7 @@ body
   background-color: #eb7416;
   color: white;
   border: none;
-  padding: 8px 29px 10px 29px;
+  padding: 10px 29px;
   cursor: pointer;
 }
 body
@@ -179,7 +180,7 @@ body > main > #about-content > #about-content-heading > p {
   text-align: center;
   color: #034a6e;
   font-weight: bold;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body > main > #about-content > #about-content-box {
   height: 410px;
@@ -202,16 +203,16 @@ body > main > #about-content > #about-content-box > #about-content-info > p {
   text-align-last: left;
   font-size: 18px;
   color: #034a6e;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body > main > #about-content > #about-content-box > #about-content-info > a {
   text-decoration: none;
   color: white;
   background-color: #eb7416;
-  padding: 5px 30px 8px 30px;
+  padding: 10px 30px;
   border-radius: 8px;
   font-size: 18px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body
   > main
@@ -248,7 +249,7 @@ body > main > #featured-services > #featured-services-heading > p {
   text-align: center;
   color: #034a6e;
   font-weight: bold;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body > main > #featured-services > #featured-services-cards {
   height: 1010px;
@@ -301,7 +302,7 @@ body
   > #cards
   > #title {
   font-size: 23px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color: #034a6e;
 }
@@ -313,7 +314,7 @@ body
   > #cards
   > #description {
   font-size: 17px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: gray;
 }
 body
@@ -324,6 +325,7 @@ body
   > #cards
   > #know-more {
   font-size: 17px;
+  font-family: 'Roboto', sans-serif;
   color: white;
   background-color: #eb7416;
   border: none;
@@ -351,7 +353,7 @@ body > main > #expert-content > #expert-content-title > p {
   text-align: center;
   color: rgb(61, 61, 61);
   font-weight: bold;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body > main > #expert-content > #expert-content-cards {
   height: 660px;
@@ -401,7 +403,7 @@ body
   font-size: 20px;
   font-weight: bold;
   color: rgb(61, 61, 61);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body
   > main
@@ -422,7 +424,7 @@ body
   > .expert-content-cards-info {
   font-size: 17px;
   color: rgb(61, 61, 61);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: justify;
   text-align-last: left;
 }
@@ -456,7 +458,7 @@ body
   border-radius: 20px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body
   > main
@@ -491,7 +493,7 @@ body
   border-radius: 20px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body > main > #choosing-renuza {
   position: relative;
@@ -515,7 +517,7 @@ body > main > #choosing-renuza > #choosing-renuza-heading-box > p {
   /* text-align: center; */
   color: #034a6e;
   font-weight: bold;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body > main > #choosing-renuza > #choosing-renuza-cardrow1 {
   height: 870px;
@@ -560,7 +562,7 @@ body
   font-size: 22px;
   font-weight: bold;
   color: #034a6e;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body
   > main
@@ -570,7 +572,7 @@ body
   > .choosing-renuza-cards-info {
   font-size: 17px;
   color: rgb(125, 125, 125);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 body > main > #choosing-renuza > #choosing-renuza-cardrow2 {
@@ -618,7 +620,7 @@ body
   font-size: 22px;
   font-weight: bold;
   color: #034a6e;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body
   > main
@@ -628,7 +630,7 @@ body
   > .choosing-renuza-cards-info {
   font-size: 17px;
   color: rgb(125, 125, 125);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 body > main > #footer-navbar {
@@ -651,7 +653,7 @@ body > main > #footer-navbar > p {
   font-size: 25px;
   color: white;
   font-weight: bold;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0px 10px;
 }
 body > main > #footer-navbar > a {
@@ -660,8 +662,8 @@ body > main > #footer-navbar > a {
   background-color: #eb7416;
   font-size: 18px;
   border-radius: 8px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 8px 25px 10px 25px;
+  font-family: 'Roboto', sans-serif;
+  padding:10px 25px;
 }
 body > main > #form {
   position: relative;
@@ -676,13 +678,12 @@ body > main > #form {
 body > main > #form > p {
   display: none;
   font-size: 25px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
 body > main > #form > img {
-  height: 580px;
-  width: 580px;
-  /* margin: 0px 10px; */
+  height: 500px;
+  width: 500px;
 }
 body > main > #form > form {
   height: 380px;
@@ -705,42 +706,41 @@ body > main > #form > form > input {
   margin: 5px 0px;
   padding-left: 10px;
   font-size: 17px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 body > main > #form > form > textarea{
   height: 80px;
   width: 470px;
   font-size:17px ;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 10px 0px 0px 10px;
   color:rgb(99, 99, 99) ;
   outline: none;
   margin-top: 10px;
 }
 body > main > #form > form > #checkbox-info {
-  height: 30px;
   width: 470px;
   display: flex;
   flex-direction: row;
   /* border: 1px solid black; */
   color: rgb(99, 99, 99);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 10px 0px;
 }
 body > main > #form > form > #checkbox-info > input {
   height: 15px;
   width: 15px;
-  margin: 5px 5px 0px 0px;
+  margin: 1px 5px 0px 0px;
 }
 body > main > #form > form > button {
-  height: 40px;
+  height: 43px;
   width: 470px;
   border-radius: 5px;
   border: none;
   background-color: #eb7416;
   color: white;
   font-size: 18px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
 }
 

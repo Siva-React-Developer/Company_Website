@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 #footer > footer {
   position: relative;
@@ -25,7 +25,7 @@ body{
 #footer > footer > #location-and-services > .location-and-services-cards {
   height: 320px;
   width: 270px;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   color: white;
   margin-top: 30px;
   display: flex;
@@ -36,15 +36,15 @@ body{
   > footer
   > #location-and-services
   > #location-and-services-renuza-technologies {
-  padding: 0px 5px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px 10px;
+  font-family: 'Roboto', sans-serif;
 }
 #footer
   > footer
   > #location-and-services
   > #location-and-services-renuza-technologies
   > p {
-  font-size: 17px;
+  font-size: 18px;
   margin-top: 20px;
   text-align: justify;
   text-align-last: left;
@@ -55,7 +55,7 @@ body{
   > .location-and-services-cards
   > ul
   > li {
-  margin: 7px 0px;
+  margin: 7px 0px 7px 20px;
 }
 #footer
   > footer
@@ -67,17 +67,17 @@ body{
   text-decoration: none;
   color: white;
   font-size: 17px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 #footer > footer > #location-and-services > .middle-cards {
   padding-left: 70px;
 }
 #footer > footer > #location-and-services > .middle-cards > ul {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 #footer > footer > #location-and-services > .middle-cards > p {
   font-size: 22px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 #footer
@@ -86,7 +86,7 @@ body{
   > #location-and-services-location
   > p {
   font-size: 22px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   padding-left: 35px;
 }
@@ -98,7 +98,7 @@ body{
   text-decoration: none;
   color: white;
   font-size: 18px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: row;
   margin: 10px 0px;
@@ -111,7 +111,7 @@ body{
   > img {
   height: 30px;
   width: 30px;
-  margin: 0px 5px 0px 0px;
+  margin: -6px 5px 0px 0px;
 }
 #footer > footer > hr {
   height: 0px;
@@ -140,7 +140,7 @@ body{
   text-decoration: none;
   color: white;
   font-size: 17px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0px 30px;
 }
 #footer > footer > #term-and-conditions > #term-and-conditions-copyrights {
@@ -158,7 +158,7 @@ body{
   text-decoration: none;
   color: white;
   font-size: 15px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width: 1235px) {

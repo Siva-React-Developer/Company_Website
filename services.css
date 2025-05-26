@@ -576,7 +576,7 @@ body
     > #cards
     > #know-more {
     font-size: 15px;
-    padding: 6px 22px 8px 22px;
+    padding:8px 22px;
   }
   body > main > #our-services > #our-services-cards > #our-services-cards-box2 {
     height: 500px;
@@ -629,7 +629,7 @@ body
     > #cards
     > #know-more {
     font-size: 15px;
-    padding: 6px 22px 8px 22px;
+    padding:8px 22px;
   }
   body > main > #our-development {
     height: 640px;
@@ -695,7 +695,7 @@ body
     > #cards
     > #know-more {
     font-size: 15px;
-    padding: 6px 22px 8px 22px;
+    padding:8px 22px;
   }
 }
 
@@ -1100,7 +1100,7 @@ body
   > #our-services-cards-box1
   > #cards
   > #description {
-  font-size: 14px;
+  font-size: 15px;
 }
 body
   > main
@@ -1110,7 +1110,7 @@ body
   > #cards
   > #know-more {
   font-size: 14px;
-  padding: 5px 21px 7px 21px;
+  padding:7px 21px;
 }
   body > main > #our-services > #our-services-cards > #our-services-cards-box2 {
     height: 1050px;
@@ -1150,7 +1150,7 @@ body
   > #our-services-cards-box2
   > #cards
   > #description {
-  font-size: 14px;
+  font-size: 15px;
 }
 body
   > main
@@ -1160,7 +1160,7 @@ body
   > #cards
   > #know-more {
   font-size: 14px;
-  padding: 5px 21px 7px 21px;
+  padding:7px 21px;
 }
   body > main > #our-development {
     height: 1120px;
@@ -1213,7 +1213,7 @@ body
     > #our-development-cards-box
     > #cards 
     > #description {
-    font-size: 14px;
+    font-size: 15px;
     }
     body
     > main
@@ -1223,7 +1223,7 @@ body
     > #cards 
     > #know-more {
     font-size: 14px;
-    padding: 5px 21px 7px 21px;
+    padding: 7px 21px;
     }
   body > main > #our-development {
     position: relative;
@@ -1231,7 +1231,7 @@ body
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
   body
     > main
     > #our-services

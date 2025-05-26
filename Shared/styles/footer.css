@@ -25,7 +25,7 @@ body{
 #footer > footer > #location-and-services > .location-and-services-cards {
   height: 320px;
   width: 270px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   color: white;
   margin-top: 30px;
   display: flex;
@@ -241,10 +241,10 @@ body{
   #footer > footer {
     position: relative;
     top: 215px;
-    height: 786px;
+    height: 726px;
   }
   #footer > footer > #location-and-services {
-    height: 665px;
+    height: 605px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -252,7 +252,7 @@ body{
     align-items: flex-end;
   }
   #footer > footer > #location-and-services > .location-and-services-cards {
-    height: 320px;
+    height: 260px;
     width: 280px;
     /* border: 1px solid black; */
     margin-top: 0px;
@@ -264,7 +264,7 @@ body{
 
 @media screen and (max-width: 580px) {
   #footer > footer > #location-and-services > .location-and-services-cards {
-    height: 320px;
+    height: 260px;
     width: 200px;
   }
   #footer > footer > #location-and-services > .middle-cards {

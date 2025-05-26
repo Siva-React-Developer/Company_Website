@@ -187,10 +187,14 @@ body > main > #jd-box >#footer-block {
   text-align: center;
   padding: 20px 0px 0px 0px;
   /* border: 1px solid black; */
+}
+body > main > #jd-box >#footer-block >p{
   font-size: 18px;
+  font-weight: bold;
 }
 body > main > #jd-box >#footer-block>#company-address{
   font-size: 16px;
+  font-weight: 500;
 }
 body > main > #jd-box >#footer-block>#contacts{
   width: 100%;
@@ -198,6 +202,9 @@ body > main > #jd-box >#footer-block>#contacts{
   align-items: center;
   justify-content: space-between;
   padding: 20px 0px 0px 0px;
+}
+body > main > #jd-box >#footer-block>#contacts>p{
+  font-size: 18px;
   color: #034a6e;
   font-weight: bold;
 }
@@ -243,9 +250,24 @@ body > main > #jd-box >#footer-block>#contacts{
   body > main > #jd-box > #jd-full-info-block>.all-lists-box>.all-lists{
       font-size: 16.5px;
   }
+  body > main > #jd-box >#footer-block >p{
+  font-size: 17px;
+}
+body > main > #jd-box >#footer-block>#company-address{
+  font-size: 15px;
+}
+body > main > #jd-box >#footer-block>#contacts>p{
+  font-size: 17px;
+}
 }
 
 @media screen and (max-width:950px) {
+  body > main > #jd-box {
+    padding: 70px 70px 20px 70px;
+  }
+  body > main > #jd-box > #jd-applying-block > #company-logo-block>#logo{
+  height: 55px;
+}
   body > main > #jd-box > #jd-applying-block > #role-block > #role {
     font-size: 25px;
   }
@@ -282,6 +304,9 @@ body > main > #jd-box >#footer-block>#contacts{
   body > main {
   position: relative;
   top: 215px;
+  }
+  body > main > #jd-box {
+    padding: 70px 60px 20px 60px;
   }
   body > main > #jd-box > #jd-applying-block > #role-block > #role {
     font-size: 22px;
@@ -323,6 +348,9 @@ body > main > #jd-box >#footer-block>#contacts{
 }
 
 @media screen and (max-width: 700px) {
+  body > main > #jd-box {
+    padding: 70px 50px 20px 50px;
+  }
   body > main > #jd-box > #jd-applying-block > #role-block{
     padding: 0px 0px 8px 0px;
   }
@@ -375,6 +403,16 @@ body > main > #jd-box >#footer-block>#contacts{
 }
 
 @media screen and (max-width: 580px) {
+  body > main > #jd-box {
+    padding: 50px 40px 10px 40px;
+  }
+  body > main > #jd-box > #jd-applying-block > #company-logo-block{
+    padding: 0px 0px 10px 0px;
+  }
+  body > main > #jd-box > #jd-applying-block > #company-logo-block>#logo{
+  height: 45px;
+
+}
   body > main > #jd-box > #jd-applying-block > .all-blocks > img {
     height: 14px;
     width: 14px;
@@ -385,6 +423,24 @@ body > main > #jd-box >#footer-block>#contacts{
   width: 25px;
   margin: 0px 1px 0px 1px;
 }
+body > main > #jd-box > #hr-line {
+  margin: 30px 0px 0px 0px;
+}
+body > main > #jd-box >#footer-block {
+  padding: 10px 0px;
+}
+body > main > #jd-box >#footer-block >p{
+  font-size: 15px;
+}
+body > main > #jd-box >#footer-block>#company-address{
+  font-size: 14px;
+}
+body > main > #jd-box >#footer-block>#contacts{
+  padding: 10px 0px;
+}
+body > main > #jd-box >#footer-block>#contacts>p{
+  font-size: 15px;
+}
 }
 
 @media screen and (max-width: 470px) {
@@ -393,8 +449,14 @@ body > main > #jd-box >#footer-block>#contacts{
   top: 185px;
   }
   body > main > #jd-box {
-    padding: 20px 15px;
+    padding: 40px 30px 10px 30px;
     margin: 0px 20px;
+  }
+  body > main > #jd-box > #jd-applying-block > #company-logo-block{
+    padding: 0px 0px 10px 0px;
+  }
+  body > main > #jd-box > #jd-applying-block > #company-logo-block>#logo{
+    height: 40px;
   }
   body > main > #jd-box > #jd-applying-block > #role-block{
     padding: 0px 0px 5px 0px;
@@ -448,11 +510,108 @@ body > main > #jd-box >#footer-block>#contacts{
   body > main > #jd-box > #jd-full-info-block>.all-lists-box>.all-lists{
     margin: 3px 0px 0px 20px;
 }
+body > main > #jd-box > #hr-line {
+  margin: 20px 0px 0px 0px;
+}
+body > main > #jd-box >#footer-block {
+  padding: 5px 0px;
+  display: flex;
+  gap: 5px;
+}
+body > main > #jd-box >#footer-block >p{
+  font-size: 14px;
+}
+body > main > #jd-box >#footer-block>#company-address{
+  font-size: 13px;
+}
+body > main > #jd-box >#footer-block>#contacts{
+  padding: 5px 0px;
+}
+body > main > #jd-box >#footer-block>#contacts>p{
+  font-size: 14px;
+}
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
   body > main > #jd-box {
-    padding: 10px 10px;
-    margin: 0px 15px;
+    padding: 30px 20px 10px 20px;
+    margin: 0px 10px;
   }
+  body > main > #jd-box > #jd-applying-block > #company-logo-block>#logo{
+    height: 30px;
+  }
+  body > main > #jd-box > #jd-applying-block > #role-block > #role {
+    font-size: 14px;
+  }
+  body > main > #jd-box > #jd-applying-block > .all-blocks {
+    padding: 2px 0px;
+  }
+  body > main > #jd-box > #jd-applying-block > .all-blocks > img {
+    height: 11px;
+    width: 11px;
+    margin: 0px 8px 0px 2px;
+  }
+  body > main > #jd-box > #jd-applying-block > #location-block > img {
+  height: 21px;
+  width: 21px;
+  margin: 0px 0px 0px -2px;
+}
+  body > main > #jd-box > #jd-applying-block > .all-blocks > p {
+    font-size: 11px;
+  }
+  body > main > #jd-box > #jd-applying-block > #apply-button-block {
+    padding: 5px 0px 10px 0px;
+    p {
+      font-size: 11px;
+    }
+  }
+  body > main > #jd-box > #jd-applying-block > #apply-button-block > div > p {
+    font-size: 11px;
+  }
+  body > main > #jd-box > #jd-applying-block > #apply-button-block > div > a {
+    font-size: 11px;
+  }
+  body > main > #jd-box > #jd-full-info-block>#about-job-heading-block>#heading{
+      font-size: 13px;
+      margin-top: 8px;
+  }
+  body > main > #jd-box > #jd-full-info-block>#about-job-heading-block>#jd{
+      font-size: 11px;
+      margin-top: 5px;
+  }
+  body > main > #jd-box > #jd-full-info-block>.all-lists-box>p{
+      font-size: 13px;
+      margin-top: 5px;
+  }
+  body > main > #jd-box > #jd-full-info-block>.all-lists-box>.all-lists{
+      font-size: 11px;
+  }
+  body > main > #jd-box > #jd-full-info-block>.all-lists-box>.all-lists{
+    margin: 3px 0px 0px 20px;
+}
+  body > main > #jd-box > #hr-line {
+  margin: 20px 0px 0px 0px;
+}
+body > main > #jd-box >#footer-block {
+  padding: 5px 0px;
+  display: flex;
+  gap: 3px;
+}
+body > main > #jd-box >#footer-block >p{
+  font-size: 12px;
+}
+body > main > #jd-box >#footer-block>#company-address{
+  font-size: 11px;
+}
+body > main > #jd-box >#footer-block>#contacts{
+  padding: 3px 0px;
+}
+body > main > #jd-box >#footer-block>#contacts{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+body > main > #jd-box >#footer-block>#contacts>p{
+  font-size: 11px;
+}
 }

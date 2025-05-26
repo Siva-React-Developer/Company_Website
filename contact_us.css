@@ -444,15 +444,6 @@ body > main > #office-location > iframe {
     > #contact-IT-staff
     > #contact-IT-staff-form-box
     > form
-    > #checkbox-info
-    > input {
-    margin: 4px 5px 0px 0px;
-  }
-  body
-    > main
-    > #contact-IT-staff
-    > #contact-IT-staff-form-box
-    > form
     > #submit-button {
     height: 39px;
     width: 360px;
@@ -661,6 +652,7 @@ body > main > #office-location > iframe {
   body > main > #contact-IT-staff > #contact-IT-staff-form-box > form > input {
     height: 35px;
     width: 280px;
+    margin: 3px 0px;
   }
   body
     > main
@@ -670,6 +662,7 @@ body > main > #office-location > iframe {
     > textarea {
     height: 72px;
     width: 280px;
+    margin-top: 5px;
   }
   body
     > main
@@ -1132,7 +1125,7 @@ body
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
   body > main > #contact-IT-staff > #contact-IT-staff-form-box > form {
     height: 300px;
     width: 260px;

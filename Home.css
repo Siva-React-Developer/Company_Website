@@ -43,7 +43,7 @@ body
   align-items: center;
   /* border: 1px solid black; */
   border-radius: 8px;
-  backdrop-filter: blur(2px);
+  /* backdrop-filter: blur(2px); */
 }
 body
   > main
@@ -290,9 +290,6 @@ body
   justify-content: space-between;
   align-items: center;
   margin: 0px 5px;
-  text-align: center;
-  text-align: justify;
-  text-align-last: left;
 }
 body
   > main
@@ -305,6 +302,7 @@ body
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color: #034a6e;
+  text-align: center;
 }
 body
   > main
@@ -316,6 +314,8 @@ body
   font-size: 17px;
   font-family: 'Roboto', sans-serif;
   color: gray;
+  text-align: justify;
+  text-align-last: left;
 }
 body
   > main
@@ -563,6 +563,7 @@ body
   font-weight: bold;
   color: #034a6e;
   font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 body
   > main
@@ -621,6 +622,7 @@ body
   font-weight: bold;
   color: #034a6e;
   font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
 body
   > main
@@ -912,10 +914,6 @@ body > main > #form > form > button {
   body > main > #footer-navbar > a {
     font-size: 17px;
   }
-  body > main > #form > img {
-    height: 540px;
-    width: 540px;
-  }
   body > main > #form > form {
     height: 370px;
     width: 490px;
@@ -937,7 +935,6 @@ body > main > #form > form > button {
   body > main > #form > form > #checkbox-info > input {
     height: 14px;
     width: 14px;
-    margin: 5px 5px 0px 0px;
   }
   body > main > #form > form > button {
     height: 38px;
@@ -1169,7 +1166,6 @@ body > main > #form > form > button {
   body > main > #form > form > #checkbox-info > input {
     height: 14px;
     width: 14px;
-    margin: 4px 5px 0px 0px;
   }
   body > main > #form > form > button {
     height: 38px;
@@ -1556,7 +1552,7 @@ body > main > #form > form > button {
     width: 350px;
   }
   body > main > #form > form {
-    height: 380px;
+    height: 360px;
     width: 300px;
   }
   body > main > #form > form > #checkbox-info{
@@ -1566,15 +1562,16 @@ body > main > #form > form > button {
     font-size: 14px;
     height: 43px;
     width: 270px;
+    margin: 3px 0px;
   }
   body > main > #form > form > textarea {
     height: 75px;
     width: 270px;
     font-size: 14px;
+    margin-top: 5px;
   }
   body > main > #form > form > button {
     width: 270px;
-    margin-top: 10px;
   }
 }
 
@@ -1624,7 +1621,7 @@ body > main > #form > form > button {
     > #heading-image-for-renuza-content-text-buttons
     > #explore-more {
     font-size: 15px;
-    padding: 6px 22px 8px 22px;
+    padding: 8px 22px;
   }
   body
     > main
@@ -1634,7 +1631,7 @@ body > main > #form > form > button {
     > #heading-image-for-renuza-content-text-buttons
     > #contact-us {
     font-size: 15px;
-    padding: 6px 25px 8px 25px;
+    padding:8px 25px;
   }
   body > main > #about-content > #about-content-box > #about-content-info {
     height: 450px;
@@ -1924,7 +1921,7 @@ body > main > #form > form > button {
     > #heading-image-for-renuza-content-text-buttons
     > #explore-more {
     font-size: 15px;
-    padding: 6px 22px 8px 22px;
+    padding:7px 20px;
   }
   body
     > main
@@ -1934,7 +1931,7 @@ body > main > #form > form > button {
     > #heading-image-for-renuza-content-text-buttons
     > #contact-us {
     font-size: 15px;
-    padding: 6px 25px 8px 25px;
+    padding: 7px 23px;
   }
   body > main > #about-content{
     height: 700px;
@@ -2082,10 +2079,10 @@ body > main > #form > form > button {
     padding: 10px 30px;
   }
   body > main > #choosing-renuza {
-    height: 750px;
+    height: 800px;
   }
   body > main > #choosing-renuza > #choosing-renuza-heading-box{
-    height: 100px;
+    height: 150px;
   }
   body > main > #choosing-renuza > #choosing-renuza-heading-box > p {
     font-size: 30px;
@@ -2276,20 +2273,20 @@ body > main > #footer-navbar > img {
   body > main > #about-content {
     position: relative;
     top: 185px;
-    height: 770px;
+    height: 800px;
   }
   body > main > #about-content > #about-content-heading > p {
     font-size: 23px;
   }
   body > main > #about-content > #about-content-box{
-    height: 680px;
+    height: 720px;
   }
   body > main > #about-content > #about-content-box > #about-content-info {
-    height: 370px;
+    height: 400px;
     width: 320px;
   }
   body > main > #about-content > #about-content-box > #about-content-info > p {
-    font-size: 14px;
+    font-size: 15px;
   }
   body > main > #about-content > #about-content-box > #about-content-info > a {
     font-size: 14px;
@@ -2338,7 +2335,7 @@ body > main > #footer-navbar > img {
     > #featured-services-cards-box
     > #cards 
     > #description{
-      font-size: 14px;
+      font-size: 15px;
     }
   body
     > main
@@ -2448,7 +2445,7 @@ body
   > #choosing-renuza-cardrow1
   > .choosing-renuza-cards
   > .choosing-renuza-cards-info {
-  font-size: 14px;
+  font-size: 15px;
 }
   body > main > #choosing-renuza > #choosing-renuza-cardrow2 {
     height: 300px;
@@ -2485,7 +2482,7 @@ body
   > #choosing-renuza-cardrow2
   > .choosing-renuza-cards
   > .choosing-renuza-cards-info {
-  font-size: 14px;
+  font-size: 15px;
 }
   body > main > #footer-navbar {
     position: relative;
@@ -2530,7 +2527,7 @@ body > main > #form > form > #checkbox-info > input {
   }
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:390px) {
   body > main > #heading-image-for-renuza {
     height: 330px;
   }
@@ -2575,7 +2572,7 @@ body > main > #form > form > #checkbox-info > input {
     > #heading-image-for-renuza-content
     > #heading-image-for-renuza-content-text
     > #heading-image-for-renuza-content-text-paragraph {
-    font-size: 13.5px;
+    font-size: 14px;
     margin-top: 5px;
   }
   body
@@ -2593,8 +2590,8 @@ body > main > #form > form > #checkbox-info > input {
     > #heading-image-for-renuza-content-text
     > #heading-image-for-renuza-content-text-buttons
     > #explore-more {
-    font-size: 14px;
-    padding: 4px 10px 6px 10px;
+    font-size: 13px;
+    padding:6px 10px;
   }
   body
     > main
@@ -2603,11 +2600,11 @@ body > main > #form > form > #checkbox-info > input {
     > #heading-image-for-renuza-content-text
     > #heading-image-for-renuza-content-text-buttons
     > #contact-us {
-    font-size: 14px;
-    padding: 4px 15px 6px 15px;
+    font-size: 13px;
+    padding: 6px 15px;
   }
   body > main > #about-content > #about-content-box > #about-content-info {
-    height: 390px;
+    height: 420px;
     width: 260px;
   }
   body

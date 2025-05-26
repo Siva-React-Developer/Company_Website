@@ -208,7 +208,7 @@ body{
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
   #our-clients > #clients > #clients-comapany-clients {
     height: 115px;
     width: 260px;

@@ -1013,6 +1013,17 @@ body > main > #footer-navbar > a {
     > .process-boxes
     > .content-box
     > #card
+    > #image {
+      height: 40px;
+      width: 40px;
+    }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card
     > #step-no {
     display: block;
   }
@@ -1249,7 +1260,7 @@ body > main > #footer-navbar > a {
     > main
     > #domestic-requirement
     {
-      height: 700px;
+      height: 750px;
     }
   body
     > main
@@ -1400,8 +1411,8 @@ body > main > #footer-navbar > a {
     font-size: 25px;
   }
   body > main > #domestic-requirement {
-  position: relative;
-  top: 185px;
+    position: relative;
+    top: 185px;
   }
   body
     > main
@@ -1425,7 +1436,7 @@ body > main > #footer-navbar > a {
     > #domestic-requirement
     > #domestic-requirement-box
     > #domestic-requirement-content {
-    height: 380px;
+    height: 420px;
     width: 310px;
   }
   body
@@ -1442,9 +1453,9 @@ body > main > #footer-navbar > a {
     > #domestic-requirement-box
     > #domestic-requirement-content
     > #domestic-requirement-content-info {
-      margin-top: 5px;
-      font-size: 14px;
-    }
+    margin-top: 5px;
+    font-size: 15px;
+  }
   body > main > #recruitment-process {
     position: relative;
     top: 185px;
@@ -1452,7 +1463,7 @@ body > main > #footer-navbar > a {
   body > main > #recruitment-process > #recruitment-process-heading > p {
     font-size: 20px;
   }
-   body
+  body
     > main
     > #recruitment-process
     > #recruitment-process-steps
@@ -1463,52 +1474,52 @@ body > main > #footer-navbar > a {
     width: 170px;
   }
   body
-  > main
-  > #recruitment-process
-  > #recruitment-process-steps
-  > .process-boxes
-  > .content-box
-  > #card
-  > #image {
-  height: 30px;
-  width: 30px;
-}
-body
-  > main
-  > #recruitment-process
-  > #recruitment-process-steps
-  > .process-boxes
-  > .content-box
-  > #card
-  > #title {
-  font-size: 18px;
-  text-align: center;
-}
-body
-  > main
-  > #recruitment-process
-  > #recruitment-process-steps
-  > .process-boxes
-  > .content-box
-  > #card
-  > #description {
-  font-size: 14px;
-}
-body
-  > main
-  > #recruitment-process
-  > #recruitment-process-steps
-  > .process-boxes
-  > .content-box
-  > #card
-  > #step-no {
-  font-size: 18px;
-}
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card
+    > #image {
+    height: 30px;
+    width: 30px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card
+    > #title {
+    font-size: 18px;
+    text-align: center;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card
+    > #description {
+    font-size: 15px;
+  }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card
+    > #step-no {
+    font-size: 18px;
+  }
   body > main > #expert-content {
     position: relative;
     top: 185px;
   }
-   body
+  body
     > main
     > #expert-content
     > #expert-content-cards
@@ -1548,12 +1559,12 @@ body
     padding: 7px 25px;
   }
   body > main > #footer-navbar {
-  position: relative;
-  top: 185px;
+    position: relative;
+    top: 185px;
   }
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:390px) {
   body
     > main
     > #domestic-requirement
@@ -1573,10 +1584,21 @@ body
   }
   body
     > main
+    > #domestic-requirement{
+      height: 850px;
+    }
+  body
+    > main
+    > #domestic-requirement
+    > #domestic-requirement-box{
+      height: 800px;
+    }
+  body
+    > main
     > #domestic-requirement
     > #domestic-requirement-box
     > #domestic-requirement-content {
-    height: 420px;
+    height: 500px;
     width: 260px;
   }
   body

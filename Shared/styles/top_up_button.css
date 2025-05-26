@@ -98,7 +98,7 @@
     }
   }
 
-  @media screen and (max-width: 360px){
+  @media screen and (max-width: 390px){
     #scroll-to-top>#top-up-button {
       top: 450px;
       left: 88%;

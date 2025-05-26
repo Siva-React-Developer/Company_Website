@@ -337,7 +337,7 @@ body
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
   body > main > #terms-conditions {
     margin: 15px;
     padding: 10px;

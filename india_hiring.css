@@ -1011,6 +1011,17 @@ body > main > #footer-navbar > a {
     > .process-boxes
     > .content-box
     > #card
+    > #image {
+      height: 40px;
+      width: 40px;
+    }
+  body
+    > main
+    > #recruitment-process
+    > #recruitment-process-steps
+    > .process-boxes
+    > .content-box
+    > #card
     > #step-no {
     display: block;
   }
@@ -1438,7 +1449,7 @@ body > main > #footer-navbar > a {
     > #domestic-requirement-content
     > #domestic-requirement-content-info {
     margin-top: 5px;
-    font-size: 14px;
+    font-size: 15px;
   }
   body > main > #recruitment-process {
     position: relative;
@@ -1487,7 +1498,7 @@ body > main > #footer-navbar > a {
     > .content-box
     > #card
     > #description {
-    font-size: 14px;
+    font-size: 15px;
   }
   body
     > main
@@ -1548,7 +1559,7 @@ body > main > #footer-navbar > a {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
   body
     > main
     > #domestic-requirement

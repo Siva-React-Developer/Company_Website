@@ -684,7 +684,7 @@ body > main > #footer-navbar > img {
     > #about-us-empower
     > #about-us-empower-content
     > #about-us-empower-content-description {
-    font-size: 14px;
+    font-size: 15px;
   }
   body > main > #footer-navbar {
     position: relative;
@@ -731,11 +731,11 @@ body > main > #footer-navbar > img {
     > #our-core-cards-box
     > .class-cards
     > .our-core-cards-info {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:390px) {
   body > main > #about-us-empower > #about-us-empower-img {
     height: 210px;
     width: 260px;

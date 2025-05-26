@@ -197,7 +197,7 @@ body > main > #jobs-list > #jobs-list-box > .card {
   justify-content: center;
   align-items: start;
   cursor: pointer;
-  margin: 7px 7px;
+  margin: 7px 10px;
   flex: 1 1 340px;
   min-width: 240px;
   max-width: 380px;
@@ -500,7 +500,7 @@ body > main > #jobs-list > #jobs-list-box > .card > #location {
 }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
   body > main > #searching-job-field > #searching-job-field-input {
     height: 70px;
     width: 200px;

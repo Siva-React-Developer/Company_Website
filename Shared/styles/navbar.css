@@ -459,7 +459,7 @@ body{
 }
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:390px) {
   #navbar > #navbar-2 > #left-part-navbar > img {
     height: 37px;
     width: 120px;

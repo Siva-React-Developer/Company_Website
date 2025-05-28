@@ -3,8 +3,179 @@
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
+}
+body > main > .slider-container {
+  position: relative;
+  width: 100%;
+  top: 120px;
+  height: 60vh;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+body > main > .slider-container > .slider-track {
+  display: flex;
+  transition: transform 0.8s ease-in-out;
+  height: 60vh;
+}
+
+body > main > .slider-container > .slider-track > .slide {
+  flex: 0 0 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body > main > .slider-container > .slider-track > .slide > #description-box {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 70%;
+  z-index: 2;
+  font-family: "Roboto", sans-serif;
+}
+
+body > main > .slider-container > .nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 5px 10px;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 6px;
+}
+
+body > main > .slider-container > .nav-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+body > main > .slider-container > #prevBtn {
+  left: 10px;
+}
+body > main > .slider-container > #nextBtn {
+  right: 10px;
+}
+body
+  > main
+  > .slider-container
+  > .slider-track
+  > .slide
+  > #description-box
+  > #heading {
+  text-align: justify;
+  text-align-last: left;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+body
+  > main
+  > .slider-container
+  > .slider-track
+  > .slide
+  > #description-box
+  > #info {
+  text-align: justify;
+  text-align-last: left;
+  font-size: 18px;
+  color: white;
+  margin: 20px 0px 0px 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+body
+  > main
+  > .slider-container
+  > .slider-track
+  > .slide
+  > #description-box
+  > #buttons-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  /* border: 1px solid white; */
+}
+body
+  > main
+  > .slider-container
+  > .slider-track
+  > .slide
+  > #description-box
+  > #buttons-box
+  > a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  margin: 0px 10px;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+body
+  > main
+  > .slider-container
+  > .slider-track
+  > .slide
+  > #description-box
+  > #buttons-box
+  > #explore-more-button {
+  background-color: white;
+  color: #034a6e;
+  border: none;
+  padding: 10px 25px;
+}
+body
+  > main
+  > .slider-container
+  > .slider-track
+  > .slide
+  > #description-box
+  > #buttons-box
+  > #explore-more-button:hover {
+  background-color: #034a6e;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+body
+  > main
+  > .slider-container
+  > .slider-track
+  > .slide
+  > #description-box
+  > #buttons-box
+  > #contact-us-button {
+  background-color: #eb7416;
+  color: white;
+  border: none;
+  padding: 10px 29px;
+}
+body
+  > main
+  > .slider-container
+  > .slider-track
+  > .slide
+  > #description-box
+  > #buttons-box
+  > #contact-us-button:hover {
+  background-color: white;
+  color: #eb7416;
+  transition: 0.2s ease-in-out;
 }
 body > main > #heading-image-for-renuza {
   position: relative;
@@ -70,7 +241,7 @@ body
   font-size: 30px;
   color: white;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body
   > main
@@ -83,8 +254,8 @@ body
   font-size: 18px;
   color: white;
   margin: 20px 0px 0px 0px;
-  font-family: 'Roboto', sans-serif;
-  font-weight:lighter;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
 }
 body
   > main
@@ -98,67 +269,6 @@ body
   align-items: flex-end;
   justify-content: center;
   /* border: 1px solid black; */
-}
-body
-  > main
-  > #heading-image-for-renuza
-  > #heading-image-for-renuza-content
-  > #heading-image-for-renuza-content-text
-  > #heading-image-for-renuza-content-text-buttons
-  > a {
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  margin: 0px 10px;
-  font-size: 15px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-body
-  > main
-  > #heading-image-for-renuza
-  > #heading-image-for-renuza-content
-  > #heading-image-for-renuza-content-text
-  > #heading-image-for-renuza-content-text-buttons
-  > #explore-more {
-  background-color: white;
-  color: #034a6e;
-  border: none;
-  padding: 10px 25px;
-}
-body
-  > main
-  > #heading-image-for-renuza
-  > #heading-image-for-renuza-content
-  > #heading-image-for-renuza-content-text
-  > #heading-image-for-renuza-content-text-buttons
-  > #explore-more:hover {
-  background-color: #034a6e;
-  color: white;
-  transition: 0.2s ease-in-out;
-}
-body
-  > main
-  > #heading-image-for-renuza
-  > #heading-image-for-renuza-content
-  > #heading-image-for-renuza-content-text
-  > #heading-image-for-renuza-content-text-buttons
-  > #contact-us {
-  background-color: #eb7416;
-  color: white;
-  border: none;
-  padding: 10px 29px;
-  cursor: pointer;
-}
-body
-  > main
-  > #heading-image-for-renuza
-  > #heading-image-for-renuza-content
-  > #heading-image-for-renuza-content-text
-  > #heading-image-for-renuza-content-text-buttons
-  > #contact-us:hover {
-  background-color: white;
-  color: #eb7416;
-  transition: 0.2s ease-in-out;
 }
 body > main > #about-content {
   position: relative;
@@ -180,7 +290,7 @@ body > main > #about-content > #about-content-heading > p {
   text-align: center;
   color: #034a6e;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body > main > #about-content > #about-content-box {
   height: 410px;
@@ -203,7 +313,7 @@ body > main > #about-content > #about-content-box > #about-content-info > p {
   text-align-last: left;
   font-size: 18px;
   color: #034a6e;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body > main > #about-content > #about-content-box > #about-content-info > a {
   text-decoration: none;
@@ -212,7 +322,7 @@ body > main > #about-content > #about-content-box > #about-content-info > a {
   padding: 10px 30px;
   border-radius: 8px;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body
   > main
@@ -249,7 +359,7 @@ body > main > #featured-services > #featured-services-heading > p {
   text-align: center;
   color: #034a6e;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body > main > #featured-services > #featured-services-cards {
   height: 1010px;
@@ -299,7 +409,7 @@ body
   > #cards
   > #title {
   font-size: 23px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: #034a6e;
   text-align: center;
@@ -312,7 +422,7 @@ body
   > #cards
   > #description {
   font-size: 17px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: gray;
   text-align: justify;
   text-align-last: left;
@@ -325,7 +435,7 @@ body
   > #cards
   > #know-more {
   font-size: 17px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: white;
   background-color: #eb7416;
   border: none;
@@ -353,7 +463,7 @@ body > main > #expert-content > #expert-content-title > p {
   text-align: center;
   color: rgb(61, 61, 61);
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body > main > #expert-content > #expert-content-cards {
   height: 660px;
@@ -403,7 +513,7 @@ body
   font-size: 20px;
   font-weight: bold;
   color: rgb(61, 61, 61);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body
   > main
@@ -424,7 +534,7 @@ body
   > .expert-content-cards-info {
   font-size: 17px;
   color: rgb(61, 61, 61);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: justify;
   text-align-last: left;
 }
@@ -458,7 +568,7 @@ body
   border-radius: 20px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body
   > main
@@ -493,7 +603,7 @@ body
   border-radius: 20px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body > main > #choosing-renuza {
   position: relative;
@@ -517,7 +627,7 @@ body > main > #choosing-renuza > #choosing-renuza-heading-box > p {
   /* text-align: center; */
   color: #034a6e;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body > main > #choosing-renuza > #choosing-renuza-cardrow1 {
   height: 870px;
@@ -562,7 +672,7 @@ body
   font-size: 22px;
   font-weight: bold;
   color: #034a6e;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 body
@@ -573,7 +683,7 @@ body
   > .choosing-renuza-cards-info {
   font-size: 17px;
   color: rgb(125, 125, 125);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 body > main > #choosing-renuza > #choosing-renuza-cardrow2 {
@@ -621,7 +731,7 @@ body
   font-size: 22px;
   font-weight: bold;
   color: #034a6e;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 body
@@ -632,7 +742,7 @@ body
   > .choosing-renuza-cards-info {
   font-size: 17px;
   color: rgb(125, 125, 125);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 body > main > #footer-navbar {
@@ -655,7 +765,7 @@ body > main > #footer-navbar > p {
   font-size: 25px;
   color: white;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0px 10px;
 }
 body > main > #footer-navbar > a {
@@ -664,8 +774,8 @@ body > main > #footer-navbar > a {
   background-color: #eb7416;
   font-size: 18px;
   border-radius: 8px;
-  font-family: 'Roboto', sans-serif;
-  padding:10px 25px;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 25px;
 }
 body > main > #form {
   position: relative;
@@ -680,7 +790,7 @@ body > main > #form {
 body > main > #form > p {
   display: none;
   font-size: 25px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
 body > main > #form > img {
@@ -708,15 +818,15 @@ body > main > #form > form > input {
   margin: 5px 0px;
   padding-left: 10px;
   font-size: 17px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-body > main > #form > form > textarea{
+body > main > #form > form > textarea {
   height: 80px;
   width: 470px;
-  font-size:17px ;
-  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
   padding: 10px 0px 0px 10px;
-  color:rgb(99, 99, 99) ;
+  color: rgb(99, 99, 99);
   outline: none;
   margin-top: 10px;
 }
@@ -726,7 +836,7 @@ body > main > #form > form > #checkbox-info {
   flex-direction: row;
   /* border: 1px solid black; */
   color: rgb(99, 99, 99);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 10px 0px;
 }
 body > main > #form > form > #checkbox-info > input {
@@ -742,25 +852,28 @@ body > main > #form > form > button {
   background-color: #eb7416;
   color: white;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
 }
 
 @media screen and (max-width: 1235px) {
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-heading {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #heading {
     font-size: 29px;
   }
+
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-paragraph {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #info {
     font-size: 17px;
   }
   body > main > #about-content > #about-content-heading > p {
@@ -946,19 +1059,12 @@ body > main > #form > form > button {
 @media screen and (max-width: 1090px) {
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-heading {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #heading {
     font-size: 28px;
-  }
-  body
-    > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-paragraph {
-    font-size: 17px;
   }
   body > main > #about-content > #about-content-heading > p {
     font-size: 29px;
@@ -1154,7 +1260,7 @@ body > main > #form > form > button {
     width: 380px;
     font-size: 15px;
   }
-   body > main > #form > form > textarea {
+  body > main > #form > form > textarea {
     height: 73px;
     width: 380px;
     font-size: 15px;
@@ -1177,35 +1283,22 @@ body > main > #form > form > button {
 @media screen and (max-width: 950px) {
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text {
-    height: 320px;
-    width: 550px;
-  }
-  body
-    > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > button {
-    height: 28px;
-    width: 25px;
-  }
-  body
-    > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-heading {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #heading {
     font-size: 27px;
   }
+
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-paragraph {
-    font-size: 17px;
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #info {
+    margin-top: 7px;
   }
   body > main > #about-content > #about-content-heading > p {
     font-size: 27px;
@@ -1374,13 +1467,13 @@ body > main > #form > form > button {
     height: 350px;
     width: 350px;
   }
-  body > main > #form > form > #checkbox{
+  body > main > #form > form > #checkbox {
     width: 320px;
   }
   body > main > #form > form > input {
     width: 320px;
   }
-   body > main > #form > form > textarea {
+  body > main > #form > form > textarea {
     height: 70px;
     width: 320px;
   }
@@ -1395,7 +1488,7 @@ body > main > #form > form > button {
 }
 
 @media screen and (max-width: 830px) {
-  body > main > #heading-image-for-renuza {
+  body > main > .slider-container {
     position: relative;
     top: 215px;
   }
@@ -1451,7 +1544,7 @@ body > main > #form > form > button {
     height: 210px !important;
     width: 297px !important;
   }
-    body
+  body
     > main
     > #expert-content
     > #expert-content-cards
@@ -1555,7 +1648,7 @@ body > main > #form > form > button {
     height: 360px;
     width: 300px;
   }
-  body > main > #form > form > #checkbox-info{
+  body > main > #form > form > #checkbox-info {
     width: 270px;
   }
   body > main > #form > form > input {
@@ -1576,62 +1669,53 @@ body > main > #form > form > button {
 }
 
 @media screen and (max-width: 700px) {
-  body > main > #heading-image-for-renuza {
-    height: 380px;
+  body > main > .slider-container {
+    height: 55vh;
   }
-  body > main > #heading-image-for-renuza > #heading-image-for-renuza-img {
-    height: 380px;
-  }
-  body
-    > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    {
-    height: 380px;
-    }
-  body
-    > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text {
-    height: 280px;
-    width: 450px;
+
+  body > main > .slider-container > .slider-track {
+    height: 55vh;
   }
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-heading {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #heading {
     font-size: 22px;
   }
+
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-paragraph {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #info {
     font-size: 15px;
   }
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-buttons
-    > #explore-more {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #buttons-box
+    > #explore-more-button {
     font-size: 15px;
     padding: 8px 22px;
   }
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-buttons
-    > #contact-us {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #buttons-box
+    > #contact-us-button {
     font-size: 15px;
-    padding:8px 25px;
+    padding: 8px 25px;
   }
   body > main > #about-content > #about-content-box > #about-content-info {
     height: 450px;
@@ -1678,29 +1762,29 @@ body > main > #form > form > button {
     > #featured-services
     > #featured-services-cards
     > #featured-services-cards-box
-    > #cards 
-    > img{
-      height: 130px;
-      width: 130px;
-    }
+    > #cards
+    > img {
+    height: 130px;
+    width: 130px;
+  }
   body
     > main
     > #featured-services
     > #featured-services-cards
     > #featured-services-cards-box
-    > #cards 
-    > #title{
-      font-size: 19px;
-    }
-    body
+    > #cards
+    > #title {
+    font-size: 19px;
+  }
+  body
     > main
     > #featured-services
     > #featured-services-cards
     > #featured-services-cards-box
-    > #cards 
-    > #description{
-      font-size: 15px;
-    }
+    > #cards
+    > #description {
+    font-size: 15px;
+  }
   body
     > main
     > #featured-services
@@ -1711,13 +1795,9 @@ body > main > #form > form > button {
     font-size: 14px;
     padding: 9px 23px;
   }
-  body
-    > main
-    > #expert-content
-    > #expert-content-title
-     > p{
+  body > main > #expert-content > #expert-content-title > p {
     font-size: 25px;
-    }
+  }
   body
     > main
     > #expert-content
@@ -1735,7 +1815,7 @@ body > main > #form > form > button {
     > .class-cards
     > .expert-content-cards-heading {
     font-size: 17px;
-    }
+  }
   body
     > main
     > #expert-content
@@ -1848,7 +1928,7 @@ body > main > #form > form > button {
     height: 360px;
     width: 300px;
   }
-  body > main > #form > form > #checkbox-info{
+  body > main > #form > form > #checkbox-info {
     width: 270px;
   }
   body > main > #form > form > input {
@@ -1875,71 +1955,69 @@ body > main > #form > form > button {
 }
 
 @media screen and (max-width: 580px) {
-   body > main > #heading-image-for-renuza {
-    height: 350px;
+  body > main > .slider-container {
+    height: 50vh;
   }
-  body > main > #heading-image-for-renuza > #heading-image-for-renuza-img {
-    height: 350px;
+
+  body > main > .slider-container > .slider-track {
+    height: 50vh;
   }
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    {
-    height: 350px;
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box{
+      padding: 5px 10px;
     }
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text {
-    height: 270px;
-    width: 410px;
-  }
-  body
-    > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-heading {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #heading {
     font-size: 20px;
   }
+
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-paragraph {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #info {
     font-size: 15px;
-    margin-top: 15px;
   }
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-buttons
-    > #explore-more {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #buttons-box
+    > #explore-more-button {
     font-size: 15px;
-    padding:7px 20px;
+    padding: 7px 20px;
   }
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-buttons
-    > #contact-us {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #buttons-box
+    > #contact-us-button {
     font-size: 15px;
     padding: 7px 23px;
   }
-  body > main > #about-content{
+  body > main > #about-content {
     height: 700px;
   }
   body > main > #about-content > #about-content-heading > p {
     font-size: 25px;
   }
-  body > main > #about-content > #about-content-box{
+  body > main > #about-content > #about-content-box {
     height: 610px;
     display: flex;
     flex-direction: column-reverse;
@@ -1980,29 +2058,29 @@ body > main > #form > form > button {
     > #featured-services
     > #featured-services-cards
     > #featured-services-cards-box
-    > #cards 
-    > img{
-      height: 100px;
-      width: 100px;
-    }
+    > #cards
+    > img {
+    height: 100px;
+    width: 100px;
+  }
   body
     > main
     > #featured-services
     > #featured-services-cards
     > #featured-services-cards-box
-    > #cards 
-    > #title{
-      font-size: 19px;
-    }
-    body
+    > #cards
+    > #title {
+    font-size: 19px;
+  }
+  body
     > main
     > #featured-services
     > #featured-services-cards
     > #featured-services-cards-box
-    > #cards 
-    > #description{
-      font-size: 15px;
-    }
+    > #cards
+    > #description {
+    font-size: 15px;
+  }
   body
     > main
     > #featured-services
@@ -2055,9 +2133,9 @@ body > main > #form > form > button {
     > #expert-content-cards
     > #expert-content-cards-box
     > .class-cards
-    > .expert-content-cards-info{
-      font-size: 15px;
-    }
+    > .expert-content-cards-info {
+    font-size: 15px;
+  }
   body
     > main
     > #expert-content
@@ -2081,7 +2159,7 @@ body > main > #form > form > button {
   body > main > #choosing-renuza {
     height: 800px;
   }
-  body > main > #choosing-renuza > #choosing-renuza-heading-box{
+  body > main > #choosing-renuza > #choosing-renuza-heading-box {
     height: 150px;
   }
   body > main > #choosing-renuza > #choosing-renuza-heading-box > p {
@@ -2108,21 +2186,21 @@ body > main > #form > form > button {
     width: 120px;
   }
   body
-  > main
-  > #choosing-renuza
-  > #choosing-renuza-cardrow1
-  > .choosing-renuza-cards
-  > .choosing-renuza-cards-heading {
-  font-size: 20px;
-}
-body
-  > main
-  > #choosing-renuza
-  > #choosing-renuza-cardrow1
-  > .choosing-renuza-cards
-  > .choosing-renuza-cards-info {
-  font-size: 15px;
-}
+    > main
+    > #choosing-renuza
+    > #choosing-renuza-cardrow1
+    > .choosing-renuza-cards
+    > .choosing-renuza-cards-heading {
+    font-size: 20px;
+  }
+  body
+    > main
+    > #choosing-renuza
+    > #choosing-renuza-cardrow1
+    > .choosing-renuza-cards
+    > .choosing-renuza-cards-info {
+    font-size: 15px;
+  }
   body > main > #choosing-renuza > #choosing-renuza-cardrow2 {
     height: 325px;
   }
@@ -2144,30 +2222,30 @@ body
     width: 120px;
   }
   body
-  > main
-  > #choosing-renuza
-  > #choosing-renuza-cardrow2
-  > .choosing-renuza-cards
-  > .choosing-renuza-cards-heading {
-  font-size: 20px;
-}
-body
-  > main
-  > #choosing-renuza
-  > #choosing-renuza-cardrow2
-  > .choosing-renuza-cards
-  > .choosing-renuza-cards-info {
-  font-size: 15px;
-}
-body > main > #footer-navbar{
-  height: 100px;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-body > main > #footer-navbar > img {
+    > main
+    > #choosing-renuza
+    > #choosing-renuza-cardrow2
+    > .choosing-renuza-cards
+    > .choosing-renuza-cards-heading {
+    font-size: 20px;
+  }
+  body
+    > main
+    > #choosing-renuza
+    > #choosing-renuza-cardrow2
+    > .choosing-renuza-cards
+    > .choosing-renuza-cards-info {
+    font-size: 15px;
+  }
+  body > main > #footer-navbar {
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body > main > #footer-navbar > img {
     display: none;
   }
   body > main > #footer-navbar > p {
@@ -2200,75 +2278,75 @@ body > main > #footer-navbar > img {
   }
 }
 
-@media screen and (max-width:470px) {
-  body > main > #heading-image-for-renuza {
+@media screen and (max-width: 470px) {
+  body > main > .slider-container {
     position: relative;
     top: 185px;
-    height: 270px;
+    height: 50vh;
   }
-  body > main > #heading-image-for-renuza {
-    height: 270px;
-  }
-  body > main > #heading-image-for-renuza > #heading-image-for-renuza-img {
-    height: 270px;
+
+  body > main > .slider-container > .slider-track {
+    height: 50vh;
   }
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    {
-    height: 270px;
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box{
+      padding: 5px 10px;
     }
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text {
-    height: 250px;
-    width: 320px;
-  }
-  body
-    > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-heading {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #heading {
     font-size: 16px;
   }
+
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-paragraph {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #info {
     font-size: 13.5px;
-    margin-top: 10px;
   }
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-buttons{
-      height: 40px;
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #buttons-box
+    > a
+    {
+      margin: 0px 5px;
     }
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-buttons
-    > #explore-more {
-    font-size: 14px;
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #buttons-box
+    > #explore-more-button {
+    font-size: 13px;
+    padding: 6px 18px;
   }
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-buttons
-    > #contact-us {
-    font-size: 14px;
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #buttons-box
+    > #contact-us-button {
+    font-size: 13px;
+    padding: 6px 20px;
   }
   body > main > #about-content {
     position: relative;
@@ -2278,7 +2356,7 @@ body > main > #footer-navbar > img {
   body > main > #about-content > #about-content-heading > p {
     font-size: 23px;
   }
-  body > main > #about-content > #about-content-box{
+  body > main > #about-content > #about-content-box {
     height: 720px;
   }
   body > main > #about-content > #about-content-box > #about-content-info {
@@ -2324,19 +2402,19 @@ body > main > #footer-navbar > img {
     > #featured-services
     > #featured-services-cards
     > #featured-services-cards-box
-    > #cards 
-    > #title{
-      font-size: 17px;
-    }
-    body
+    > #cards
+    > #title {
+    font-size: 17px;
+  }
+  body
     > main
     > #featured-services
     > #featured-services-cards
     > #featured-services-cards-box
-    > #cards 
-    > #description{
-      font-size: 15px;
-    }
+    > #cards
+    > #description {
+    font-size: 15px;
+  }
   body
     > main
     > #featured-services
@@ -2351,7 +2429,7 @@ body > main > #footer-navbar > img {
     position: relative;
     top: 185px;
   }
-    body
+  body
     > main
     > #expert-content
     > #expert-content-cards
@@ -2396,15 +2474,15 @@ body > main > #footer-navbar > img {
     > #expert-content-cards
     > #expert-content-cards-box
     > .class-cards
-    > .expert-content-cards-info{
-      font-size: 14px;
-    }
+    > .expert-content-cards-info {
+    font-size: 14px;
+  }
   body > main > #choosing-renuza {
     position: relative;
     top: 185px;
     height: 700px;
   }
-  body > main > #choosing-renuza > #choosing-renuza-heading-box{
+  body > main > #choosing-renuza > #choosing-renuza-heading-box {
     height: 100px;
   }
   body > main > #choosing-renuza > #choosing-renuza-heading-box > p {
@@ -2432,21 +2510,21 @@ body > main > #footer-navbar > img {
     width: 100px;
   }
   body
-  > main
-  > #choosing-renuza
-  > #choosing-renuza-cardrow1
-  > .choosing-renuza-cards
-  > .choosing-renuza-cards-heading {
-  font-size: 18px;
-}
-body
-  > main
-  > #choosing-renuza
-  > #choosing-renuza-cardrow1
-  > .choosing-renuza-cards
-  > .choosing-renuza-cards-info {
-  font-size: 15px;
-}
+    > main
+    > #choosing-renuza
+    > #choosing-renuza-cardrow1
+    > .choosing-renuza-cards
+    > .choosing-renuza-cards-heading {
+    font-size: 18px;
+  }
+  body
+    > main
+    > #choosing-renuza
+    > #choosing-renuza-cardrow1
+    > .choosing-renuza-cards
+    > .choosing-renuza-cards-info {
+    font-size: 15px;
+  }
   body > main > #choosing-renuza > #choosing-renuza-cardrow2 {
     height: 300px;
     gap: 10px;
@@ -2469,21 +2547,21 @@ body
     width: 120px;
   }
   body
-  > main
-  > #choosing-renuza
-  > #choosing-renuza-cardrow2
-  > .choosing-renuza-cards
-  > .choosing-renuza-cards-heading {
-  font-size: 18px;
-}
-body
-  > main
-  > #choosing-renuza
-  > #choosing-renuza-cardrow2
-  > .choosing-renuza-cards
-  > .choosing-renuza-cards-info {
-  font-size: 15px;
-}
+    > main
+    > #choosing-renuza
+    > #choosing-renuza-cardrow2
+    > .choosing-renuza-cards
+    > .choosing-renuza-cards-heading {
+    font-size: 18px;
+  }
+  body
+    > main
+    > #choosing-renuza
+    > #choosing-renuza-cardrow2
+    > .choosing-renuza-cards
+    > .choosing-renuza-cards-info {
+    font-size: 15px;
+  }
   body > main > #footer-navbar {
     position: relative;
     top: 185px;
@@ -2504,22 +2582,22 @@ body
     font-size: 14px;
     margin: 4px 0px;
   }
-  body > main > #form > form > textarea{
-  height: 60px;
-  width: 240px;
-  font-size:14px;
-  margin-top: 1px;
-}
-body > main > #form > form > #checkbox-info {
-  height: 30px;
-  width: 240px;
-  margin-top: 5px;
-}
-body > main > #form > form > #checkbox-info > input {
-  height: 15px;
-  width: 15px;
-  margin: 3px 5px 0px 0px;
-}
+  body > main > #form > form > textarea {
+    height: 60px;
+    width: 240px;
+    font-size: 14px;
+    margin-top: 1px;
+  }
+  body > main > #form > form > #checkbox-info {
+    height: 30px;
+    width: 240px;
+    margin-top: 5px;
+  }
+  body > main > #form > form > #checkbox-info > input {
+    height: 15px;
+    width: 15px;
+    margin: 3px 5px 0px 0px;
+  }
   body > main > #form > form > button {
     height: 32px;
     width: 240px;
@@ -2527,81 +2605,73 @@ body > main > #form > form > #checkbox-info > input {
   }
 }
 
-@media screen and (max-width:390px) {
-  body > main > #heading-image-for-renuza {
-    height: 330px;
+@media screen and (max-width: 390px) {
+ body > main > .slider-container {
+    height: 50vh;
   }
-  body > main > #heading-image-for-renuza > #heading-image-for-renuza-img {
-    height: 330px;
+
+  body > main > .slider-container > .slider-track {
+    height: 50vh;
   }
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    {
-    height: 330px;
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box{
+      padding: 5px 5px;
     }
-    body
-  > main
-  > #heading-image-for-renuza
-  > #heading-image-for-renuza-content
-  > button {
-  height: 20px;
-  width: 20px;
-  font-size: 18px;
-}
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text {
-    height: 280px;
-    width: 250px;
-  }
-  body
-    > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-heading {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #heading {
     font-size: 16px;
   }
+
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-paragraph {
-    font-size: 14px;
-    margin-top: 5px;
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #info {
+    font-size: 13px;
   }
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-buttons{
-      height: 35px;
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #buttons-box
+    > a
+    {
+      margin: 3px 5px;
     }
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-buttons
-    > #explore-more {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #buttons-box
+    > #explore-more-button {
     font-size: 13px;
-    padding:6px 10px;
+    padding: 6px 18px;
   }
   body
     > main
-    > #heading-image-for-renuza
-    > #heading-image-for-renuza-content
-    > #heading-image-for-renuza-content-text
-    > #heading-image-for-renuza-content-text-buttons
-    > #contact-us {
+    > .slider-container
+    > .slider-track
+    > .slide
+    > #description-box
+    > #buttons-box
+    > #contact-us-button {
     font-size: 13px;
-    padding: 6px 15px;
+    padding: 6px 24px;
   }
   body > main > #about-content > #about-content-box > #about-content-info {
     height: 420px;
@@ -2616,7 +2686,7 @@ body > main > #form > form > #checkbox-info > input {
     height: 350px;
     width: 260px;
   }
-    body
+  body
     > main
     > #expert-content
     > #expert-content-cards
@@ -2635,7 +2705,7 @@ body > main > #form > form > #checkbox-info > input {
     height: 160px !important;
     width: 256px !important;
   }
-   body
+  body
     > main
     > #expert-content
     > #expert-content-cards
@@ -2696,12 +2766,12 @@ body > main > #form > form > #checkbox-info > input {
     height: 30px;
     width: 220px;
   }
-  body > main > #form > form > textarea{
-  width: 220px;
-}
-body > main > #form > form > #checkbox-info {
-  width: 220px;
-}
+  body > main > #form > form > textarea {
+    width: 220px;
+  }
+  body > main > #form > form > #checkbox-info {
+    width: 220px;
+  }
   body > main > #form > form > button {
     width: 220px;
   }

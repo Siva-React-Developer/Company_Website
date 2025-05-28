@@ -2,13 +2,13 @@
   "All_Data": {
     "scrolling_images": [
       {
-        "heading": "Join India's Premier Software Company and Transform the Future of Technology",
-        "info": "At Renuza Technologies Pvt Ltd, we're pioneering innovation and shaping the digital landscape. Join us in revolutionizing industries, creating cutting-edge solutions, and unlocking your full potential. Discover unparalleled opportunities for growth, collaboration, and impact as part of our dynamic team.",
+        "heading_text": "Join India's Premier Software Company and Transform the Future of Technology",
+        "description": "At Renuza Technologies Pvt Ltd, we're pioneering innovation and shaping the digital landscape. Join us in revolutionizing industries, creating cutting-edge solutions, and unlocking your full potential. Discover unparalleled opportunities for growth, collaboration, and impact as part of our dynamic team.",
         "image": "Images/Renuza_scrolling_image1.jpg"
       },
       {
-        "heading": "Unleash Your Potential with America's Premier Software Company",
-        "info": "At Renuza Technologies Pvt Ltd, we are at the forefront of technological advancements,driving innovation and shaping the future. Join our team visionaries,where your talents are valuated,nutured and empowered to make a meaningful impact.Explore limitless possibilities for growth,collaboration and success as part of our dynamic community.",
+        "heading_text": "Unleash Your Potential with America's Premier Software Company",
+        "description": "At Renuza Technologies Pvt Ltd, we are at the forefront of technological advancements,driving innovation and shaping the future. Join our team visionaries,where your talents are valuated,nutured and empowered to make a meaningful impact.Explore limitless possibilities for growth,collaboration and success as part of our dynamic community.",
         "image": "Images/Renuza_scrolling_image2.jpg"
       }
     ],
@@ -957,7 +957,7 @@
       },
       {
         "title":"Intellectual Property",
-        "info":"All content, trademarks, logos, and software are the property of [Your Company Name] and protected by intellectual property laws. You may not copy, modify, or distribute without permission.",
+        "info":"All content, trademarks, logos, and software are the property of [Renuza Technologies Private Limited] and protected by intellectual property laws. You may not copy, modify, or distribute without permission.",
         "key_points":[]
       },
       {

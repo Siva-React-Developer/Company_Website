@@ -5,40 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Renuza Tech</title>
     <link rel="stylesheet" href="Home.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav id="navbar"></nav>
     <main>
-      <div id="scroll-to-top">
-      </div>
-      <div id="heading-image-for-renuza">
-        <img
-          src="Images/Renuza_scrolling_image1.jpg"
-          id="heading-image-for-renuza-img"
-          alt="error"
-        />
-        <div id="heading-image-for-renuza-content">
-          <button onclick="Imagescroll(-1)">&lt;</button>
-          <div id="heading-image-for-renuza-content-text">
-            <p id="heading-image-for-renuza-content-text-heading">
-              Join India's Premier Software Company and Transform the Future of
-              Technology
-            </p>
-            <p id="heading-image-for-renuza-content-text-paragraph">
-              At Renuza Technologies Pvt Ltd, we're pioneering innovation and
-              shaping the digital landscape. Join us in revolutionizing
-              industries, creating cutting-edge solutions, and unlocking your
-              full potential. Discover unparalleled opportunities for growth,
-              collaboration, and impact as part of our dynamic team.
-            </p>
-            <div id="heading-image-for-renuza-content-text-buttons">
-              <a href="" id="explore-more">Explore Now</a>
-              <a href="Contact_Us.html" id="contact-us">Contact Us</a>
-            </div>
-          </div>
-          <button onclick="Imagescroll(1)">&gt;</button>
-        </div>
+      <div id="scroll-to-top"></div>
+      <div class="slider-container">
+        <div class="slider-track" id="sliderTrack"></div>
+        <button id="prevBtn" class="nav-button">&lt;</button>
+        <button id="nextBtn" class="nav-button">&gt;</button>
       </div>
       <div id="about-content">
         <div id="about-content-heading">
@@ -92,9 +71,13 @@
                 process,flexible communication and lasting talent retention.
               </p>
               <div class="expert-content-cards-hiring-buttons">
-                <a href="India_Hiring.html" class="left-india-hiring">India Hiring</a>
+                <a href="India_Hiring.html" class="left-india-hiring"
+                  >India Hiring</a
+                >
                 <p class="or-in">OR</p>
-                <a href="Usa_Hiring.html" class="right-usa-hiring">USA Hiring</a>
+                <a href="Usa_Hiring.html" class="right-usa-hiring"
+                  >USA Hiring</a
+                >
               </div>
             </div>
             <div id="expert-content-cards-temporory" class="class-cards">
@@ -109,9 +92,13 @@
                 to your specific requirements and timelines.
               </p>
               <div class="expert-content-cards-hiring-buttons">
-                <a href="India_Hiring.html" class="left-india-hiring">India Hiring</a>
+                <a href="India_Hiring.html" class="left-india-hiring"
+                  >India Hiring</a
+                >
                 <p class="or-in">OR</p>
-                <a href="Usa_Hiring.html" class="right-usa-hiring">USA Hiring</a>
+                <a href="Usa_Hiring.html" class="right-usa-hiring"
+                  >USA Hiring</a
+                >
               </div>
             </div>
             <div id="expert-content-cards-temp-to-hire" class="class-cards">
@@ -124,9 +111,13 @@
                 candidates before ensuring the perfect fit for your team.
               </p>
               <div class="expert-content-cards-hiring-buttons">
-                <a href="India_Hiring.html" class="left-india-hiring">India Hiring</a>
+                <a href="India_Hiring.html" class="left-india-hiring"
+                  >India Hiring</a
+                >
                 <p class="or-in">OR</p>
-                <a href="Usa_Hiring.html" class="right-usa-hiring">USA Hiring</a>
+                <a href="Usa_Hiring.html" class="right-usa-hiring"
+                  >USA Hiring</a
+                >
               </div>
             </div>
           </div>
@@ -197,8 +188,7 @@
           </div>
         </div>
       </div>
-      <div id="our-clients">
-      </div>
+      <div id="our-clients"></div>
       <div id="footer-navbar">
         <img src="Images/Whatsapp_37229.png" alt="" />
         <p>Join our whatsApp channel for more updates</p>
@@ -207,12 +197,44 @@
       <div id="form">
         <img src="Images/customer-care-image.webp" alt="" />
         <form id="doubt-form">
-          <input type="text" name="name" id="name" placeholder="*Name" autocomplete="name" required />
-          <input type="email" name="email" id="email" placeholder="*Email" autocomplete="email" required />
-          <input type="text" name="phone_number" id="phone_number" placeholder="*Mobile Number" pattern="\d{10}" maxlength="10" autocomplete="tel" required />
-          <textarea name="message" id="message" placeholder="Your Message"></textarea>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="*Name"
+            autocomplete="name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="*Email"
+            autocomplete="email"
+            required
+          />
+          <input
+            type="text"
+            name="phone_number"
+            id="phone_number"
+            placeholder="*Mobile Number"
+            pattern="\d{10}"
+            maxlength="10"
+            autocomplete="tel"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Your Message"
+          ></textarea>
           <div id="checkbox-info">
-            <input name="terms_and_conditions" id="terms_and_conditions" type="checkbox" required/>
+            <input
+              name="terms_and_conditions"
+              id="terms_and_conditions"
+              type="checkbox"
+              required
+            />
             <label for="terms_and_conditions"
               >I agree to the Terms of Service and Privacy Policy.</label
             >

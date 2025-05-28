@@ -35,31 +35,118 @@ async function loadData() {
 }
 loadData();
 
-const imgElement = document.getElementById("heading-image-for-renuza-img");
-const headingElement = document.getElementById(
-  "heading-image-for-renuza-content-text-heading"
-);
-const infoElement = document.getElementById(
-  "heading-image-for-renuza-content-text-paragraph"
-);
+const sliderTrack = document.getElementById("sliderTrack");
+const prevBtn = document.getElementById("prevBtn");
+const nextBtn = document.getElementById("nextBtn");
+
+let list = [];
+let currentSlide = 0;
+let autoScrollInterval;
+let isTransitioning = false;
+
 function setUpScrollingImages(getData1) {
-  let currentIndex = 0;
-  setInterval(() => {
-    currentIndex = (currentIndex + 1) % getData1.length;
-    imgElement.src = getData1[currentIndex].image;
-    headingElement.innerText = getData1[currentIndex].heading;
-    infoElement.innerText = getData1[currentIndex].info;
+  list = getData1;
+  list.forEach(({ image, heading_text, description }) => {
+    createSlide(image, heading_text, description);
+  });
+
+  // Clone first slide and append at the end
+  const { image, heading_text, description } = list[0];
+  createSlide(image, heading_text, description);
+
+  startAutoScroll();
+}
+
+function createSlide(image, heading_text, description) {
+
+  const slide = document.createElement("div");
+  slide.className = "slide";
+  slide.style.backgroundImage = `url('${image}')`;
+
+  const desc = document.createElement("div");
+  desc.id = "description-box";
+  const heading = document.createElement("p");
+  heading.id = "heading";
+  const info = document.createElement("p");
+  info.id = "info";
+  const buttons_box = document.createElement("div");
+  buttons_box.id = "buttons-box";
+  const explore_more_button = document.createElement("a");
+  explore_more_button.id = "explore-more-button";
+  const contact_us_button = document.createElement("a");
+  contact_us_button.id = "contact-us-button";
+
+  heading.textContent = heading_text;
+  info.textContent = description;
+  explore_more_button.textContent = "Explore More";
+
+  contact_us_button.textContent = "Contact Us";
+
+  slide.appendChild(desc);
+  sliderTrack.appendChild(slide);
+  desc.appendChild(heading);
+  desc.appendChild(info);
+  desc.appendChild(buttons_box);
+  buttons_box.appendChild(explore_more_button);
+  buttons_box.appendChild(contact_us_button);
+}
+
+function showSlide(index) {
+  const slideCount = list.length;
+  sliderTrack.style.transition = "transform 0.8s ease-in-out";
+  sliderTrack.style.transform = `translateX(-${index * 100}%)`;
+  currentSlide = index;
+
+  // If at the cloned last slide, reset after transition
+  if (index === slideCount) {
+    isTransitioning = true;
+    setTimeout(() => {
+      sliderTrack.style.transition = "none"; // remove transition
+      sliderTrack.style.transform = `translateX(0%)`;
+      currentSlide = 0;
+      isTransitioning = false;
+    }, 850); // must match transition time
+  }
+}
+
+function nextSlide() {
+  if (isTransitioning) return;
+  showSlide(currentSlide + 1);
+}
+
+function prevSlide() {
+  if (isTransitioning) return;
+  if (currentSlide === 0) {
+    currentSlide = list.length;
+    sliderTrack.style.transition = "none";
+    sliderTrack.style.transform = `translateX(-${currentSlide * 100}%)`;
+    setTimeout(() => {
+      sliderTrack.style.transition = "transform 0.8s ease-in-out";
+      showSlide(currentSlide - 1);
+    }, 20);
+  } else {
+    showSlide(currentSlide - 1);
+  }
+}
+
+function startAutoScroll() {
+  stopAutoScroll();
+  autoScrollInterval = setInterval(() => {
+    nextSlide();
   }, 5000);
 }
 
-let index = 0;
-function Imagescroll(params) {
-  // console.log(data.All_Data.scrolling_images[0].heading);
-  index = (index + params) % data.All_Data.scrolling_images.length;
-  imgElement.src = data.All_Data.scrolling_images[index].image;
-  headingElement.innerText = data.All_Data.scrolling_images[index].heading;
-  infoElement.innerText = data.All_Data.scrolling_images[index].info;
+function stopAutoScroll() {
+  clearInterval(autoScrollInterval);
 }
+
+// Button logic
+nextBtn.addEventListener("click", nextSlide);
+prevBtn.addEventListener("click", prevSlide);
+[nextBtn, prevBtn].forEach((btn) => {
+  btn.addEventListener("mouseenter", stopAutoScroll);
+  btn.addEventListener("mouseleave", startAutoScroll);
+});
 
 function setUpCards(getData2) {
   let featured_services_cards_box = document.getElementById(
@@ -110,23 +197,3 @@ form.addEventListener("submit", (e) => {
       alert("Error ,Something went wrong. please try again!");
     });
 });
-
-// document.addEventListener("DOMContentLoaded", () => {
-//   document.querySelectorAll("a").forEach((link) => {
-//     link.addEventListener("click", () => {
-//       sessionStorage.setItem("scrollY", window.scrollY);
-//     });
-//   });
-// });
-
-// function restoreScroll() {
-//   const y = sessionStorage.getItem('scrollY');
-//   console.log(y);
-  
-//   if (y !== null) {
-//     setTimeout(() => {
-//       window.scrollTo(0, parseInt(y));
-//       sessionStorage.removeItem('scrollY');
-//     }, 100); // delay allows rendering to settle
-//   }
-// }

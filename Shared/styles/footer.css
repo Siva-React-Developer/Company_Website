@@ -367,9 +367,17 @@ body{
   #footer
     > footer
     > #location-and-services
+    > #location-and-services-location{
+      display: flex;
+      align-items: center;
+    }
+  #footer
+    > footer
+    > #location-and-services
     > #location-and-services-location
     > p {
     font-size: 18px;
+    padding-left: 0px;
   }
   #footer
     > footer

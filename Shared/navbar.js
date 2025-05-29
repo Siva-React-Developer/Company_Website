@@ -53,12 +53,3 @@ document.addEventListener("click", (event) => {
     hamburger.innerHTML = "&#9776;";
   }
 });
-
-// Save scroll position on link click
-// document.addEventListener('DOMContentLoaded', () => {
-//   document.querySelectorAll('a').forEach(link => {
-//     link.addEventListener('click', () => {
-//       sessionStorage.setItem('scrollY', window.scrollY);
-//     });
-//   });
-// });

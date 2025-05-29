@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Shared/styles/our_clients.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -16,9 +19,11 @@
         </p>
       </div>
       <div id="clients-comapany-clients">
-        <button onclick="scrollImages(-225)">&lt;</button>
-        <div id="clients-comapany-images"></div>
-        <button onclick="scrollImages(225)">&gt;</button>
+        <button class="buttons" id="prev">&lt;</button>
+        <div class="container" id="scroll-container">
+          <div class="scroll-wrapper" id="image-strip"></div>
+        </div>
+        <button class="buttons" id="next">&gt;</button>
       </div>
     </div>
     <script src="./Shared/our_clients.js"></script>

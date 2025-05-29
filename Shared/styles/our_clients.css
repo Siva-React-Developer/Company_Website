@@ -9,18 +9,23 @@ body{
 #our-clients > #clients {
   position: relative;
   top: 120px;
-  height: 350px;
+  height: 300px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  /* border: 1px solid black; */
 }
 #our-clients > #clients > #clients-heading-and-info {
   height: 130px;
   width: 100%;
-  display: block;
-  padding: 60px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* border: 1px solid black; */
 }
 #our-clients
   > #clients
@@ -42,48 +47,51 @@ body{
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
 }
-#our-clients > #clients > #clients-comapany-clients {
-  height: 120px;
-  width: 1150px;
+
+#our-clients > #clients>#clients-comapany-clients{
+  width: 100%;
+  /* border: 1px solid black; */
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
 }
-#our-clients > #clients > #clients-comapany-clients > button {
-  height: 30px;
-  width: 25px;
-  margin: 0px 5px;
-  background-color: transparent;
-  border: none;
-  color: black;
-  font-size: 20px;
-  cursor: pointer;
-}
-#our-clients > #clients > #clients-comapany-clients > #clients-comapany-images {
-  height: 100px;
-  width: 1090px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  overflow: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-#our-clients
-  > #clients
-  > #clients-comapany-clients
-  > #clients-comapany-images
-  > #clients-images {
-  height: 70px;
-  width: 180px;
-  margin: 0px 45px 0px 0px;
+#our-clients > #clients>#clients-comapany-clients>.container {
+  width: 1000px; /* Shows 5 images of 200px */
+  overflow: hidden;
+  position: relative;
+  /* border: 1px solid black; */
 }
 
-@media screen and (max-width: 1380px) {
+#our-clients > #clients>#clients-comapany-clients>.container>.scroll-wrapper {
+  display: flex;
+  gap: 50px;
+  transition: transform 0.5s ease;
+  padding-left: 25px;
 }
+
+#our-clients > #clients>#clients-comapany-clients>.container>.scroll-wrapper> img {
+  width: 200px;
+  height: 70px;
+  flex-shrink: 0;
+}
+
+#our-clients > #clients>#clients-comapany-clients>.buttons {
+  font-size: 18px;
+  padding: 5px 10px;
+  border: none;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 5px;
+  color: rgb(90, 90, 90);
+  background-color: rgb(134, 134, 134);
+  transition: transform 2s ease;
+  margin: 0px 15px;
+}
+#our-clients > #clients>#clients-comapany-clients>.buttons:hover{
+  background-color: rgb(55, 55, 55);
+  transition: all 0.2s ease;
+  color: white;
+}
+
 
 @media screen and (max-width: 1235px) {
   #our-clients

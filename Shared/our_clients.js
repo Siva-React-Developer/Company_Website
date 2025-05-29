@@ -1,62 +1,85 @@
- // Declare outside
+(() => {
+  const imageStrip = document.getElementById("image-strip");
+  const container = document.getElementById("scroll-container");
+  let prevBtn = document.getElementById("prev");
+  let nextBtn = document.getElementById("next");
 
-async function loadData() {
-  const response = await fetch("./DataBase.json");
-  data = await response.json(); // Assign it here
-//   console.log(data.All_Data.our_clients);
-  our_clients(data.All_Data.our_clients);
-}
-loadData();
+  const visibleImages = 5;
+  let totalImages = 0;
+  let index = 0;
+  let interval;
 
-function our_clients(array) {
-    // const image_data=array
-    const scroll_images = document.getElementById("clients-comapany-images");
-    for (let index = 0; index < array.length; index++) {
-      const image = document.createElement("img");
-      image.id = "clients-images";
-      image.src = array[index].client_image;
-      if (index == array.length - 1) {
-        image.style.marginRight = "0px";
-      }
-      scroll_images.appendChild(image);
-    }
-  }
-  
-  function scrollImages(distance) {
-    const container = document.getElementById("clients-comapany-images");
-    container.scrollBy({
-      left: distance,
-      behavior: "smooth",
+  async function loadImages() {
+    const response = await fetch("./DataBase.json");
+    const data_info = await response.json();
+    const urls = data_info.All_Data.our_clients;
+    // console.log(urls);
+
+    totalImages = urls.length;
+
+    // Duplicate images for seamless scrolling
+    const allImages = urls.concat(urls);
+    allImages.forEach((src) => {
+      const img = document.createElement("img");
+      img.src = src;
+      imageStrip.appendChild(img);
     });
+
+    startAutoScroll();
   }
-  
-  let scrolled_images;
-  scrolled_images = setInterval(() => {
-    scrollImages(225);
-  }, 3000);
-  
-  const stop_scrolling = document.getElementById("clients-comapany-clients");
-  stop_scrolling.addEventListener("mouseenter", () => {
-    if (true) {
-      // your condition here
-      clearInterval(scrolled_images);
+
+  function scrollToIndex(idx, smooth = true) {
+    if (!smooth) {
+      imageStrip.style.transition = "none";
+    } else {
+      imageStrip.style.transition = "transform 0.5s ease";
     }
-  });
-  stop_scrolling.addEventListener("mouseleave", () => {
-    if (true) {
-      // your condition here
-      scrolled_images = setInterval(() => {
-        scrollImages(225);
-      }, 3000);
-    }
+    imageStrip.style.transform = `translateX(-${idx * 250}px)`;
+  }
+
+  function startAutoScroll() {
+    interval = setInterval(() => {
+      index++;
+      scrollToIndex(index);
+
+      if (index >= totalImages) {
+        // Reset to start for infinite loop
+        setTimeout(() => {
+          scrollToIndex(0, false);
+          index = 0;
+        }, 500); // wait for transition to finish
+      }
+    }, 5000);
+  }
+
+  function stopAutoScroll() {
+    clearInterval(interval);
+  }
+
+  prevBtn.addEventListener("click", () => {
+    stopAutoScroll();
+    index = (index - 1 + totalImages * 2) % (totalImages * 2);
+    scrollToIndex(index);
+    startAutoScroll();
   });
 
-// function restoreScroll() {
-//   const y = sessionStorage.getItem('scrollY');
-//   if (y !== null) {
-//     setTimeout(() => {
-//       window.scrollTo(0, parseInt(y));
-//       sessionStorage.removeItem('scrollY');
-//     }, 100); // adjust delay if needed
-//   }
-// }
+  nextBtn.addEventListener("click", () => {
+    stopAutoScroll();
+    index++;
+    scrollToIndex(index);
+
+    if (index >= totalImages) {
+      setTimeout(() => {
+        scrollToIndex(0, false);
+        index = 0;
+      }, 500);
+    }
+
+    startAutoScroll();
+  });
+
+  container.addEventListener("mouseenter", stopAutoScroll);
+  container.addEventListener("mouseleave", startAutoScroll);
+
+  loadImages();
+})();

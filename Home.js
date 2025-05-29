@@ -79,8 +79,10 @@ function createSlide(image, heading_text, description) {
   heading.textContent = heading_text;
   info.textContent = description;
   explore_more_button.textContent = "Explore More";
+  explore_more_button.href="#"
 
   contact_us_button.textContent = "Contact Us";
+  contact_us_button.href="Contact_Us.html"
 
   slide.appendChild(desc);
   sliderTrack.appendChild(slide);

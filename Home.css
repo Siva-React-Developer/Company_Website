@@ -12,7 +12,7 @@ body > main > .slider-container {
   top: 120px;
   height: 60vh;
   overflow: hidden;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 body > main > .slider-container > .slider-track {

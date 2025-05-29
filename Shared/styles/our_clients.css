@@ -3,8 +3,8 @@
   padding: 0px;
   box-sizing: border-box;
 }
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 #our-clients > #clients {
   position: relative;
@@ -35,7 +35,7 @@ body{
   text-align: center;
   color: #034a6e;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 #our-clients
   > #clients
@@ -45,37 +45,47 @@ body{
   text-align: center;
   color: rgb(38, 38, 38);
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin: 0px 20px;
 }
 
-#our-clients > #clients>#clients-comapany-clients{
+#our-clients > #clients > #clients-comapany-clients {
   width: 100%;
   /* border: 1px solid black; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#our-clients > #clients>#clients-comapany-clients>.container {
-  width: 1000px; /* Shows 5 images of 200px */
+#our-clients > #clients > #clients-comapany-clients > .container {
+  width: 1000px;
   overflow: hidden;
   position: relative;
   /* border: 1px solid black; */
 }
 
-#our-clients > #clients>#clients-comapany-clients>.container>.scroll-wrapper {
+#our-clients
+  > #clients
+  > #clients-comapany-clients
+  > .container
+  > .scroll-wrapper {
   display: flex;
   gap: 50px;
   transition: transform 0.5s ease;
   padding-left: 25px;
 }
 
-#our-clients > #clients>#clients-comapany-clients>.container>.scroll-wrapper> img {
+#our-clients
+  > #clients
+  > #clients-comapany-clients
+  > .container
+  > .scroll-wrapper
+  > img {
   width: 200px;
   height: 70px;
   flex-shrink: 0;
 }
 
-#our-clients > #clients>#clients-comapany-clients>.buttons {
+#our-clients > #clients > #clients-comapany-clients > .buttons {
   font-size: 18px;
   padding: 5px 10px;
   border: none;
@@ -86,12 +96,11 @@ body{
   transition: transform 2s ease;
   margin: 0px 15px;
 }
-#our-clients > #clients>#clients-comapany-clients>.buttons:hover{
+#our-clients > #clients > #clients-comapany-clients > .buttons:hover {
   background-color: rgb(55, 55, 55);
   transition: all 0.2s ease;
   color: white;
 }
-
 
 @media screen and (max-width: 1235px) {
   #our-clients
@@ -106,128 +115,67 @@ body{
     > #clients-heading-and-info-description {
     font-size: 17px;
   }
-  #our-clients > #clients > #clients-comapany-clients {
-    height: 115px;
-    width: 1000px;
-  }
-  #our-clients
-    > #clients
-    > #clients-comapany-clients
-    > #clients-comapany-images
-    > #clients-images {
-    height: 65px;
-  }
 }
 
 @media screen and (max-width: 1090px) {
-  #our-clients > #clients > #clients-comapany-clients {
-    height: 115px;
-    width: 890px;
-  }
-  #our-clients
-    > #clients
-    > #clients-comapany-clients
-    > #clients-comapany-images
-    > #clients-images {
-    height: 63px;
-    width: 180px;
-    margin: 0px 16px;
+  #our-clients > #clients > #clients-comapany-clients > .container {
+    width: 750px;
   }
 }
 
-@media screen and (max-width: 950px) {
-  #our-clients > #clients > #clients-comapany-clients {
-    height: 115px;
-    width: 740px;
-  }
-  #our-clients
-    > #clients
-    > #clients-comapany-clients
-    > #clients-comapany-images
-    > #clients-images {
-    height: 62px;
-    width: 175px;
-    margin: 0px 28px;
+@media screen and (max-width: 880px) {
+  #our-clients > #clients > #clients-comapany-clients > .container {
+    width: 500px;
   }
 }
 
 @media screen and (max-width: 830px) {
   #our-clients > #clients {
-  position: relative;
-  top: 215px;
-  }
-  #our-clients > #clients > #clients-comapany-clients {
-    height: 115px;
-    width: 500px;
+    position: relative;
+    top: 215px;
   }
   #our-clients
     > #clients
-    > #clients-comapany-clients
-    > #clients-comapany-images
-    > #clients-images {
-    height: 67px;
-    width: 185px;
-    margin: 0px 21px;
-  }
-}
-
-@media screen and (max-width: 830px) {
-  #our-clients
-  > #clients
-  > #clients-heading-and-info
-  > #clients-heading-and-info-heading {
+    > #clients-heading-and-info
+    > #clients-heading-and-info-heading {
     font-size: 25px;
   }
 }
 
-@media screen and (max-width: 580px) {
-  #our-clients > #clients > #clients-comapany-clients {
-    height: 115px;
-    width: 430px;
+@media screen and (max-width: 640px) {
+  #our-clients > #clients > #clients-comapany-clients > .container {
+    width: 250px;
   }
-  #our-clients
-    > #clients
-    > #clients-comapany-clients
-    > #clients-comapany-images
-    > #clients-images {
-    height: 67px;
-    width: 180px;
-    margin: 0px 18px;
+  #our-clients > #clients > #clients-comapany-clients > .buttons {
+    font-size: 16px;
+    padding: 3px 8px;
   }
 }
 
 @media screen and (max-width: 470px) {
   #our-clients > #clients {
-  position: relative;
-  top: 185px;
-  }
-  #our-clients > #clients > #clients-comapany-clients {
-    height: 115px;
-    width: 300px;
-  }
-   #our-clients
-    > #clients
-    > #clients-comapany-clients
-    > #clients-comapany-images
-    > #clients-images {
-    height: 70px;
-    width: 180px;
-    margin: 0px 24px;
+    position: relative;
+    top: 185px;
   }
 }
 
 @media screen and (max-width: 390px) {
-  #our-clients > #clients > #clients-comapany-clients {
-    height: 115px;
-    width: 260px;
+  #our-clients > #clients > #clients-comapany-clients > .container {
+    width: 200px;
   }
-   #our-clients
+  #our-clients
     > #clients
     > #clients-comapany-clients
-    > #clients-comapany-images
-    > #clients-images {
-    height: 70px;
-    width: 180px;
-    margin: 0px 22.2px;
+    > .container
+    > .scroll-wrapper {
+    display: flex;
+    gap: 0px;
+    transition: transform 0.5s ease;
+    padding-left: 0;
+  }
+  #our-clients > #clients > #clients-comapany-clients > .buttons {
+    font-size: 16px;
+    padding: 3px 8px;
+    margin: 0px 10px;
   }
 }

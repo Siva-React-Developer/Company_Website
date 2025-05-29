@@ -34,7 +34,13 @@
     } else {
       imageStrip.style.transition = "transform 0.5s ease";
     }
-    imageStrip.style.transform = `translateX(-${idx * 250}px)`;
+    if (window.matchMedia("(max-width: 390px)").matches) {
+      imageStrip.style.transform = `translateX(-${idx * 200}px)`;
+    }
+    else{
+      imageStrip.style.transform = `translateX(-${idx * 250}px)`;
+    }
+    
   }
 
   function startAutoScroll() {

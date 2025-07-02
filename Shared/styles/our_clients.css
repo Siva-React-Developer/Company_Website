@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 #our-clients > #clients {
   position: relative;
@@ -35,7 +35,7 @@ body {
   text-align: center;
   color: #034a6e;
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 #our-clients
   > #clients
@@ -45,7 +45,7 @@ body {
   text-align: center;
   color: rgb(38, 38, 38);
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0px 20px;
 }
 

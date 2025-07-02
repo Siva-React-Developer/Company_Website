@@ -1028,7 +1028,6 @@ body > main > #form > form > button {
     > #cards
     > #description {
     font-size: 16px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: gray;
   }
   body
@@ -2516,7 +2515,6 @@ body > main > #form > form > button {
  body > main > .slider-container {
     height: 50vh;
   }
-
   body > main > .slider-container > .slider-track {
     height: 50vh;
   }
